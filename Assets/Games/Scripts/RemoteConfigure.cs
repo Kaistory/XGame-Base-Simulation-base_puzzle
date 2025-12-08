@@ -34,7 +34,7 @@ public static class RemoteConfigure
 
     public static int CFCountLevelShowMainMenu
     {
-        get => PlayerPrefs.GetInt("cf_count_level_show_main_menu", 5);
+        get => PlayerPrefs.GetInt("cf_count_level_show_main_menu", 3);
         set => PlayerPrefs.SetInt("cf_count_level_show_main_menu", value);
     }
     

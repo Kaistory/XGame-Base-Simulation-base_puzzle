@@ -35,7 +35,6 @@ public class TrunkObject : MonoBehaviour
         hasLock =  m_Bigtrunk.MHasKey;
         visibleLayerCount = m_Bigtrunk.MTruck;
         colorLayers = m_Bigtrunk.MTrunkColor; 
-        amountUpTrunk = m_Bigtrunk.MAmountUpTrunk;
     }
 
     // Vẽ Gizmos để dễ nhìn trong Scene

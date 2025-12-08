@@ -52,7 +52,7 @@ namespace MyGame.Manager
             foreach (Transform child in transform)
             {
                 var bigTruck = child.GetComponent<BigTrunk>();
-                if (bigTruck.MHasKey)
+                if (bigTruck.MHasKey && !bigTruck.MIsBlock)
                 {
                     foreach (Transform childUnlock in transform)
                     {

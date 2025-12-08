@@ -74,7 +74,7 @@ public class LevelConfig : ScriptableObject
     public class CutterMachineData
     {
         [JsonProperty("posCM")] public Vector3 position;
-        [JsonProperty("rotateCM")] public int rot;
+        [JsonProperty("rotateCM")] public float rot;
     }
 
     [Serializable]

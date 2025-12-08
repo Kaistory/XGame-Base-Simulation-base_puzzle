@@ -1,0 +1,1168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986a8e76c34e5004a95c35fe2a5e347f, type: 3}
+  m_Name: LevelConfigAndroid
+  m_EditorClassIdentifier: 
+  levelInfos:
+  - name: Level 1 - EASY
+    level: 1
+    levelID: 1
+    mapID: 1
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 0, y: -0.5, z: -10}
+      colorLayers: 090000000400000001000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: 1.2, y: 0, z: -2.8}
+      rot: -180
+    allColorsSpawnCutter: 090000000400000001000000
+  - name: Level 2 - EASY
+    level: 2
+    levelID: 1
+    mapID: 1
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: -3.67, y: 0, z: -4.17}
+      colorLayers: 010000000900000007000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 3.72, y: 0, z: -9.17}
+      colorLayers: 0a0000000b0000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: 1.2, y: 0, z: -2.8}
+      rot: -180
+    - position: {x: -1, y: 0, z: -9.5}
+      rot: -35
+    allColorsSpawnCutter: 010000000a0000000b0000000900000007000000
+  - name: Level 3 - EASY
+    level: 3
+    levelID: 1
+    mapID: 2
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: -0.66, y: -2, z: -5.62}
+      colorLayers: 08000000060000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 1.55, y: -2, z: -6.475}
+      colorLayers: 040000000400000007000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 0.21, y: -0.5, z: -6.43}
+      colorLayers: 040000000100000001000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -2.019013, y: 0, z: -9.684159}
+      rot: -90
+    allColorsSpawnCutter: 08000000060000000400000004000000040000000100000007000000010000000a000000
+  - name: Level 4 - EASY
+    level: 4
+    levelID: 1
+    mapID: 1
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: -4.4, y: -0.5, z: -1.88}
+      colorLayers: 070000000200000003000000
+      hasLock: 1
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 4.19, y: -0.5, z: -8.28}
+      colorLayers: 040000000600000002000000
+      hasLock: 0
+      isChained: 1
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: 1.2, y: 0, z: -2.8}
+      rot: -180
+    - position: {x: -1, y: 0, z: -9.5}
+      rot: -35
+    allColorsSpawnCutter: 070000000400000006000000020000000200000003000000
+  - name: Level 5 - EASY
+    level: 5
+    levelID: 1
+    mapID: 2
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: -2.62, y: -2, z: 0.37}
+      colorLayers: 050000000600000006000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -0.66, y: -2, z: -5.62}
+      colorLayers: 040000000200000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 1.55, y: -2, z: -6.475}
+      colorLayers: 0b0000000400000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 0.21, y: -0.5, z: -6.43}
+      colorLayers: 040000000600000003000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -3.51, y: -0.5, z: -0.1}
+      colorLayers: 010000000300000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: 1.2, y: 0, z: 0}
+      rot: -180
+    allColorsSpawnCutter: 0b00000005000000060000000600000004000000040000000600000004000000090000000200000001000000030000000900000003000000
+  - name: Level 6 - EASY
+    level: 6
+    levelID: 1
+    mapID: 7
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: -4.169, y: -5, z: -7.58}
+      colorLayers: 040000000300000004000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -9
+    - position: {x: -3.732, y: -3.5, z: -6.817}
+      colorLayers: 04000000010000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -9
+    - position: {x: -2.59, y: -2, z: -7.58}
+      colorLayers: 040000000100000003000000
+      hasLock: 1
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -7
+    - position: {x: 5.879, y: -5, z: -2.0800002}
+      colorLayers: 040000000600000007000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: -7
+    - position: {x: 5.32, y: -3.5, z: -2.08}
+      colorLayers: 09000000060000000b000000
+      hasLock: 0
+      isChained: 1
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -8
+    - position: {x: 5.964, y: -2, z: -2.08}
+      colorLayers: 080000000b0000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: -8
+    cutterMachine:
+    - position: {x: 6, y: 0, z: -8.5}
+      rot: -90
+    allColorsSpawnCutter: 0400000003000000040000000100000004000000090000000600000006000000040000000a00000001000000080000000b000000030000000b000000
+  - name: Level 7 - EASY
+    level: 7
+    levelID: 1
+    mapID: 4
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 1.03, y: -3.5, z: -0.1}
+      colorLayers: 030000000100000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -0.29, y: -2, z: 0.37}
+      colorLayers: 090000000300000002000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 0.09, y: -2, z: -13.13}
+      colorLayers: 040000000b00000004000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -0.66, y: -2, z: -10.889999}
+      colorLayers: 020000000600000002000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 1.55, y: -2, z: -11.745}
+      colorLayers: 060000000900000003000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 0.21, y: -0.5, z: -11.7}
+      colorLayers: 040000000200000008000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 1.48, y: -0.5, z: -10.68}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    - position: {x: 0.47, y: -0.5, z: -0.1}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -4, y: 0, z: -0.5}
+      rot: -190
+    allColorsSpawnCutter: 040000000b0000000400000004000000060000000900000002000000060000000200000003000000030000000100000005000000090000000400000003000000020000000800000004000000020000000600000005000000
+  - name: Level 8 - EASY
+    level: 8
+    levelID: 1
+    mapID: 2
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: -2.62, y: -2, z: 0.37}
+      colorLayers: 050000000600000006000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -0.66, y: -2, z: -5.62}
+      colorLayers: 040000000200000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 1.55, y: -2, z: -5.629}
+      colorLayers: 0b0000000400000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 0.21, y: -0.5, z: -5.582}
+      colorLayers: 040000000600000003000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -3.51, y: -0.5, z: -0.1}
+      colorLayers: 010000000300000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -2, y: 0, z: -9.5}
+      rot: 180
+    - position: {x: 2.02, y: 0, z: -9.42}
+      rot: 180
+    allColorsSpawnCutter: 0500000006000000060000000b0000000400000001000000030000000900000004000000060000000400000002000000090000000500000003000000
+  - name: Level 9 - EASY
+    level: 9
+    levelID: 1
+    mapID: 1
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 4, y: -0.5, z: -10}
+      colorLayers: 040000000300000005000000
+      hasLock: 1
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2, y: -0.5, z: -10}
+      colorLayers: 040000000400000002000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 3.08, y: -0.5, z: -11.85}
+      colorLayers: 0a000000040000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -4.45, y: -0.5, z: -2.09}
+      colorLayers: 070000000700000009000000
+      hasLock: 0
+      isChained: 1
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -4.45, y: -0.5, z: -0.1}
+      colorLayers: 0b0000000900000008000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -2.65, y: -0.5, z: -0.95}
+      colorLayers: 040000000500000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: 1.19, z: -10.57}
+      colorLayers: 04000000030000000b000000
+      hasLock: 0
+      isChained: 1
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -3.5, y: 1.19, z: -0.99}
+      colorLayers: 040000000600000002000000
+      hasLock: 1
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: 1.2, y: 0, z: -2.8}
+      rot: -180
+    - position: {x: -1, y: 0, z: -9.5}
+      rot: -35
+    allColorsSpawnCutter: 0a000000040000000b0000000b0000000900000008000000040000000400000002000000070000000700000009000000040000000300000004000000060000000500000004000000030000000b00000004000000050000000500000002000000
+  - name: Level 10 - EASY
+    level: 10
+    levelID: 1
+    mapID: 7
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 3.2, y: -3.5, z: -2.86}
+      colorLayers: 090000000400000002000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 4.51, y: -2, z: -3.25}
+      colorLayers: 010000000600000001000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -5.07, y: -2, z: -9.95}
+      colorLayers: 04000000060000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -3.67, y: -2, z: -8.24}
+      colorLayers: 07000000060000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -3.1, y: -2, z: -10.03}
+      colorLayers: 040000000900000004000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 2
+    - position: {x: -4.31, y: -0.5, z: -9.14}
+      colorLayers: 04000000040000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -2.63, y: -0.5, z: -10.68}
+      colorLayers: 040000000200000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    - position: {x: 3.77, y: -0.5, z: -2.72}
+      colorLayers: 020000000600000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -5.4, y: 0, z: -3.1}
+      rot: 90
+    - position: {x: 6, y: 0, z: -8.5}
+      rot: -90
+    allColorsSpawnCutter: 090000000400000002000000060000000a00000004000000090000000400000007000000060000000a0000000100000004000000040000000b00000002000000060000000600000001000000090000000400000002000000
+  - name: Level 11 - EASY
+    level: 11
+    levelID: 1
+    mapID: 35
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: -2.42, y: -6.5, z: -13.59}
+      colorLayers: 0b0000000100000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 1.64, y: -6.5, z: -13.59}
+      colorLayers: 030000000600000003000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -1.46, y: -5, z: -13.59}
+      colorLayers: 0b0000000200000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.6, y: -5, z: -13.59}
+      colorLayers: 040000000100000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -1.46, y: -3.5, z: -13.59}
+      colorLayers: 010000000200000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.6, y: -3.5, z: -13.59}
+      colorLayers: 010000000200000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -1.46, y: -2, z: -13.59}
+      colorLayers: 040000000300000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    - position: {x: 2.6, y: -2, z: -13.59}
+      colorLayers: 070000000600000003000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -1.72, y: 0, z: -8.3}
+      rot: 291.1666
+    - position: {x: 0.27, y: 0, z: -1.74}
+      rot: 0
+    allColorsSpawnCutter: 03000000060000000b0000000400000001000000030000000100000009000000050000000700000001000000060000000b00000002000000020000000900000009000000010000000300000002000000090000000400000003000000
+  - name: Level 12 - EASY
+    level: 12
+    levelID: 1
+    mapID: 15
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 2, y: -6.5, z: -5}
+      colorLayers: 0a0000000200000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -5, z: -5}
+      colorLayers: 020000000b00000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -3.5, z: -5}
+      colorLayers: 030000000800000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: 2.7, y: -2, z: -5}
+      colorLayers: 020000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 1
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -4.93, y: 0, z: -3.1}
+      rot: 90
+    allColorsSpawnCutter: 0a00000002000000020000000b000000030000000800000002000000
+  - name: Level 13 - EASY
+    level: 13
+    levelID: 1
+    mapID: 20
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 5.405, y: -6.5, z: -7.014}
+      colorLayers: 04000000030000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 2
+    - position: {x: 5.3363967, y: -5, z: -5.3549614}
+      colorLayers: 030000000200000001000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 5.129721, y: -5, z: -7.89356}
+      colorLayers: 0b000000090000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 5.959221, y: -3.5, z: -6.6517754}
+      colorLayers: 050000000200000004000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 2
+    - position: {x: 5.3363967, y: -2, z: -5.3549614}
+      colorLayers: 0b0000000200000008000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 5.174107, y: -2, z: -7.3483677}
+      colorLayers: 040000000800000007000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 5.0104876, y: -0.5, z: -6.4250426}
+      colorLayers: 040000000600000003000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.97, y: -2, z: 1.89}
+      colorLayers: 04000000030000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -0.87, y: 0, z: -1.34}
+      rot: 314.65
+    - position: {x: -5.2, y: 0, z: -6.82}
+      rot: 136.57349
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000
+  - name: Level 14 - EASY
+    level: 14
+    levelID: 1
+    mapID: 8
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 4.45, y: -6.5, z: -7.04}
+      colorLayers: 0a0000000200000006000000
+      hasLock: 1
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 2
+    - position: {x: 4.2469997, y: -5, z: -5.392}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 4.2469997, y: -5, z: -7.939}
+      colorLayers: 020000000600000007000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 4.9729996, y: -3.5, z: -6.6340003}
+      colorLayers: 020000000400000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 4
+    - position: {x: 4.2469997, y: -2, z: -5.392}
+      colorLayers: 020000000600000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 4.2469997, y: -2, z: -7.392}
+      colorLayers: 04000000030000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 6.127, y: -2, z: -7.392}
+      colorLayers: 0a000000060000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 6.127, y: -2, z: -5.7720003}
+      colorLayers: 040000000300000002000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 5.167, y: -0.5, z: -6.485}
+      colorLayers: 010000000200000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -4.2, y: 0, z: -3.1}
+      rot: 90
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+  - name: Level 15 - EASY
+    level: 15
+    levelID: 1
+    mapID: 18
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 2, y: -6.5, z: -7.2}
+      colorLayers: 040000000400000007000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: 2, y: -6.5, z: -10.28}
+      colorLayers: 040000000200000007000000
+      hasLock: 0
+      isChained: 1
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -2.1, y: -6.5, z: -9.22}
+      colorLayers: 09000000040000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -5, z: -7.2}
+      colorLayers: 08000000060000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -5, z: -10.28}
+      colorLayers: 09000000090000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: -1.1399996, y: -5, z: -9.22}
+      colorLayers: 030000000200000008000000
+      hasLock: 1
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -3.5, z: -7.2}
+      colorLayers: 07000000030000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -3.5, z: -10.28}
+      colorLayers: 020000000a00000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: -1.1399996, y: -3.5, z: -9.22}
+      colorLayers: 02000000040000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -2, z: -7.2}
+      colorLayers: 01000000030000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -2, z: -10.28}
+      colorLayers: 020000000a00000002000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: -1.1399996, y: -2, z: -9.22}
+      colorLayers: 02000000040000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 2
+      amountUpTrunk: 1
+    - position: {x: 2.96, y: -0.5, z: -7.2}
+      colorLayers: 0a000000090000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -0.5, z: -10.28}
+      colorLayers: 050000000600000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -1.1399996, y: -0.5, z: -9.22}
+      colorLayers: 07000000060000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -2.384196, y: 0, z: -1.2406596}
+      rot: 181.2431
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+  - name: Level 16 - EASY
+    level: 16
+    levelID: 1
+    mapID: 48
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 2, y: -6.5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -3.5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -2, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -0.5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -4.2, y: 0, z: -3.1}
+      rot: 90
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+  - name: Level 100 - EASY
+    level: 100
+    levelID: 1
+    mapID: 6
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 1.03, y: -3.5, z: -0.1}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -0.29, y: -2, z: 0.37}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 0.09, y: -2, z: -13.13}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: -0.66, y: -2, z: -10.889999}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 1.55, y: -2, z: -11.745}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 0.21, y: -0.5, z: -11.7}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 1
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 1.48, y: -0.5, z: -10.68}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    - position: {x: 0.47, y: -0.5, z: -0.1}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: 2.5, y: 0, z: -6.5}
+      rot: 90
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+  - name: Level 20 - EASY
+    level: 20
+    levelID: 1
+    mapID: 8
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 4, y: -0.5, z: -10}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2, y: -0.5, z: -10}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -4.2, y: 0, z: -3.1}
+      rot: 90
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+  - name: Level 22 - EASY
+    level: 22
+    levelID: 1
+    mapID: 8
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 4, y: -0.5, z: -10}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2, y: -0.5, z: -10}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -4.2, y: 0, z: -3.1}
+      rot: 90
+    - position: {x: 4.5, y: 0, z: -8.5}
+      rot: -90
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+  - name: Level 21 - EASY
+    level: 21
+    levelID: 1
+    mapID: 8
+    levelType: 0
+    levelRewardValue: 30
+    trunks:
+    - position: {x: 2, y: -6.5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -3.5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -2, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 2.96, y: -0.5, z: -5}
+      colorLayers: 040000000600000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    cutterMachine:
+    - position: {x: -4.2, y: 0, z: -3.1}
+      rot: 90
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+  backgroundInfo:
+  - groupID: 0
+    background:
+    - {fileID: 21300000, guid: d08edc9ccfc944546b9b43099d1f9ef0, type: 3}
+    - {fileID: 21300000, guid: d9a509bafdd67554f854af626146ddd9, type: 3}

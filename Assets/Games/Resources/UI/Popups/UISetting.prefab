@@ -1092,7 +1092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1815569660079320224, guid: 654e368ae0b0bd148b53fe459245cf48, type: 3}
       propertyPath: memKey
-      value: vi
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2269013678345035345, guid: 654e368ae0b0bd148b53fe459245cf48, type: 3}
       propertyPath: m_AnchoredPosition.x

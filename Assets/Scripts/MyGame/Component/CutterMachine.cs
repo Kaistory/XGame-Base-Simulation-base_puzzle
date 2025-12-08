@@ -19,7 +19,7 @@ namespace MyGame
         
         // Conveyor Ani
         [SerializeField] private ConveyorBelt3D m_conveyBelt;
-        public void Initialize(Vector3 pos, int rot)
+        public void Initialize(Vector3 pos, float rot)
         {
             SpawnCutters();
             transform.position = pos;
