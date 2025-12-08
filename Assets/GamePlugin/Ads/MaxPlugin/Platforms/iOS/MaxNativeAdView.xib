@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aMZ-7x-Ayh" customClass="MANativeAdView">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" tag="1006" contentMode="scaleAspectFit" horizontalHuggingPriority="253" verticalHuggingPriority="253" translatesAutoresizingMaskIntoConstraints="NO" id="p6v-LH-nra">
+                    <rect key="frame" x="8" y="8" width="414" height="916"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </view>
+                <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="2oh-1z-0bP" userLabel="Icon View">
+                    <rect key="frame" x="357" y="140" width="65" height="65"/>
+                    <subviews>
+                        <imageView tag="1004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="OWm-ET-YMT" userLabel="Icon Image View">
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="OWm-ET-YMT" firstAttribute="leading" secondItem="2oh-1z-0bP" secondAttribute="leading" id="JO9-rz-9KU"/>
+                        <constraint firstAttribute="width" secondItem="2oh-1z-0bP" secondAttribute="height" multiplier="1:1" id="Njp-Vz-MG8"/>
+                        <constraint firstAttribute="bottom" secondItem="OWm-ET-YMT" secondAttribute="bottom" id="bx2-Bk-tls"/>
+                        <constraint firstAttribute="width" constant="65" id="fyO-Te-2Kq"/>
+                        <constraint firstAttribute="trailing" secondItem="OWm-ET-YMT" secondAttribute="trailing" id="gRd-tn-sOW"/>
+                        <constraint firstItem="OWm-ET-YMT" firstAttribute="top" secondItem="2oh-1z-0bP" secondAttribute="top" id="nzX-ei-4XL"/>
+                    </constraints>
+                </view>
+                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34u-pK-ZyY" userLabel="BnView">
+                    <rect key="frame" x="8" y="802" width="414" height="120"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGg-Vk-V7n">
+                            <rect key="frame" x="8" y="5" width="15" height="15"/>
+                            <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="15" id="GY6-h3-ZfX"/>
+                                <constraint firstAttribute="height" constant="15" id="TDm-Q9-YAM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="1001" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Headline" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyb-3S-HVs">
+                            <rect key="frame" x="28" y="2.3333333333333712" width="378" height="20.333333333333332"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20.5" id="X2o-AR-aOK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="1003" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Body that is really really long and can take up to two lines or sometimes even more." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zi-ds-yv4">
+                            <rect key="frame" x="8" y="22.666666666666625" width="398" height="33.666666666666657"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94P-2t-lYL">
+                            <rect key="frame" x="107" y="66" width="200" height="34"/>
+                            <color key="backgroundColor" systemColor="linkColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="crS-zk-cYf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <state key="normal" title="Install">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="4Zi-ds-yv4" firstAttribute="trailing" secondItem="Fyb-3S-HVs" secondAttribute="trailing" id="0MG-11-bfx"/>
+                        <constraint firstItem="94P-2t-lYL" firstAttribute="centerX" secondItem="34u-pK-ZyY" secondAttribute="centerX" id="22l-6H-cSA"/>
+                        <constraint firstItem="Fyb-3S-HVs" firstAttribute="centerY" secondItem="QGg-Vk-V7n" secondAttribute="centerY" id="3U4-0K-4Ow"/>
+                        <constraint firstAttribute="trailing" secondItem="Fyb-3S-HVs" secondAttribute="trailing" constant="8" id="7oe-JI-KI4"/>
+                        <constraint firstItem="Fyb-3S-HVs" firstAttribute="leading" secondItem="QGg-Vk-V7n" secondAttribute="leading" constant="20" id="7uY-dC-AJi"/>
+                        <constraint firstItem="4Zi-ds-yv4" firstAttribute="leading" secondItem="QGg-Vk-V7n" secondAttribute="leading" id="LDy-gh-lyj"/>
+                        <constraint firstItem="QGg-Vk-V7n" firstAttribute="top" secondItem="34u-pK-ZyY" secondAttribute="top" constant="5" id="Mdn-BF-4QP"/>
+                        <constraint firstItem="4Zi-ds-yv4" firstAttribute="top" secondItem="Fyb-3S-HVs" secondAttribute="bottom" id="cs6-bj-cJZ"/>
+                        <constraint firstAttribute="bottom" secondItem="94P-2t-lYL" secondAttribute="bottom" constant="20" id="fj4-yN-Ea0"/>
+                        <constraint firstItem="QGg-Vk-V7n" firstAttribute="leading" secondItem="34u-pK-ZyY" secondAttribute="leading" constant="8" id="gIa-uV-Woh"/>
+                        <constraint firstAttribute="height" constant="120" id="qOf-Ri-Xo1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="p6v-LH-nra" firstAttribute="top" secondItem="aMZ-7x-Ayh" secondAttribute="top" constant="8" id="45O-gm-aNt"/>
+                <constraint firstItem="34u-pK-ZyY" firstAttribute="leading" secondItem="aMZ-7x-Ayh" secondAttribute="leading" constant="8" id="7eP-Eg-IZm"/>
+                <constraint firstItem="p6v-LH-nra" firstAttribute="centerX" secondItem="aMZ-7x-Ayh" secondAttribute="centerX" id="8jj-E9-9Ip"/>
+                <constraint firstAttribute="trailing" secondItem="2oh-1z-0bP" secondAttribute="trailing" constant="8" id="SFz-x1-mwI"/>
+                <constraint firstAttribute="bottom" secondItem="p6v-LH-nra" secondAttribute="bottom" constant="8" id="Ucy-jS-ZYR"/>
+                <constraint firstAttribute="trailing" secondItem="p6v-LH-nra" secondAttribute="trailing" constant="8" id="did-aO-SKX"/>
+                <constraint firstAttribute="bottom" secondItem="34u-pK-ZyY" secondAttribute="bottom" constant="10" id="ej2-HS-CCc"/>
+                <constraint firstItem="p6v-LH-nra" firstAttribute="leading" secondItem="aMZ-7x-Ayh" secondAttribute="leading" constant="8" id="kcg-t6-t9T"/>
+                <constraint firstAttribute="trailing" secondItem="34u-pK-ZyY" secondAttribute="trailing" constant="8" id="reB-7B-JCf"/>
+                <constraint firstItem="2oh-1z-0bP" firstAttribute="top" secondItem="aMZ-7x-Ayh" secondAttribute="top" constant="140" id="wJh-gi-ZQh"/>
+            </constraints>
+            <point key="canvasLocation" x="9" y="-33"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

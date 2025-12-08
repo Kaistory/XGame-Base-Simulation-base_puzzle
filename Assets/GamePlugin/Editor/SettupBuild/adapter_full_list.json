@@ -1,0 +1,2922 @@
+[
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.3.1",
+    "androidAdapterVersion": "13.3.1.0",
+    "iosAdapterVersion": "13.3.1.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.3.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.3.0",
+    "androidAdapterVersion": "13.3.0.0",
+    "iosAdapterVersion": "13.3.0.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.3.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.2.1",
+    "androidAdapterVersion": "13.2.0.1",
+    "iosAdapterVersion": "13.2.0.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.2.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.2.0",
+    "androidAdapterVersion": "13.2.0.0",
+    "iosAdapterVersion": "13.2.0.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.2.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.1.1",
+    "androidAdapterVersion": "13.1.0.1",
+    "iosAdapterVersion": "13.1.0.1",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.1.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.1.0",
+    "androidAdapterVersion": "13.1.0.0",
+    "iosAdapterVersion": "13.1.0.0",
+    "gmaSdkVersion": "9.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.1.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.0.4",
+    "androidAdapterVersion": "13.0.1.1",
+    "iosAdapterVersion": "13.0.1.1",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.0.4.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.0.3",
+    "androidAdapterVersion": "13.0.1.0",
+    "iosAdapterVersion": "13.0.1.0",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.0.3.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "8.0.2",
+    "androidAdapterVersion": null,
+    "iosAdapterVersion": null,
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-8.0.2.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.4.1",
+    "androidAdapterVersion": "12.6.1.0",
+    "iosAdapterVersion": "12.6.1.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.4.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.4.0",
+    "androidAdapterVersion": "12.6.0.0",
+    "iosAdapterVersion": "12.6.0.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.4.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.3.1",
+    "androidAdapterVersion": "12.5.0.1",
+    "iosAdapterVersion": "12.5.0.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.3.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.3.0",
+    "androidAdapterVersion": "12.5.0.0",
+    "iosAdapterVersion": "12.5.0.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.3.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.2.2",
+    "androidAdapterVersion": "12.4.3.0",
+    "iosAdapterVersion": "12.4.2.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.2.2.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.2.1",
+    "androidAdapterVersion": "12.4.2.0",
+    "iosAdapterVersion": "12.4.1.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.2.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.2.0",
+    "androidAdapterVersion": "12.4.0.0",
+    "iosAdapterVersion": "12.4.0.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.2.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.1.0",
+    "androidAdapterVersion": "12.3.0.0",
+    "iosAdapterVersion": "12.2.1.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.1.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.0.1",
+    "androidAdapterVersion": "12.1.0.1",
+    "iosAdapterVersion": "12.1.0.1",
+    "gmaSdkVersion": "8.7.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.0.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "7.0.0",
+    "androidAdapterVersion": "12.1.0.0",
+    "iosAdapterVersion": "12.1.0.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-7.0.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.9.1",
+    "androidAdapterVersion": "11.11.3.0",
+    "iosAdapterVersion": "11.11.3.0",
+    "gmaSdkVersion": "8.5.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.9.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.9.0",
+    "androidAdapterVersion": "11.11.2.0",
+    "iosAdapterVersion": "11.11.2.0",
+    "gmaSdkVersion": "8.5.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.9.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.8.0",
+    "androidAdapterVersion": "11.10.1.0",
+    "iosAdapterVersion": "11.10.1.0",
+    "gmaSdkVersion": "8.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.8.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.7.0",
+    "androidAdapterVersion": "11.9.0.0",
+    "iosAdapterVersion": "11.9.0.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.7.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.6.0",
+    "androidAdapterVersion": "11.7.1.0",
+    "iosAdapterVersion": "11.7.1.0",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.6.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.5.1",
+    "androidAdapterVersion": "11.6.1.0",
+    "iosAdapterVersion": "11.6.1.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.5.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.5.0",
+    "androidAdapterVersion": "11.6.0.0",
+    "iosAdapterVersion": "11.6.0.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.5.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.4.3",
+    "androidAdapterVersion": "11.5.5.0",
+    "iosAdapterVersion": "11.5.5.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.4.3.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.4.2",
+    "androidAdapterVersion": "11.5.4.0",
+    "iosAdapterVersion": "11.5.4.0",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.4.2.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.4.1",
+    "androidAdapterVersion": "11.5.3.1",
+    "iosAdapterVersion": "11.5.3.0",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.4.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.4.0",
+    "androidAdapterVersion": "11.5.2.0",
+    "iosAdapterVersion": "11.5.1.0",
+    "gmaSdkVersion": "7.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.4.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.3.1",
+    "androidAdapterVersion": "11.4.4.0",
+    "iosAdapterVersion": "11.4.3.0",
+    "gmaSdkVersion": "7.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.3.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.3.0",
+    "androidAdapterVersion": "11.4.3.0",
+    "iosAdapterVersion": "11.4.2.0",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.3.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.2.1",
+    "androidAdapterVersion": "11.3.3.0",
+    "iosAdapterVersion": "11.3.3.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.2.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.2.0",
+    "androidAdapterVersion": "11.3.1.0",
+    "iosAdapterVersion": "11.3.1.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.2.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.1.0",
+    "androidAdapterVersion": "11.2.1.0",
+    "iosAdapterVersion": "11.2.1.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.1.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "6.0.0",
+    "androidAdapterVersion": "11.0.0.0",
+    "iosAdapterVersion": "11.0.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-6.0.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "5.1.3",
+    "androidAdapterVersion": "10.3.5.0",
+    "iosAdapterVersion": "10.3.7.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-5.1.3.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "5.1.2",
+    "androidAdapterVersion": "10.3.4.0",
+    "iosAdapterVersion": "10.3.6.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-5.1.2.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "5.1.1",
+    "androidAdapterVersion": "10.3.2.0",
+    "iosAdapterVersion": "10.3.4.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-5.1.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "5.1.0",
+    "androidAdapterVersion": "10.3.1.0",
+    "iosAdapterVersion": "10.3.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-5.1.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "5.0.0",
+    "androidAdapterVersion": "10.1.2.0",
+    "iosAdapterVersion": "10.2.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-5.0.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.8.1",
+    "androidAdapterVersion": "9.14.6.0",
+    "iosAdapterVersion": "6.14.6.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.8.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.8.0",
+    "androidAdapterVersion": "9.14.5.0",
+    "iosAdapterVersion": "6.14.5.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.8.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.7.0",
+    "androidAdapterVersion": "9.14.4.0",
+    "iosAdapterVersion": "6.14.4.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.7.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.6.2",
+    "androidAdapterVersion": "9.13.4.0",
+    "iosAdapterVersion": "6.13.4.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.6.2.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.6.1",
+    "androidAdapterVersion": "9.13.1.0",
+    "iosAdapterVersion": "6.13.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.6.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.6.0",
+    "androidAdapterVersion": "9.13.0.0",
+    "iosAdapterVersion": "6.13.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.6.0.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.8",
+    "androidAdapterVersion": "9.12.8.0",
+    "iosAdapterVersion": "6.12.8.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.8.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.7",
+    "androidAdapterVersion": "9.12.7.0",
+    "iosAdapterVersion": "6.12.7.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.7.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.6",
+    "androidAdapterVersion": "9.12.6.1",
+    "iosAdapterVersion": "6.12.6.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.6.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.5",
+    "androidAdapterVersion": "9.12.5.0",
+    "iosAdapterVersion": "6.12.5.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.5.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.4",
+    "androidAdapterVersion": "9.12.4.0",
+    "iosAdapterVersion": "6.12.4.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.4.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.3",
+    "androidAdapterVersion": "9.12.3.0",
+    "iosAdapterVersion": "6.12.3.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.3.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.2",
+    "androidAdapterVersion": "9.12.2.0",
+    "iosAdapterVersion": "6.12.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.2.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.1",
+    "androidAdapterVersion": "9.12.1.0",
+    "iosAdapterVersion": "6.12.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.1.zip"
+  },
+  {
+    "networkName": "applovin",
+    "unityAdapterVersion": "4.5.0",
+    "androidAdapterVersion": "9.12.0.0",
+    "iosAdapterVersion": "6.12.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/applovin/AppLovinUnityAdapter-4.5.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.8.0",
+    "androidAdapterVersion": "9.8.3.1",
+    "iosAdapterVersion": "9.9.0.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.8.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.7.3",
+    "androidAdapterVersion": "9.8.3.1",
+    "iosAdapterVersion": "9.8.1.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.7.3.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.7.2",
+    "androidAdapterVersion": "9.8.2.0",
+    "iosAdapterVersion": "9.8.0.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.7.2.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.7.1",
+    "androidAdapterVersion": "9.8.1.0",
+    "iosAdapterVersion": "9.8.0.0",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.7.1.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.7.0",
+    "androidAdapterVersion": "9.8.0.0",
+    "iosAdapterVersion": "9.8.0.0",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.7.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.6.1",
+    "androidAdapterVersion": "9.7.0.0",
+    "iosAdapterVersion": "9.7.0.1",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.6.1.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.6.0",
+    "androidAdapterVersion": "9.7.0.0",
+    "iosAdapterVersion": "9.7.0.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.6.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.5.0",
+    "androidAdapterVersion": "9.6.0.0",
+    "iosAdapterVersion": "9.6.0.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.5.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.4.0",
+    "androidAdapterVersion": "9.5.0.0",
+    "iosAdapterVersion": "9.5.1.0",
+    "gmaSdkVersion": "8.5.3",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.4.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.3.0",
+    "androidAdapterVersion": "9.4.0.0",
+    "iosAdapterVersion": "9.4.0.0",
+    "gmaSdkVersion": "8.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.3.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.2.0",
+    "androidAdapterVersion": "9.3.0.0",
+    "iosAdapterVersion": "9.3.0.0",
+    "gmaSdkVersion": "8.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.2.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.1.1",
+    "androidAdapterVersion": "9.2.1.1",
+    "iosAdapterVersion": "9.2.0.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.1.1.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.1.0",
+    "androidAdapterVersion": "9.2.0.0",
+    "iosAdapterVersion": "9.2.0.0",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.1.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "4.0.0",
+    "androidAdapterVersion": "9.1.1.0",
+    "iosAdapterVersion": "9.1.0.0",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-4.0.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.5.1",
+    "androidAdapterVersion": "8.4.3.1",
+    "iosAdapterVersion": "8.5.0.2",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.5.1.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.5.0",
+    "androidAdapterVersion": "8.4.2.0",
+    "iosAdapterVersion": "8.5.0.2",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.5.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.4.1",
+    "androidAdapterVersion": "8.3.1.0",
+    "iosAdapterVersion": "8.5.0.2",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.4.1.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.4.0",
+    "androidAdapterVersion": "8.3.0.0",
+    "iosAdapterVersion": "8.5.0.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.4.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.3.1",
+    "androidAdapterVersion": "8.2.1.0",
+    "iosAdapterVersion": "8.4.1.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.3.1.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.3.0",
+    "androidAdapterVersion": "8.2.0.0",
+    "iosAdapterVersion": "8.4.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.3.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.2.0",
+    "androidAdapterVersion": "8.1.0.0",
+    "iosAdapterVersion": "8.3.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.2.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.1.0",
+    "androidAdapterVersion": "8.1.0.0",
+    "iosAdapterVersion": "8.2.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.1.0.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.0.1",
+    "androidAdapterVersion": "8.0.3.1",
+    "iosAdapterVersion": "8.1.0.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.0.1.zip"
+  },
+  {
+    "networkName": "chartboost",
+    "unityAdapterVersion": "3.0.0",
+    "androidAdapterVersion": "8.0.2.0",
+    "iosAdapterVersion": "8.1.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/chartboost/ChartboostUnityAdapter-3.0.0.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.7",
+    "androidAdapterVersion": "2.3.2.1",
+    "iosAdapterVersion": "2.3.4.2",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.7.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.6",
+    "androidAdapterVersion": "2.3.2.0",
+    "iosAdapterVersion": "2.3.4.1",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.6.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.5",
+    "androidAdapterVersion": "2.3.2.0",
+    "iosAdapterVersion": "2.3.4.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.5.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.4",
+    "androidAdapterVersion": "2.3.1.2",
+    "iosAdapterVersion": "2.3.4.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.4.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.3",
+    "androidAdapterVersion": "2.3.1.1",
+    "iosAdapterVersion": "2.3.3.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.3.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.2",
+    "androidAdapterVersion": "2.3.1.1",
+    "iosAdapterVersion": "2.3.2.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.2.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.1",
+    "androidAdapterVersion": "2.3.0.0",
+    "iosAdapterVersion": "2.3.0.1",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.1.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.3.0",
+    "androidAdapterVersion": "2.3.0.0",
+    "iosAdapterVersion": "2.3.0.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.3.0.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.2.2",
+    "androidAdapterVersion": "2.0.23.1",
+    "iosAdapterVersion": "2.2.0.1",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.2.2.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.2.1",
+    "androidAdapterVersion": "2.0.23.0",
+    "iosAdapterVersion": "2.2.0.1",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.2.1.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.2.0",
+    "androidAdapterVersion": "2.0.23.0",
+    "iosAdapterVersion": "2.2.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.2.0.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.1.0",
+    "androidAdapterVersion": "2.0.22.2",
+    "iosAdapterVersion": "2.1.0.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.1.0.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.0.2",
+    "androidAdapterVersion": "2.0.22.0",
+    "iosAdapterVersion": "2.0.32.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.0.2.zip"
+  },
+  {
+    "networkName": "imobile",
+    "unityAdapterVersion": "1.0.1",
+    "androidAdapterVersion": "2.0.21.0",
+    "iosAdapterVersion": "2.0.31.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/imobile/IMobileUnityAdapter-1.0.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.7.3",
+    "androidAdapterVersion": "10.8.3.1",
+    "iosAdapterVersion": "10.8.3.1",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.7.3.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.7.2",
+    "androidAdapterVersion": "10.8.3.1",
+    "iosAdapterVersion": "10.8.3.0",
+    "gmaSdkVersion": "10.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.7.2.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.7.1",
+    "androidAdapterVersion": "10.8.2.0",
+    "iosAdapterVersion": "10.8.2.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.7.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.7.0",
+    "androidAdapterVersion": "10.8.0.0",
+    "iosAdapterVersion": "10.8.0.0",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.7.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.7",
+    "androidAdapterVersion": "10.7.8.1",
+    "iosAdapterVersion": "10.7.8.0",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.7.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.6",
+    "androidAdapterVersion": "10.7.8.0",
+    "iosAdapterVersion": "10.7.5.1",
+    "gmaSdkVersion": "9.2.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.6.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.5",
+    "androidAdapterVersion": "10.7.7.0",
+    "iosAdapterVersion": "10.7.5.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.5.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.4",
+    "androidAdapterVersion": "10.7.5.0",
+    "iosAdapterVersion": "10.7.5.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.4.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.3",
+    "androidAdapterVersion": "10.7.5.0",
+    "iosAdapterVersion": "10.7.4.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.3.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.2",
+    "androidAdapterVersion": "10.7.4.0",
+    "iosAdapterVersion": "10.7.4.0",
+    "gmaSdkVersion": "9.1.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.2.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.1",
+    "androidAdapterVersion": "10.7.4.0",
+    "iosAdapterVersion": "10.7.2.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.6.0",
+    "androidAdapterVersion": "10.7.3.0",
+    "iosAdapterVersion": "10.7.2.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.6.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.5.1",
+    "androidAdapterVersion": "10.6.7.1",
+    "iosAdapterVersion": "10.7.2.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.5.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.5.0",
+    "androidAdapterVersion": "10.6.7.1",
+    "iosAdapterVersion": "10.7.1.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.5.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.4.1",
+    "androidAdapterVersion": "10.6.2.0",
+    "iosAdapterVersion": "10.6.0.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.4.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.4.0",
+    "androidAdapterVersion": "10.6.0.0",
+    "iosAdapterVersion": "10.6.0.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.4.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.3.3",
+    "androidAdapterVersion": "10.5.8.0",
+    "iosAdapterVersion": "10.5.8.0",
+    "gmaSdkVersion": "8.5.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.3.3.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.3.0",
+    "androidAdapterVersion": "10.5.4.1",
+    "iosAdapterVersion": "10.5.4.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.3.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.2.2",
+    "androidAdapterVersion": "10.1.2.1",
+    "iosAdapterVersion": "10.1.2.1",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.2.2.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.2.1",
+    "androidAdapterVersion": "10.1.2.0",
+    "iosAdapterVersion": "10.1.2.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.2.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.2.0",
+    "androidAdapterVersion": "10.1.1.0",
+    "iosAdapterVersion": "10.1.1.0",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.2.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.1.0",
+    "androidAdapterVersion": "10.0.9.0",
+    "iosAdapterVersion": "10.1.0.0",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.1.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.0.4",
+    "androidAdapterVersion": "10.0.7.0",
+    "iosAdapterVersion": "10.0.7.0",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.0.4.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.0.3",
+    "androidAdapterVersion": "10.0.5.0",
+    "iosAdapterVersion": "10.0.5.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.0.3.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.0.2",
+    "androidAdapterVersion": "10.0.3.0",
+    "iosAdapterVersion": "10.0.2.1",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.0.2.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.0.1",
+    "androidAdapterVersion": "10.0.3.0",
+    "iosAdapterVersion": "10.0.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.0.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "4.0.0",
+    "androidAdapterVersion": "10.0.1.0",
+    "iosAdapterVersion": "10.0.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-4.0.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.2.0",
+    "androidAdapterVersion": "9.2.0.0",
+    "iosAdapterVersion": "9.2.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.2.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.1.2",
+    "androidAdapterVersion": "9.1.9.0",
+    "iosAdapterVersion": "9.1.7.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.1.2.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.1.1",
+    "androidAdapterVersion": "9.1.1.0",
+    "iosAdapterVersion": "9.1.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.1.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.1.0",
+    "androidAdapterVersion": "9.1.0.0",
+    "iosAdapterVersion": "9.1.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.1.0.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.0.3",
+    "androidAdapterVersion": "9.0.7.1",
+    "iosAdapterVersion": "9.0.7.2",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.0.3.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.0.2",
+    "androidAdapterVersion": "9.0.7.0",
+    "iosAdapterVersion": "9.0.7.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.0.2.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.0.1",
+    "androidAdapterVersion": "9.0.6.0",
+    "iosAdapterVersion": "9.0.7.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.0.1.zip"
+  },
+  {
+    "networkName": "inmobi",
+    "unityAdapterVersion": "3.0.0",
+    "androidAdapterVersion": "9.0.4.0",
+    "iosAdapterVersion": "9.0.4.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/inmobi/InMobiUnityAdapter-3.0.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.9.1",
+    "androidAdapterVersion": "8.9.1.0",
+    "iosAdapterVersion": "8.9.1.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.9.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.9.0",
+    "androidAdapterVersion": "8.9.0.0",
+    "iosAdapterVersion": "8.9.0.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.9.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.8.1",
+    "androidAdapterVersion": "8.8.0.1",
+    "iosAdapterVersion": "8.8.0.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.8.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.8.0",
+    "androidAdapterVersion": "8.8.0.0",
+    "iosAdapterVersion": "8.8.0.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.8.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.7.0",
+    "androidAdapterVersion": "8.7.0.1",
+    "iosAdapterVersion": "8.7.0.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.7.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.6.1",
+    "androidAdapterVersion": "8.6.1.0",
+    "iosAdapterVersion": "8.6.0.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.6.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.6.0",
+    "androidAdapterVersion": "8.6.0.0",
+    "iosAdapterVersion": "8.6.0.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.6.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.5.2",
+    "androidAdapterVersion": "8.5.0.1",
+    "iosAdapterVersion": "8.5.1.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.5.2.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.5.1",
+    "androidAdapterVersion": "8.5.0.1",
+    "iosAdapterVersion": "8.5.0.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.5.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.5.0",
+    "androidAdapterVersion": "8.5.0.0",
+    "iosAdapterVersion": "8.5.0.0",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.5.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.4.0",
+    "androidAdapterVersion": "8.4.0.0",
+    "iosAdapterVersion": "8.4.0.0",
+    "gmaSdkVersion": "9.2.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.4.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.3.1",
+    "androidAdapterVersion": "8.3.0.0",
+    "iosAdapterVersion": "8.3.0.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.3.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.3.0",
+    "androidAdapterVersion": "8.3.0.0",
+    "iosAdapterVersion": "8.3.0.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.3.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.2.1",
+    "androidAdapterVersion": "8.2.1.0",
+    "iosAdapterVersion": "8.2.0.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.2.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.2.0",
+    "androidAdapterVersion": "8.2.0.0",
+    "iosAdapterVersion": "8.2.0.0",
+    "gmaSdkVersion": "9.1.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.2.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.1.1",
+    "androidAdapterVersion": "8.1.0.0",
+    "iosAdapterVersion": "8.1.1.0",
+    "gmaSdkVersion": "9.1.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.1.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.1.0",
+    "androidAdapterVersion": "8.1.0.0",
+    "iosAdapterVersion": "8.1.0.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.1.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.0.1",
+    "androidAdapterVersion": "8.0.0.1",
+    "iosAdapterVersion": "8.0.0.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.0.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "3.0.0",
+    "androidAdapterVersion": "8.0.0.0",
+    "iosAdapterVersion": "8.0.0.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-3.0.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.6.1",
+    "androidAdapterVersion": "7.9.0.0",
+    "iosAdapterVersion": "7.9.1.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.6.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.6.0",
+    "androidAdapterVersion": "7.9.0.0",
+    "iosAdapterVersion": "7.9.0.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.6.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.5.0",
+    "androidAdapterVersion": "7.6.0.0",
+    "iosAdapterVersion": "7.6.0.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.5.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.4.0",
+    "androidAdapterVersion": "7.5.2.0",
+    "iosAdapterVersion": "7.5.1.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.4.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.3.1",
+    "androidAdapterVersion": "7.3.1.0",
+    "iosAdapterVersion": "7.3.1.0",
+    "gmaSdkVersion": "8.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.3.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.3.0",
+    "androidAdapterVersion": "7.3.0.1",
+    "iosAdapterVersion": "7.3.0.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.3.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.7",
+    "androidAdapterVersion": "7.2.7.0",
+    "iosAdapterVersion": "7.2.7.0",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.7.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.6",
+    "androidAdapterVersion": "7.2.6.0",
+    "iosAdapterVersion": "7.2.6.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.6.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.5",
+    "androidAdapterVersion": "7.2.5.0",
+    "iosAdapterVersion": "7.2.5.1",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.5.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.4",
+    "androidAdapterVersion": "7.2.3.1",
+    "iosAdapterVersion": "7.2.4.0",
+    "gmaSdkVersion": "7.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.4.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.3",
+    "androidAdapterVersion": "7.2.3.1",
+    "iosAdapterVersion": "7.2.3.1",
+    "gmaSdkVersion": "7.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.3.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.2",
+    "androidAdapterVersion": "7.2.2.1",
+    "iosAdapterVersion": "7.2.2.1",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.2.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.1",
+    "androidAdapterVersion": "7.2.1.1",
+    "iosAdapterVersion": "7.2.1.2",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.2.0",
+    "androidAdapterVersion": "7.2.1.0",
+    "iosAdapterVersion": "7.2.1.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.2.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.1.5",
+    "androidAdapterVersion": "7.1.14.0",
+    "iosAdapterVersion": "7.1.14.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.1.5.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.1.4",
+    "androidAdapterVersion": "7.1.13.0",
+    "iosAdapterVersion": "7.1.13.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.1.4.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.1.3",
+    "androidAdapterVersion": "7.1.12.0",
+    "iosAdapterVersion": "7.1.12.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.1.3.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.1.2",
+    "androidAdapterVersion": "7.1.11.1",
+    "iosAdapterVersion": "7.1.11.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.1.2.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.1.1",
+    "androidAdapterVersion": "7.1.8.0",
+    "iosAdapterVersion": "7.1.8.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.1.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.1.0",
+    "androidAdapterVersion": "7.1.6.0",
+    "iosAdapterVersion": "7.1.6.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.1.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.0.3",
+    "androidAdapterVersion": "7.0.3.1",
+    "iosAdapterVersion": "7.0.3.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.0.3.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.0.2",
+    "androidAdapterVersion": "7.0.2.0",
+    "iosAdapterVersion": "7.0.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.0.2.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.0.1",
+    "androidAdapterVersion": "7.0.1.1",
+    "iosAdapterVersion": "7.0.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.0.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "2.0.0",
+    "androidAdapterVersion": "7.0.0.0",
+    "iosAdapterVersion": "7.0.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-2.0.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.10.0",
+    "androidAdapterVersion": "6.18.0.0",
+    "iosAdapterVersion": "6.18.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.10.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.9.1",
+    "androidAdapterVersion": "6.17.0.1",
+    "iosAdapterVersion": "6.17.0.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.9.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.9.0",
+    "androidAdapterVersion": "6.17.0.0",
+    "iosAdapterVersion": "6.16.3.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.9.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.8.2",
+    "androidAdapterVersion": "6.16.2.0",
+    "iosAdapterVersion": "6.16.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.8.2.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.8.1",
+    "androidAdapterVersion": "6.16.1.0",
+    "iosAdapterVersion": "6.16.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.8.1.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.8.0",
+    "androidAdapterVersion": "6.16.0.0",
+    "iosAdapterVersion": "6.16.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.8.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.7.0",
+    "androidAdapterVersion": "6.15.0.1",
+    "iosAdapterVersion": "6.15.0.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.7.0.zip"
+  },
+  {
+    "networkName": "ironsource",
+    "unityAdapterVersion": "1.6.0",
+    "androidAdapterVersion": "6.14.0.1",
+    "iosAdapterVersion": "6.14.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/ironsource/IronSourceUnityAdapter-1.6.0.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "3.0.1",
+    "androidAdapterVersion": "2.0.4.0",
+    "iosAdapterVersion": "2.1.6.1",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-3.0.1.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "3.0.0",
+    "androidAdapterVersion": "2.0.3.1",
+    "iosAdapterVersion": "2.1.6.1",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-3.0.0.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "2.0.4",
+    "androidAdapterVersion": "1.1.16.3",
+    "iosAdapterVersion": "2.1.5.1",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-2.0.4.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "2.0.3",
+    "androidAdapterVersion": "1.1.16.3",
+    "iosAdapterVersion": "2.1.5.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-2.0.3.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "2.0.2",
+    "androidAdapterVersion": "1.1.16.3",
+    "iosAdapterVersion": "2.1.4.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-2.0.2.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "2.0.1",
+    "androidAdapterVersion": "1.1.16.2",
+    "iosAdapterVersion": "2.1.3.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-2.0.1.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "2.0.0",
+    "androidAdapterVersion": "1.1.16.2",
+    "iosAdapterVersion": "2.1.1.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-2.0.0.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.4.3",
+    "androidAdapterVersion": "1.1.16.2",
+    "iosAdapterVersion": "1.6.3.1",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.4.3.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.4.2",
+    "androidAdapterVersion": "1.1.16.1",
+    "iosAdapterVersion": "1.6.3.0",
+    "gmaSdkVersion": "7.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.4.2.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.4.1",
+    "androidAdapterVersion": "1.1.16.1",
+    "iosAdapterVersion": "1.6.2.0",
+    "gmaSdkVersion": "7.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.4.1.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.4.0",
+    "androidAdapterVersion": "1.1.16.0",
+    "iosAdapterVersion": "1.6.0.1",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.4.0.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.3.6",
+    "androidAdapterVersion": "1.1.16.0",
+    "iosAdapterVersion": "1.5.8.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.3.6.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.3.5",
+    "androidAdapterVersion": "1.1.15.0",
+    "iosAdapterVersion": "1.5.6.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.3.5.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.3.4",
+    "androidAdapterVersion": "1.1.11.1",
+    "iosAdapterVersion": "1.5.4.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.3.4.zip"
+  },
+  {
+    "networkName": "maio",
+    "unityAdapterVersion": "1.3.3",
+    "androidAdapterVersion": "1.1.11.1",
+    "iosAdapterVersion": "1.5.3.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/maio/MaioUnityAdapter-1.3.3.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.17.0",
+    "androidAdapterVersion": "6.20.0.0",
+    "iosAdapterVersion": "6.20.0.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.17.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.16.0",
+    "androidAdapterVersion": "6.20.0.0",
+    "iosAdapterVersion": "6.17.1.0",
+    "gmaSdkVersion": "10.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.16.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.15.0",
+    "androidAdapterVersion": "6.19.0.1",
+    "iosAdapterVersion": "6.17.1.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.15.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.14.0",
+    "androidAdapterVersion": "6.18.0.0",
+    "iosAdapterVersion": "6.16.0.0",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.14.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.13.1",
+    "androidAdapterVersion": "6.18.0.0",
+    "iosAdapterVersion": "6.15.2.1",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.13.1.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.13.0",
+    "androidAdapterVersion": "6.18.0.0",
+    "iosAdapterVersion": "6.15.2.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.13.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.12.2",
+    "androidAdapterVersion": "6.17.0.0",
+    "iosAdapterVersion": "6.15.2.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.12.2.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.12.1",
+    "androidAdapterVersion": "6.17.0.0",
+    "iosAdapterVersion": "6.15.1.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.12.1.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.12.0",
+    "androidAdapterVersion": "6.17.0.0",
+    "iosAdapterVersion": "6.15.0.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.12.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.11.0",
+    "androidAdapterVersion": "6.15.0.0",
+    "iosAdapterVersion": "6.14.0.0",
+    "gmaSdkVersion": "8.5.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.11.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.10.0",
+    "androidAdapterVersion": "6.14.0.0",
+    "iosAdapterVersion": "6.12.0.1",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.10.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.9.1",
+    "androidAdapterVersion": "6.12.0.0",
+    "iosAdapterVersion": "6.12.0.1",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.9.1.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.9.0",
+    "androidAdapterVersion": "6.12.0.0",
+    "iosAdapterVersion": "6.12.0.0",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.9.0.zip"
+  },
+  {
+    "networkName": "meta",
+    "unityAdapterVersion": "3.8.0",
+    "androidAdapterVersion": "6.11.0.1",
+    "iosAdapterVersion": "6.11.1.0",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/meta/MetaAudienceNetworkUnityAdapter-3.8.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.9.3",
+    "androidAdapterVersion": "16.9.71.0",
+    "iosAdapterVersion": "7.7.8.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.9.3.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.9.2",
+    "androidAdapterVersion": "16.9.71.0",
+    "iosAdapterVersion": "7.7.7.0",
+    "gmaSdkVersion": "10.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.9.2.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.9.1",
+    "androidAdapterVersion": "16.9.61.0",
+    "iosAdapterVersion": "7.7.7.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.9.1.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.9.0",
+    "androidAdapterVersion": "16.9.51.0",
+    "iosAdapterVersion": "7.7.7.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.9.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.8.4",
+    "androidAdapterVersion": "16.8.61.0",
+    "iosAdapterVersion": "7.7.5.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.8.4.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.8.3",
+    "androidAdapterVersion": "16.8.61.0",
+    "iosAdapterVersion": "7.7.3.0",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.8.3.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.8.2",
+    "androidAdapterVersion": "16.8.61.0",
+    "iosAdapterVersion": "7.7.2.1",
+    "gmaSdkVersion": "9.2.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.8.2.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.8.1",
+    "androidAdapterVersion": "16.8.51.0",
+    "iosAdapterVersion": "7.7.2.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.8.1.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.8.0",
+    "androidAdapterVersion": "16.8.31.0",
+    "iosAdapterVersion": "7.7.0.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.8.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.7.0",
+    "androidAdapterVersion": "16.8.11.0",
+    "iosAdapterVersion": "7.6.9.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.7.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.6.5",
+    "androidAdapterVersion": "16.7.81.0",
+    "iosAdapterVersion": "7.6.8.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.6.5.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.6.4",
+    "androidAdapterVersion": "16.7.61.0",
+    "iosAdapterVersion": "7.6.7.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.6.4.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.6.3",
+    "androidAdapterVersion": "16.7.41.0",
+    "iosAdapterVersion": "7.6.6.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.6.3.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.6.2",
+    "androidAdapterVersion": "16.7.41.0",
+    "iosAdapterVersion": "7.6.4.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.6.2.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.6.1",
+    "androidAdapterVersion": "16.7.21.0",
+    "iosAdapterVersion": "7.6.3.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.6.1.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.6.0",
+    "androidAdapterVersion": "16.7.11.0",
+    "iosAdapterVersion": "7.6.2.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.6.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.5.0",
+    "androidAdapterVersion": "16.6.71.0",
+    "iosAdapterVersion": "7.6.0.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.5.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.4.0",
+    "androidAdapterVersion": "16.6.34.0",
+    "iosAdapterVersion": "7.5.6.0",
+    "gmaSdkVersion": "8.7.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.4.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.3.0",
+    "androidAdapterVersion": "16.5.91.0",
+    "iosAdapterVersion": "7.5.3.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.3.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.2.1",
+    "androidAdapterVersion": "16.4.61.0",
+    "iosAdapterVersion": "7.3.8.0",
+    "gmaSdkVersion": "8.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.2.1.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.2.0",
+    "androidAdapterVersion": "16.4.41.0",
+    "iosAdapterVersion": "7.3.6.0",
+    "gmaSdkVersion": "8.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.2.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.1.0",
+    "androidAdapterVersion": "16.3.61.0",
+    "iosAdapterVersion": "7.2.9.1",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.1.0.zip"
+  },
+  {
+    "networkName": "mintegral",
+    "unityAdapterVersion": "1.0.0",
+    "androidAdapterVersion": "16.2.61.0",
+    "iosAdapterVersion": "7.2.6.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mintegral/MintegralUnityAdapter-1.0.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.27.1",
+    "androidAdapterVersion": "5.27.1.1",
+    "iosAdapterVersion": "5.31.1.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.27.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.27.0",
+    "androidAdapterVersion": "5.27.1.1",
+    "iosAdapterVersion": "5.31.0.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.27.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.26.0",
+    "androidAdapterVersion": "5.27.1.1",
+    "iosAdapterVersion": "5.30.0.0",
+    "gmaSdkVersion": "10.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.26.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.25.0",
+    "androidAdapterVersion": "5.27.1.1",
+    "iosAdapterVersion": "5.29.1.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.25.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.24.0",
+    "androidAdapterVersion": "5.27.1.1",
+    "iosAdapterVersion": "5.28.0.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.24.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.23.0",
+    "androidAdapterVersion": "5.27.1.1",
+    "iosAdapterVersion": "5.27.0.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.23.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.22.0",
+    "androidAdapterVersion": "5.27.1.0",
+    "iosAdapterVersion": "5.24.1.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.22.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.21.1",
+    "androidAdapterVersion": "5.27.1.0",
+    "iosAdapterVersion": "5.23.0.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.21.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.21.0",
+    "androidAdapterVersion": "5.27.0.0",
+    "iosAdapterVersion": "5.23.0.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.21.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.20.0",
+    "androidAdapterVersion": "5.26.0.0",
+    "iosAdapterVersion": "5.22.0.0",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.20.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.19.0",
+    "androidAdapterVersion": "5.23.0.0",
+    "iosAdapterVersion": "5.21.9.1",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.19.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.18.2",
+    "androidAdapterVersion": "5.22.1.0",
+    "iosAdapterVersion": "5.21.9.1",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.18.2.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.18.1",
+    "androidAdapterVersion": "5.22.1.0",
+    "iosAdapterVersion": "5.21.8.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.18.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.18.0",
+    "androidAdapterVersion": "5.22.1.0",
+    "iosAdapterVersion": "5.21.6.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.18.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.17.1",
+    "androidAdapterVersion": "5.21.1.0",
+    "iosAdapterVersion": "5.21.5.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.17.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.17.0",
+    "androidAdapterVersion": "5.21.0.0",
+    "iosAdapterVersion": "5.21.4.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.17.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.16.2",
+    "androidAdapterVersion": "5.20.1.0",
+    "iosAdapterVersion": "5.21.2.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.16.2.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.16.1",
+    "androidAdapterVersion": "5.20.1.0",
+    "iosAdapterVersion": "5.21.1.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.16.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.16.0",
+    "androidAdapterVersion": "5.20.0.0",
+    "iosAdapterVersion": "5.21.0.1",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.16.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.15.0",
+    "androidAdapterVersion": "5.20.0.0",
+    "iosAdapterVersion": "5.20.1.0",
+    "gmaSdkVersion": "8.7.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.15.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.14.0",
+    "androidAdapterVersion": "5.18.0.0",
+    "iosAdapterVersion": "5.19.0.0",
+    "gmaSdkVersion": "8.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.14.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.13.2",
+    "androidAdapterVersion": "5.16.5.0",
+    "iosAdapterVersion": "5.17.5.0",
+    "gmaSdkVersion": "8.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.13.2.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.13.1",
+    "androidAdapterVersion": "5.16.4.1",
+    "iosAdapterVersion": "5.17.4.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.13.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.13.0",
+    "androidAdapterVersion": "5.16.4.0",
+    "iosAdapterVersion": "5.17.4.0",
+    "gmaSdkVersion": "8.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.13.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.12.0",
+    "androidAdapterVersion": "5.15.5.0",
+    "iosAdapterVersion": "5.16.0.0",
+    "gmaSdkVersion": "7.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.12.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.11.4",
+    "androidAdapterVersion": "5.15.4.0",
+    "iosAdapterVersion": "5.15.2.0",
+    "gmaSdkVersion": "7.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.11.4.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.11.3",
+    "androidAdapterVersion": null,
+    "iosAdapterVersion": null,
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.11.3.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.11.2",
+    "androidAdapterVersion": "5.15.2.1",
+    "iosAdapterVersion": "5.15.2.0",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.11.2.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.11.1",
+    "androidAdapterVersion": "5.15.1.0",
+    "iosAdapterVersion": "5.15.1.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.11.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.11.0",
+    "androidAdapterVersion": "5.15.0.0",
+    "iosAdapterVersion": "5.15.0.1",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.11.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.10.2",
+    "androidAdapterVersion": "5.14.4.0",
+    "iosAdapterVersion": "5.14.4.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.10.2.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.10.1",
+    "androidAdapterVersion": "5.14.3.0",
+    "iosAdapterVersion": "5.14.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.10.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.10.0",
+    "androidAdapterVersion": "5.14.2.0",
+    "iosAdapterVersion": "5.14.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.10.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.9.0",
+    "androidAdapterVersion": "5.13.0.0",
+    "iosAdapterVersion": "5.11.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.9.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.8.2",
+    "androidAdapterVersion": "5.11.7.0",
+    "iosAdapterVersion": "5.9.10.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.8.2.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.8.1",
+    "androidAdapterVersion": "5.11.5.0",
+    "iosAdapterVersion": "5.9.6.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.8.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.8.0",
+    "androidAdapterVersion": "5.11.4.0",
+    "iosAdapterVersion": "5.9.5.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.8.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.7.0",
+    "androidAdapterVersion": "5.10.0.0",
+    "iosAdapterVersion": "5.7.5.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.7.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.6.1",
+    "androidAdapterVersion": "5.9.1.0",
+    "iosAdapterVersion": "5.7.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.6.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.6.0",
+    "androidAdapterVersion": "5.9.0.0",
+    "iosAdapterVersion": "5.7.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.6.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.5.2",
+    "androidAdapterVersion": "5.8.3.0",
+    "iosAdapterVersion": "5.6.3.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.5.2.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.5.1",
+    "androidAdapterVersion": "5.8.2.0",
+    "iosAdapterVersion": "5.6.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.5.1.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.5.0",
+    "androidAdapterVersion": "5.8.1.0",
+    "iosAdapterVersion": "5.6.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.5.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.4.0",
+    "androidAdapterVersion": "5.8.0.0",
+    "iosAdapterVersion": "5.5.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.4.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.3.0",
+    "androidAdapterVersion": "5.7.0.0",
+    "iosAdapterVersion": "5.5.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.3.0.zip"
+  },
+  {
+    "networkName": "mytarget",
+    "unityAdapterVersion": "3.2.0",
+    "androidAdapterVersion": "5.6.3.0",
+    "iosAdapterVersion": "5.4.9.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/mytarget/MyTargetUnityAdapter-3.2.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "5.1.1",
+    "androidAdapterVersion": "7.2.0.6",
+    "iosAdapterVersion": "7.2.0.5",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-5.1.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "5.1.0",
+    "androidAdapterVersion": "7.2.0.4",
+    "iosAdapterVersion": "7.2.0.4",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-5.1.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "5.0.0",
+    "androidAdapterVersion": null,
+    "iosAdapterVersion": null,
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-5.0.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.6.2",
+    "androidAdapterVersion": "6.5.0.9",
+    "iosAdapterVersion": "6.5.0.9",
+    "gmaSdkVersion": "10.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.6.2.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.6.1",
+    "androidAdapterVersion": "6.5.0.8",
+    "iosAdapterVersion": "6.5.0.9",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.6.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.6.0",
+    "androidAdapterVersion": "6.5.0.6",
+    "iosAdapterVersion": "6.5.0.9",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.6.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.5.4",
+    "androidAdapterVersion": "6.4.0.6",
+    "iosAdapterVersion": "6.4.1.1",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.5.4.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.5.3",
+    "androidAdapterVersion": "6.4.0.5",
+    "iosAdapterVersion": "6.4.1.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.5.3.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.5.2",
+    "androidAdapterVersion": "6.4.0.4",
+    "iosAdapterVersion": "6.4.0.8",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.5.2.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.5.1",
+    "androidAdapterVersion": "6.4.0.3",
+    "iosAdapterVersion": "6.4.0.7",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.5.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.5.0",
+    "androidAdapterVersion": "6.4.0.2",
+    "iosAdapterVersion": "6.4.0.6",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.5.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.4.2",
+    "androidAdapterVersion": "6.3.0.4",
+    "iosAdapterVersion": "6.3.1.0",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.4.2.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.4.1",
+    "androidAdapterVersion": "6.3.0.4",
+    "iosAdapterVersion": "6.3.0.8",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.4.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.4.0",
+    "androidAdapterVersion": "6.3.0.2",
+    "iosAdapterVersion": "6.3.0.6",
+    "gmaSdkVersion": "9.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.4.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.3.3",
+    "androidAdapterVersion": "6.2.0.7",
+    "iosAdapterVersion": "6.2.0.9",
+    "gmaSdkVersion": "9.2.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.3.3.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.3.2",
+    "androidAdapterVersion": "6.2.0.6",
+    "iosAdapterVersion": "6.2.0.8",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.3.2.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.3.1",
+    "androidAdapterVersion": "6.2.0.5",
+    "iosAdapterVersion": "6.2.0.7",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.3.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.3.0",
+    "androidAdapterVersion": "6.2.0.4",
+    "iosAdapterVersion": "6.2.0.5",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.3.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.2.1",
+    "androidAdapterVersion": "6.1.0.7",
+    "iosAdapterVersion": "6.1.0.6",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.2.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.2.0",
+    "androidAdapterVersion": "6.1.0.6",
+    "iosAdapterVersion": "6.1.0.5",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.2.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.1.0",
+    "androidAdapterVersion": "6.0.0.8",
+    "iosAdapterVersion": "6.1.0.5",
+    "gmaSdkVersion": "9.1.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.1.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.0.1",
+    "androidAdapterVersion": "6.0.0.5",
+    "iosAdapterVersion": "6.0.0.6",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.0.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "4.0.0",
+    "androidAdapterVersion": "6.0.0.5",
+    "iosAdapterVersion": "6.0.0.5",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-4.0.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "3.0.0",
+    "androidAdapterVersion": "6.0.0.3",
+    "iosAdapterVersion": "5.9.0.9",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-3.0.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.8.1",
+    "androidAdapterVersion": "5.9.0.6",
+    "iosAdapterVersion": "5.9.0.8",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.8.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.8.0",
+    "androidAdapterVersion": "5.9.0.4",
+    "iosAdapterVersion": "5.9.0.7",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.8.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.7.0",
+    "androidAdapterVersion": "5.9.0.2",
+    "iosAdapterVersion": "5.8.0.8",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.7.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.6.0",
+    "androidAdapterVersion": "5.8.0.9",
+    "iosAdapterVersion": "5.8.0.8",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.6.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.5.0",
+    "androidAdapterVersion": "5.7.0.1",
+    "iosAdapterVersion": "5.7.0.7",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.5.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.4.0",
+    "androidAdapterVersion": "5.5.0.9",
+    "iosAdapterVersion": "5.5.0.9",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.4.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.3.0",
+    "androidAdapterVersion": "5.3.0.6",
+    "iosAdapterVersion": "5.3.1.2",
+    "gmaSdkVersion": "8.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.3.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.2.0",
+    "androidAdapterVersion": "5.2.0.6",
+    "iosAdapterVersion": "5.2.0.9",
+    "gmaSdkVersion": "8.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.2.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.1.0",
+    "androidAdapterVersion": "5.1.0.9",
+    "iosAdapterVersion": "5.1.1.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.1.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "2.0.0",
+    "androidAdapterVersion": "5.0.0.7",
+    "iosAdapterVersion": "5.0.0.6",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-2.0.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.5.1",
+    "androidAdapterVersion": "4.9.0.7",
+    "iosAdapterVersion": "4.9.0.8",
+    "gmaSdkVersion": "7.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-1.5.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.5.0",
+    "androidAdapterVersion": "4.9.0.6",
+    "iosAdapterVersion": "4.9.0.7",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-1.5.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.4.0",
+    "androidAdapterVersion": "4.8.1.0",
+    "iosAdapterVersion": "4.8.1.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-1.4.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.3.1",
+    "androidAdapterVersion": "4.7.0.6",
+    "iosAdapterVersion": "4.7.0.6",
+    "gmaSdkVersion": "7.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-1.3.1.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.3.0",
+    "androidAdapterVersion": null,
+    "iosAdapterVersion": null,
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-1.3.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.2.0",
+    "androidAdapterVersion": "4.5.0.6",
+    "iosAdapterVersion": "4.5.2.8",
+    "gmaSdkVersion": "7.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-1.2.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.1.0",
+    "androidAdapterVersion": "4.5.0.3",
+    "iosAdapterVersion": "4.5.1.3",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/pangle/PangleUnityAdapter-1.1.0.zip"
+  },
+  {
+    "networkName": "pangle",
+    "unityAdapterVersion": "1.0.0",
+    "androidAdapterVersion": "4.3.0.8",
+    "iosAdapterVersion": "4.3.0.5",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/pangle/PangleUnityAdapter-1.0.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.15.0",
+    "androidAdapterVersion": "4.15.0.0",
+    "iosAdapterVersion": "4.15.0.0",
+    "gmaSdkVersion": "10.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.15.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.14.4",
+    "androidAdapterVersion": "4.14.2.0",
+    "iosAdapterVersion": "4.14.2.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.14.4.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.14.3",
+    "androidAdapterVersion": "4.14.1.0",
+    "iosAdapterVersion": "4.14.1.1",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.14.3.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.14.2",
+    "androidAdapterVersion": "4.14.1.0",
+    "iosAdapterVersion": "4.14.1.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.14.2.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.14.1",
+    "androidAdapterVersion": "4.14.0.0",
+    "iosAdapterVersion": "4.14.0.0",
+    "gmaSdkVersion": "10.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.14.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.14.0",
+    "androidAdapterVersion": "4.13.1.0",
+    "iosAdapterVersion": "4.13.0.0",
+    "gmaSdkVersion": "9.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.14.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.13.0",
+    "androidAdapterVersion": "4.13.0.0",
+    "iosAdapterVersion": "4.12.5.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.13.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.12.6",
+    "androidAdapterVersion": "4.12.5.1",
+    "iosAdapterVersion": "4.12.5.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.12.6.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.12.5",
+    "androidAdapterVersion": "4.12.5.0",
+    "iosAdapterVersion": "4.12.5.0",
+    "gmaSdkVersion": "9.5.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.12.5.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.12.4",
+    "androidAdapterVersion": "4.12.4.0",
+    "iosAdapterVersion": "4.12.3.1",
+    "gmaSdkVersion": "9.4.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.12.4.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.12.3",
+    "androidAdapterVersion": "4.12.3.0",
+    "iosAdapterVersion": "4.12.3.0",
+    "gmaSdkVersion": "9.2.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.12.3.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.12.2",
+    "androidAdapterVersion": "4.12.2.0",
+    "iosAdapterVersion": "4.12.2.0",
+    "gmaSdkVersion": "9.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.12.2.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.12.1",
+    "androidAdapterVersion": "4.12.1.0",
+    "iosAdapterVersion": "4.12.1.0",
+    "gmaSdkVersion": "9.1.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.12.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.12.0",
+    "androidAdapterVersion": "4.12.0.0",
+    "iosAdapterVersion": "4.12.0.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.12.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.11.1",
+    "androidAdapterVersion": "4.11.3.0",
+    "iosAdapterVersion": "4.11.3.1",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.11.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.11.0",
+    "androidAdapterVersion": "4.11.3.0",
+    "iosAdapterVersion": "4.11.3.0",
+    "gmaSdkVersion": "9.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.11.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.10.0",
+    "androidAdapterVersion": "4.10.0.0",
+    "iosAdapterVersion": "4.10.0.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.10.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.9.1",
+    "androidAdapterVersion": "4.9.3.0",
+    "iosAdapterVersion": "4.9.3.0",
+    "gmaSdkVersion": "9.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.9.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.9.0",
+    "androidAdapterVersion": "4.9.2.0",
+    "iosAdapterVersion": "4.9.2.0",
+    "gmaSdkVersion": "8.6.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.9.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.8.0",
+    "androidAdapterVersion": "4.8.0.0",
+    "iosAdapterVersion": "4.8.0.0",
+    "gmaSdkVersion": "8.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.8.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.7.1",
+    "androidAdapterVersion": "4.7.1.0",
+    "iosAdapterVersion": "4.7.1.0",
+    "gmaSdkVersion": "8.3.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.7.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.7.0",
+    "androidAdapterVersion": "4.7.0.0",
+    "iosAdapterVersion": "4.7.0.0",
+    "gmaSdkVersion": "8.1.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.7.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.6.1",
+    "androidAdapterVersion": "4.6.1.0",
+    "iosAdapterVersion": "4.6.1.0",
+    "gmaSdkVersion": "8.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.6.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.6.0",
+    "androidAdapterVersion": "4.6.0.0",
+    "iosAdapterVersion": "4.6.0.0",
+    "gmaSdkVersion": "7.4.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.6.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.5.0",
+    "androidAdapterVersion": "4.5.0.0",
+    "iosAdapterVersion": "4.5.0.0",
+    "gmaSdkVersion": "7.3.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.5.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.4.1",
+    "androidAdapterVersion": "4.4.1.0",
+    "iosAdapterVersion": "4.4.1.0",
+    "gmaSdkVersion": "7.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.4.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.4.0",
+    "androidAdapterVersion": "4.4.0.0",
+    "iosAdapterVersion": "4.4.0.0",
+    "gmaSdkVersion": "7.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.4.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.3.0",
+    "androidAdapterVersion": "4.3.0.0",
+    "iosAdapterVersion": "4.3.0.0",
+    "gmaSdkVersion": "7.2.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.3.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.2.1",
+    "androidAdapterVersion": "4.2.1.1",
+    "iosAdapterVersion": "4.2.1.0",
+    "gmaSdkVersion": "7.0.2",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.2.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.2.0",
+    "androidAdapterVersion": "4.2.1.0",
+    "iosAdapterVersion": "4.2.1.0",
+    "gmaSdkVersion": "7.0.1",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.2.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.1.0",
+    "androidAdapterVersion": "4.1.0.0",
+    "iosAdapterVersion": "4.1.0.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.1.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.0.1",
+    "androidAdapterVersion": "4.0.1.0",
+    "iosAdapterVersion": "4.0.1.0",
+    "gmaSdkVersion": "7.0.0",
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.0.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "3.0.0",
+    "androidAdapterVersion": "4.0.0.0",
+    "iosAdapterVersion": "4.0.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-3.0.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.7.2",
+    "androidAdapterVersion": "3.7.5.0",
+    "iosAdapterVersion": "3.7.5.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.7.2.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.7.1",
+    "androidAdapterVersion": "3.7.2.0",
+    "iosAdapterVersion": "3.7.2.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.7.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.7.0",
+    "androidAdapterVersion": "3.7.1.0",
+    "iosAdapterVersion": "3.7.1.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.7.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.6.0",
+    "androidAdapterVersion": "3.6.0.0",
+    "iosAdapterVersion": "3.6.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.6.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.5.1",
+    "androidAdapterVersion": "3.5.1.1",
+    "iosAdapterVersion": "3.5.1.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.5.1.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.5.0",
+    "androidAdapterVersion": "3.5.0.0",
+    "iosAdapterVersion": "3.5.0.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.5.0.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.4.7",
+    "androidAdapterVersion": "3.4.8.0",
+    "iosAdapterVersion": "3.4.8.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.4.7.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.4.6",
+    "androidAdapterVersion": "3.4.6.1",
+    "iosAdapterVersion": "3.4.6.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.4.6.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.4.5",
+    "androidAdapterVersion": "3.4.6.0",
+    "iosAdapterVersion": "3.4.6.0",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.4.5.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.4.4",
+    "androidAdapterVersion": "3.4.2.3",
+    "iosAdapterVersion": "3.4.2.2",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.4.4.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.4.3",
+    "androidAdapterVersion": "3.4.2.2",
+    "iosAdapterVersion": "3.4.2.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.4.3.zip"
+  },
+  {
+    "networkName": "unity",
+    "unityAdapterVersion": "2.4.2",
+    "androidAdapterVersion": "3.4.2.1",
+    "iosAdapterVersion": "3.4.2.1",
+    "gmaSdkVersion": null,
+    "downloadUrl": "https://dl.google.com/googleadmobadssdk/mediation/unity/unity/UnityAdsUnityAdapter-2.4.2.zip"
+  }
+]

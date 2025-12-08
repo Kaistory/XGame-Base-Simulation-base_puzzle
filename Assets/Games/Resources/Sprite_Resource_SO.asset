@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71fef72c5c41b992dd5118cbd89a5f, type: 3}
+  m_Name: Sprite_Resource_SO
+  m_EditorClassIdentifier: 
+  matchTypeId:
+  - name: coin
+    resType: 0
+    idIcon: 0
+    idBg: 0
+  - name: ticket
+    resType: 1
+    idIcon: 1
+    idBg: 0
+  - name: heart
+    resType: 2
+    idIcon: 2
+    idBg: 0
+  - name: time
+    resType: 3
+    idIcon: 3
+    idBg: 0
+  - name: ideal
+    resType: 4
+    idIcon: 4
+    idBg: 0
+  - name: eye_1
+    resType: 5
+    idIcon: 5
+    idBg: 0
+  icon:
+  - {fileID: 21300000, guid: 1c483bcf1ea0e8c4888e850a7970514f, type: 3}
+  - {fileID: 21300000, guid: 1c483bcf1ea0e8c4888e850a7970514f, type: 3}
+  - {fileID: 21300000, guid: 1c483bcf1ea0e8c4888e850a7970514f, type: 3}
+  - {fileID: 21300000, guid: 9aed5f9e6c5e6a64a9198553229ad4bd, type: 3}
+  - {fileID: 21300000, guid: 38207e91f8d23bc479471bf3eeccc61f, type: 3}
+  - {fileID: 21300000, guid: ccd85eede352baf41bbc943e70973dd6, type: 3}
+  bg:
+  - {fileID: 21300000, guid: 8e4fbff8632c3b942b0716f8bcf81675, type: 3}
+  - {fileID: 21300000, guid: d9a509bafdd67554f854af626146ddd9, type: 3}

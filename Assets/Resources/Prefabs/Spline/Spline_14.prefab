@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7262863138467695216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 234164141880359340}
+  - component: {fileID: 7921008612107694682}
+  m_Layer: 0
+  m_Name: Spline_14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &234164141880359340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7262863138467695216}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.33123082, y: 0, z: -0.86114657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7921008612107694682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7262863138467695216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0.2787692
+        y: 0
+        z: -0.09885341
+      TangentIn:
+        x: -0
+        y: -0
+        z: -1.160105
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.93045044
+      Rotation:
+        value:
+          x: 0
+          y: 0.9109704
+          z: 0
+          w: -0.41247168
+    - Position:
+        x: -0.3489524
+        y: 0
+        z: -3.4147482
+      TangentIn:
+        x: -0
+        y: -0
+        z: -1.0218716
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.2766176
+      Rotation:
+        value:
+          x: 0
+          y: 0.92098486
+          z: 0
+          w: -0.38959846
+    - Position:
+        x: -5.5512304
+        y: 0
+        z: -4.2388535
+      TangentIn:
+        x: -0
+        y: -0
+        z: -1.4117528
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.6325747
+      Rotation:
+        value:
+          x: 0
+          y: 0.94098824
+          z: 0
+          w: -0.3384391
+    - Position:
+        x: -5.3212304
+        y: 0
+        z: -11.278853
+      TangentIn:
+        x: 0
+        y: 0
+        z: -1.4505512
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.23422
+      Rotation:
+        value:
+          x: 0
+          y: 0.8807708
+          z: 0
+          w: 0.47354284
+    - Position:
+        x: 5.0087695
+        y: 0
+        z: -11.058853
+      TangentIn:
+        x: 0
+        y: 0
+        z: -0.72835404
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.5939698
+      Rotation:
+        value:
+          x: 0
+          y: 0.38268352
+          z: 0
+          w: 0.92387956
+    - Position:
+        x: 4.888769
+        y: 0
+        z: -0.028853416
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.0672011
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.1808895
+      Rotation:
+        value:
+          x: 0
+          y: -0.37991557
+          z: -0
+          w: 0.92502123
+    m_MetaData:
+    - Mode: 4
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    m_Closed: 1
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []

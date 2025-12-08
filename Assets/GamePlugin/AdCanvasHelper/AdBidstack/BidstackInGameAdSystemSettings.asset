@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58ce68aa36441740a6ebca37cc59c94, type: 3}
+  m_Name: BidstackInGameAdSystemSettings
+  m_EditorClassIdentifier: 
+  playerSettings: 
+  authKey: 76e3d349-c615-4187-813a-0b78d47b5449
+  flushEventsOnDestroy: 1
+  requestMissingAdsAutomatically: 1
+  missingAdRequestTimeout: 30
+  maxCompressedAdDiskUsageMB: 10
+  maxCompressedAdCacheMemoryMB: 5
+  maxAdTextureCacheMemoryMB: 16
+  requestTimeout: 10
+  downloadTimeoutMultiplier: 1
+  logLevel: 2
+  enableDepthOcclusionTest: 1
+  enableUIOcclusionTest: 1
+  sandboxTestingScenario: 
+  autoRequestAdID: 1
+  enableWebViewSupport: 1
+  enableMipmaps: 0
+  anisoLevel: 16

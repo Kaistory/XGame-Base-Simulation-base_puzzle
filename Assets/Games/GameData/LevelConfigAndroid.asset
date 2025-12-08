@@ -1,0 +1,2693 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986a8e76c34e5004a95c35fe2a5e347f, type: 3}
+  m_Name: LevelConfigAndroid
+  m_EditorClassIdentifier: 
+  levelInfos:
+  - name: Level 4 - EASY
+    level: 4
+    levelID: 4
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 5 - EASY
+    level: 5
+    levelID: 5
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 6 - EASY
+    level: 6
+    levelID: 6
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 7 - EASY
+    level: 7
+    levelID: 7
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 8 - EASY
+    level: 8
+    levelID: 8
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 9 - HARD
+    level: 9
+    levelID: 9
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 10 - EASY
+    level: 10
+    levelID: 10
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 11 - EASY
+    level: 11
+    levelID: 11
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 12 - HARD
+    level: 12
+    levelID: 12
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 13 - EASY
+    level: 13
+    levelID: 13
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 14 - EASY
+    level: 14
+    levelID: 14
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 15 - HARD
+    level: 15
+    levelID: 15
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 16 - EASY
+    level: 16
+    levelID: 16
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 17 - EASY
+    level: 17
+    levelID: 17
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 18 - HARD
+    level: 18
+    levelID: 18
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 19 - EASY
+    level: 19
+    levelID: 19
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 20 - EASY
+    level: 20
+    levelID: 20
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 21 - HARD
+    level: 21
+    levelID: 21
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 22 - EASY
+    level: 22
+    levelID: 22
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 23 - EASY
+    level: 23
+    levelID: 23
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 24 - HARD
+    level: 24
+    levelID: 24
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 25 - EASY
+    level: 25
+    levelID: 25
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 26 - EASY
+    level: 26
+    levelID: 26
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 27 - HARD
+    level: 27
+    levelID: 27
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 28 - EASY
+    level: 28
+    levelID: 28
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 29 - EASY
+    level: 29
+    levelID: 29
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 30 - HARD
+    level: 30
+    levelID: 30
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 31 - EASY
+    level: 31
+    levelID: 31
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 32 - EASY
+    level: 32
+    levelID: 32
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 33 - HARD
+    level: 33
+    levelID: 33
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 34 - EASY
+    level: 34
+    levelID: 34
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 35 - EASY
+    level: 35
+    levelID: 35
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 36 - HARD
+    level: 36
+    levelID: 36
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 37 - EASY
+    level: 37
+    levelID: 37
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 38 - EASY
+    level: 38
+    levelID: 38
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 39 - HARD
+    level: 39
+    levelID: 39
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 40 - EASY
+    level: 40
+    levelID: 40
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 41 - EASY
+    level: 41
+    levelID: 41
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 42 - HARD
+    level: 42
+    levelID: 42
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 43 - EASY
+    level: 43
+    levelID: 43
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 44 - EASY
+    level: 44
+    levelID: 44
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 45 - HARD
+    level: 45
+    levelID: 45
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 46 - EASY
+    level: 46
+    levelID: 46
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 47 - EASY
+    level: 47
+    levelID: 47
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 48 - HARD
+    level: 48
+    levelID: 48
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 49 - EASY
+    level: 49
+    levelID: 49
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 50 - EASY
+    level: 50
+    levelID: 50
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 51 - HARD
+    level: 51
+    levelID: 51
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 52 - EASY
+    level: 52
+    levelID: 52
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 53 - EASY
+    level: 53
+    levelID: 53
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 54 - HARD
+    level: 54
+    levelID: 54
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 55 - EASY
+    level: 55
+    levelID: 55
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 56 - EASY
+    level: 56
+    levelID: 56
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 57 - HARD
+    level: 57
+    levelID: 57
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 58 - EASY
+    level: 58
+    levelID: 58
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 59 - EASY
+    level: 59
+    levelID: 59
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 60 - HARD
+    level: 60
+    levelID: 60
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 61 - EASY
+    level: 61
+    levelID: 61
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 62 - EASY
+    level: 62
+    levelID: 62
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 63 - HARD
+    level: 63
+    levelID: 63
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 64 - EASY
+    level: 64
+    levelID: 64
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 65 - EASY
+    level: 65
+    levelID: 65
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 66 - HARD
+    level: 66
+    levelID: 66
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 67 - EASY
+    level: 67
+    levelID: 67
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 68 - EASY
+    level: 68
+    levelID: 68
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 69 - HARD
+    level: 69
+    levelID: 69
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 70 - EASY
+    level: 70
+    levelID: 70
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 71 - EASY
+    level: 71
+    levelID: 71
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 72 - HARD
+    level: 72
+    levelID: 72
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 73 - EASY
+    level: 73
+    levelID: 73
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 74 - EASY
+    level: 74
+    levelID: 74
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 75 - HARD
+    level: 75
+    levelID: 75
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 76 - EASY
+    level: 76
+    levelID: 76
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 77 - EASY
+    level: 77
+    levelID: 77
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 78 - HARD
+    level: 78
+    levelID: 78
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 79 - EASY
+    level: 79
+    levelID: 79
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 80 - EASY
+    level: 80
+    levelID: 80
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 81 - HARD
+    level: 81
+    levelID: 81
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 82 - EASY
+    level: 82
+    levelID: 82
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 83 - EASY
+    level: 83
+    levelID: 83
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 84 - HARD
+    level: 84
+    levelID: 84
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 85 - EASY
+    level: 85
+    levelID: 85
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 86 - EASY
+    level: 86
+    levelID: 86
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 87 - HARD
+    level: 87
+    levelID: 87
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 88 - EASY
+    level: 88
+    levelID: 88
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 89 - EASY
+    level: 89
+    levelID: 89
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 90 - HARD
+    level: 90
+    levelID: 90
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 91 - EASY
+    level: 91
+    levelID: 91
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 92 - EASY
+    level: 92
+    levelID: 92
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 93 - HARD
+    level: 93
+    levelID: 93
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 94 - EASY
+    level: 94
+    levelID: 94
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 95 - EASY
+    level: 95
+    levelID: 95
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 96 - HARD
+    level: 96
+    levelID: 96
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 97 - EASY
+    level: 97
+    levelID: 97
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 98 - EASY
+    level: 98
+    levelID: 98
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 99 - HARD
+    level: 99
+    levelID: 99
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 100 - EASY
+    level: 100
+    levelID: 100
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 101 - EASY
+    level: 101
+    levelID: 101
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 102 - HARD
+    level: 102
+    levelID: 102
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 103 - EASY
+    level: 103
+    levelID: 103
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 104 - EASY
+    level: 104
+    levelID: 104
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 105 - HARD
+    level: 105
+    levelID: 105
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 106 - EASY
+    level: 106
+    levelID: 106
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 107 - EASY
+    level: 107
+    levelID: 107
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 108 - HARD
+    level: 108
+    levelID: 108
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 109 - EASY
+    level: 109
+    levelID: 109
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 110 - EASY
+    level: 110
+    levelID: 110
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 111 - HARD
+    level: 111
+    levelID: 111
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 112 - EASY
+    level: 112
+    levelID: 112
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 113 - EASY
+    level: 113
+    levelID: 113
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 114 - HARD
+    level: 114
+    levelID: 114
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 115 - EASY
+    level: 115
+    levelID: 115
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 116 - EASY
+    level: 116
+    levelID: 116
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 117 - HARD
+    level: 117
+    levelID: 117
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 118 - EASY
+    level: 118
+    levelID: 118
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 119 - EASY
+    level: 119
+    levelID: 119
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 120 - HARD
+    level: 120
+    levelID: 120
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 121 - EASY
+    level: 121
+    levelID: 121
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 122 - EASY
+    level: 122
+    levelID: 122
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 123 - HARD
+    level: 123
+    levelID: 123
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 124 - EASY
+    level: 124
+    levelID: 124
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 125 - EASY
+    level: 125
+    levelID: 125
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 126 - HARD
+    level: 126
+    levelID: 126
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 127 - EASY
+    level: 127
+    levelID: 127
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 128 - EASY
+    level: 128
+    levelID: 128
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 129 - HARD
+    level: 129
+    levelID: 129
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 130 - EASY
+    level: 130
+    levelID: 130
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 131 - EASY
+    level: 131
+    levelID: 131
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 132 - HARD
+    level: 132
+    levelID: 132
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 133 - EASY
+    level: 133
+    levelID: 133
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 134 - EASY
+    level: 134
+    levelID: 134
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 135 - HARD
+    level: 135
+    levelID: 135
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 136 - EASY
+    level: 136
+    levelID: 136
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 137 - EASY
+    level: 137
+    levelID: 137
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 138 - HARD
+    level: 138
+    levelID: 138
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 139 - EASY
+    level: 139
+    levelID: 139
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 140 - EASY
+    level: 140
+    levelID: 140
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 141 - HARD
+    level: 141
+    levelID: 141
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 142 - EASY
+    level: 142
+    levelID: 142
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 143 - EASY
+    level: 143
+    levelID: 143
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 144 - HARD
+    level: 144
+    levelID: 144
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 145 - EASY
+    level: 145
+    levelID: 145
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 146 - EASY
+    level: 146
+    levelID: 146
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 147 - HARD
+    level: 147
+    levelID: 147
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 148 - EASY
+    level: 148
+    levelID: 148
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 149 - EASY
+    level: 149
+    levelID: 149
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 150 - HARD
+    level: 150
+    levelID: 150
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 151 - EASY
+    level: 151
+    levelID: 151
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 152 - EASY
+    level: 152
+    levelID: 152
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 153 - HARD
+    level: 153
+    levelID: 153
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 154 - EASY
+    level: 154
+    levelID: 154
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 155 - EASY
+    level: 155
+    levelID: 155
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 156 - HARD
+    level: 156
+    levelID: 156
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 157 - EASY
+    level: 157
+    levelID: 157
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 158 - EASY
+    level: 158
+    levelID: 158
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 159 - HARD
+    level: 159
+    levelID: 159
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 160 - EASY
+    level: 160
+    levelID: 160
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 161 - EASY
+    level: 161
+    levelID: 161
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 162 - HARD
+    level: 162
+    levelID: 162
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 163 - EASY
+    level: 163
+    levelID: 163
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 164 - EASY
+    level: 164
+    levelID: 164
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 165 - HARD
+    level: 165
+    levelID: 165
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 166 - EASY
+    level: 166
+    levelID: 166
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 167 - EASY
+    level: 167
+    levelID: 167
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 168 - HARD
+    level: 168
+    levelID: 168
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 169 - EASY
+    level: 169
+    levelID: 169
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 170 - EASY
+    level: 170
+    levelID: 170
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 171 - HARD
+    level: 171
+    levelID: 171
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 172 - EASY
+    level: 172
+    levelID: 172
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 173 - EASY
+    level: 173
+    levelID: 173
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 174 - HARD
+    level: 174
+    levelID: 174
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 175 - EASY
+    level: 175
+    levelID: 175
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 176 - EASY
+    level: 176
+    levelID: 176
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 177 - HARD
+    level: 177
+    levelID: 177
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 178 - EASY
+    level: 178
+    levelID: 178
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 179 - EASY
+    level: 179
+    levelID: 179
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 180 - HARD
+    level: 180
+    levelID: 180
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 181 - EASY
+    level: 181
+    levelID: 181
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 182 - EASY
+    level: 182
+    levelID: 182
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 183 - HARD
+    level: 183
+    levelID: 183
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 184 - EASY
+    level: 184
+    levelID: 184
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 185 - EASY
+    level: 185
+    levelID: 185
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 186 - HARD
+    level: 186
+    levelID: 186
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 187 - EASY
+    level: 187
+    levelID: 187
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 188 - EASY
+    level: 188
+    levelID: 188
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 189 - HARD
+    level: 189
+    levelID: 189
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 190 - EASY
+    level: 190
+    levelID: 190
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 191 - EASY
+    level: 191
+    levelID: 191
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 192 - HARD
+    level: 192
+    levelID: 192
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 193 - EASY
+    level: 193
+    levelID: 193
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 194 - EASY
+    level: 194
+    levelID: 194
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 195 - HARD
+    level: 195
+    levelID: 195
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 196 - EASY
+    level: 196
+    levelID: 196
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 197 - EASY
+    level: 197
+    levelID: 197
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 198 - HARD
+    level: 198
+    levelID: 198
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 199 - EASY
+    level: 199
+    levelID: 199
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 200 - EASY
+    level: 200
+    levelID: 200
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 201 - HARD
+    level: 201
+    levelID: 201
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 202 - EASY
+    level: 202
+    levelID: 202
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 203 - EASY
+    level: 203
+    levelID: 203
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 204 - HARD
+    level: 204
+    levelID: 204
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 205 - EASY
+    level: 205
+    levelID: 205
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 206 - EASY
+    level: 206
+    levelID: 206
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 207 - HARD
+    level: 207
+    levelID: 207
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 208 - EASY
+    level: 208
+    levelID: 208
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 209 - EASY
+    level: 209
+    levelID: 209
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 210 - HARD
+    level: 210
+    levelID: 210
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 211 - EASY
+    level: 211
+    levelID: 211
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 212 - EASY
+    level: 212
+    levelID: 212
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 213 - HARD
+    level: 213
+    levelID: 213
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 214 - EASY
+    level: 214
+    levelID: 214
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 215 - EASY
+    level: 215
+    levelID: 215
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 216 - HARD
+    level: 216
+    levelID: 216
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 217 - EASY
+    level: 217
+    levelID: 217
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 218 - EASY
+    level: 218
+    levelID: 218
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 219 - HARD
+    level: 219
+    levelID: 219
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 220 - EASY
+    level: 220
+    levelID: 220
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 221 - EASY
+    level: 221
+    levelID: 221
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 222 - HARD
+    level: 222
+    levelID: 222
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 223 - EASY
+    level: 223
+    levelID: 223
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 224 - EASY
+    level: 224
+    levelID: 224
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 225 - HARD
+    level: 225
+    levelID: 225
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 226 - EASY
+    level: 226
+    levelID: 226
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 227 - EASY
+    level: 227
+    levelID: 227
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 228 - HARD
+    level: 228
+    levelID: 228
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 229 - EASY
+    level: 229
+    levelID: 229
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 230 - EASY
+    level: 230
+    levelID: 230
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 231 - HARD
+    level: 231
+    levelID: 231
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 232 - EASY
+    level: 232
+    levelID: 232
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 233 - EASY
+    level: 233
+    levelID: 233
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 234 - HARD
+    level: 234
+    levelID: 234
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 235 - EASY
+    level: 235
+    levelID: 235
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 236 - EASY
+    level: 236
+    levelID: 236
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 237 - HARD
+    level: 237
+    levelID: 237
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 238 - EASY
+    level: 238
+    levelID: 238
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 239 - EASY
+    level: 239
+    levelID: 239
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 240 - HARD
+    level: 240
+    levelID: 240
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 241 - EASY
+    level: 241
+    levelID: 241
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 242 - EASY
+    level: 242
+    levelID: 242
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 243 - HARD
+    level: 243
+    levelID: 243
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 244 - EASY
+    level: 244
+    levelID: 244
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 245 - EASY
+    level: 245
+    levelID: 245
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 246 - HARD
+    level: 246
+    levelID: 246
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 247 - EASY
+    level: 247
+    levelID: 247
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 248 - EASY
+    level: 248
+    levelID: 248
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 249 - HARD
+    level: 249
+    levelID: 249
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 250 - EASY
+    level: 250
+    levelID: 250
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 251 - EASY
+    level: 251
+    levelID: 251
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 252 - HARD
+    level: 252
+    levelID: 252
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 253 - EASY
+    level: 253
+    levelID: 253
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 254 - EASY
+    level: 254
+    levelID: 254
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 255 - HARD
+    level: 255
+    levelID: 255
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 256 - EASY
+    level: 256
+    levelID: 256
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 257 - EASY
+    level: 257
+    levelID: 257
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 258 - HARD
+    level: 258
+    levelID: 258
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 259 - EASY
+    level: 259
+    levelID: 259
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 260 - EASY
+    level: 260
+    levelID: 260
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 261 - HARD
+    level: 261
+    levelID: 261
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 262 - EASY
+    level: 262
+    levelID: 262
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 263 - EASY
+    level: 263
+    levelID: 263
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 264 - HARD
+    level: 264
+    levelID: 264
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 265 - EASY
+    level: 265
+    levelID: 265
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 266 - EASY
+    level: 266
+    levelID: 266
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 267 - HARD
+    level: 267
+    levelID: 267
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 268 - EASY
+    level: 268
+    levelID: 268
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 269 - EASY
+    level: 269
+    levelID: 269
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 270 - HARD
+    level: 270
+    levelID: 270
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 271 - EASY
+    level: 271
+    levelID: 271
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 272 - EASY
+    level: 272
+    levelID: 272
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 273 - HARD
+    level: 273
+    levelID: 273
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 274 - EASY
+    level: 274
+    levelID: 274
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 275 - EASY
+    level: 275
+    levelID: 275
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 276 - HARD
+    level: 276
+    levelID: 276
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 277 - EASY
+    level: 277
+    levelID: 277
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 278 - EASY
+    level: 278
+    levelID: 278
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 279 - HARD
+    level: 279
+    levelID: 279
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 280 - EASY
+    level: 280
+    levelID: 280
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 281 - EASY
+    level: 281
+    levelID: 281
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 282 - HARD
+    level: 282
+    levelID: 282
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 283 - EASY
+    level: 283
+    levelID: 283
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 284 - EASY
+    level: 284
+    levelID: 284
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 285 - HARD
+    level: 285
+    levelID: 285
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 286 - EASY
+    level: 286
+    levelID: 286
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 287 - EASY
+    level: 287
+    levelID: 287
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 288 - HARD
+    level: 288
+    levelID: 288
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 289 - EASY
+    level: 289
+    levelID: 289
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 290 - EASY
+    level: 290
+    levelID: 290
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 291 - HARD
+    level: 291
+    levelID: 291
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 292 - EASY
+    level: 292
+    levelID: 292
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 293 - EASY
+    level: 293
+    levelID: 293
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 294 - HARD
+    level: 294
+    levelID: 294
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 295 - EASY
+    level: 295
+    levelID: 295
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 296 - EASY
+    level: 296
+    levelID: 296
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 297 - HARD
+    level: 297
+    levelID: 297
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 298 - EASY
+    level: 298
+    levelID: 298
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 299 - EASY
+    level: 299
+    levelID: 299
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 30
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  - name: Level 300 - HARD
+    level: 300
+    levelID: 300
+    mapID: 0
+    levelType: 1
+    levelRewardValue: 40
+    trunks: []
+    cutterMachine: []
+    allColorsSpawnCutter: 
+  backgroundInfo:
+  - groupID: 0
+    background:
+    - {fileID: 21300000, guid: d08edc9ccfc944546b9b43099d1f9ef0, type: 3}
+    - {fileID: 21300000, guid: d9a509bafdd67554f854af626146ddd9, type: 3}

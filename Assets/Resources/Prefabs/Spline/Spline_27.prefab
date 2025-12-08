@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1775111857421298981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807728558542849361}
+  - component: {fileID: 2701388535689712640}
+  m_Layer: 0
+  m_Name: Spline_27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &807728558542849361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775111857421298981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9690073, y: -566, z: -41.588715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2701388535689712640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775111857421298981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0
+        y: 0
+        z: 0
+      TangentIn:
+        x: -0
+        y: -0
+        z: -0.87022305
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.7345234
+      Rotation:
+        value:
+          x: 0
+          y: 0.9920895
+          z: 0
+          w: -0.12553257
+    - Position:
+        x: 3.2990072
+        y: 0
+        z: -2.8012848
+      TangentIn:
+        x: 0
+        y: 0
+        z: -1.6872892
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.8969907
+      Rotation:
+        value:
+          x: 0
+          y: 0.89094055
+          z: 0
+          w: 0.45411992
+    - Position:
+        x: 3.6181536
+        y: 0
+        z: -9.548744
+      TangentIn:
+        x: 0
+        y: 0
+        z: -0.35827142
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.7449071
+      Rotation:
+        value:
+          x: 0
+          y: 0.92598784
+          z: 0
+          w: 0.37755325
+    - Position:
+        x: 8.033466
+        y: 0
+        z: -9.918312
+      TangentIn:
+        x: 0
+        y: 0
+        z: -0.14668086
+      TangentOut:
+        x: 0
+        y: 0
+        z: 4.676284
+      Rotation:
+        value:
+          x: 0
+          y: 0.6531013
+          z: 0
+          w: 0.7572705
+    - Position:
+        x: 7.980357
+        y: 0
+        z: -7.570362
+      TangentIn:
+        x: 0
+        y: 0
+        z: -1.3316332
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.54275566
+      Rotation:
+        value:
+          x: 0
+          y: 0.7303742
+          z: 0
+          w: -0.68304724
+    - Position:
+        x: 5.909007
+        y: 0
+        z: -7.3312836
+      TangentIn:
+        x: 0
+        y: 0
+        z: -0.7003588
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.48297468
+      Rotation:
+        value:
+          x: 0
+          y: -0.36332983
+          z: -0
+          w: 0.93166053
+    - Position:
+        x: 5.9307356
+        y: 0
+        z: 1.4193344
+      TangentIn:
+        x: 0
+        y: 0
+        z: -0.28331172
+      TangentOut:
+        x: 0
+        y: 0
+        z: 3.6846411
+      Rotation:
+        value:
+          x: 0
+          y: -0.6332646
+          z: -0
+          w: 0.7739353
+    m_MetaData:
+    - Mode: 4
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 3
+      Tension: 0.5
+    m_Closed: 1
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []

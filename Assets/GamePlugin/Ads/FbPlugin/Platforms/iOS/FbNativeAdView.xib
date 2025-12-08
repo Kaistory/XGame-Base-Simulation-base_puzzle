@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FBNativeView" customModule="FantasyRoom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="646" height="1189"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k2o-YG-XDV">
+                    <rect key="frame" x="0.0" y="0.0" width="646" height="1189"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="112" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-ke-zS5" userLabel="adIcon" customClass="FBAdIconView">
+                            <rect key="frame" x="12" y="12" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="JrD-eF-cPz"/>
+                                <constraint firstAttribute="height" constant="80" id="uwd-lv-Z0B"/>
+                            </constraints>
+                        </imageView>
+                        <view tag="113" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDI-NW-ruj" customClass="FBAdChoicesView">
+                            <rect key="frame" x="514" y="0.0" width="120" height="60"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="eY5-k5-3vS"/>
+                                <constraint firstAttribute="width" constant="120" id="v5T-Jj-w3Q"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" tag="114" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BBW-Ar-jKg">
+                            <rect key="frame" x="104" y="30.333333333333332" width="410" height="43.333333333333343"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="1141" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTu-VK-GFO" userLabel="titleLabel">
+                                    <rect key="frame" x="0.0" y="0.0" width="410" height="23"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="1142" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sponsor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czg-a4-5X3" userLabel="sponsorLabel">
+                                    <rect key="frame" x="0.0" y="23.000000000000007" width="410" height="20.333333333333336"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <view tag="115" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3c-71-GCt" userLabel="bottomView">
+                            <rect key="frame" x="0.0" y="1069" width="646" height="120"/>
+                            <subviews>
+                                <button opaque="NO" tag="1151" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBh-gf-aJS">
+                                    <rect key="frame" x="506" y="45" width="120" height="30"/>
+                                    <color key="backgroundColor" systemColor="linkColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="8q3-xe-iuY"/>
+                                    </constraints>
+                                    <color key="tintColor" name="AccentColor"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Call to Action">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="ca9-vO-0KX">
+                                    <rect key="frame" x="12" y="34" width="482" height="52.333333333333343"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1152" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTf-Nz-QHv" userLabel="socialLabel">
+                                            <rect key="frame" x="0.0" y="0.0" width="482" height="23"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1153" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ad body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZC0-Va-ui1" userLabel="bodyLabel">
+                                            <rect key="frame" x="0.0" y="32" width="482" height="20.333333333333329"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="aBh-gf-aJS" secondAttribute="trailing" constant="20" id="N8l-JV-Zd5"/>
+                                <constraint firstItem="aBh-gf-aJS" firstAttribute="centerY" secondItem="B3c-71-GCt" secondAttribute="centerY" id="QL4-Cl-Hfa"/>
+                                <constraint firstItem="ca9-vO-0KX" firstAttribute="centerY" secondItem="B3c-71-GCt" secondAttribute="centerY" id="bqg-TM-54r"/>
+                                <constraint firstItem="aBh-gf-aJS" firstAttribute="leading" secondItem="ca9-vO-0KX" secondAttribute="trailing" constant="12" id="ikm-1P-KNu"/>
+                                <constraint firstAttribute="height" constant="120" id="rR1-3j-zIa"/>
+                                <constraint firstItem="ca9-vO-0KX" firstAttribute="leading" secondItem="B3c-71-GCt" secondAttribute="leading" constant="12" id="rVn-Vl-xvV"/>
+                            </constraints>
+                        </view>
+                        <view tag="116" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7I-qT-hK2" customClass="FBMediaView">
+                            <rect key="frame" x="12" y="104" width="622" height="965"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="BBW-Ar-jKg" firstAttribute="centerY" secondItem="cJf-ke-zS5" secondAttribute="centerY" id="58h-Gh-rnx"/>
+                        <constraint firstItem="B3c-71-GCt" firstAttribute="leading" secondItem="k2o-YG-XDV" secondAttribute="leading" id="5vl-oI-tsL"/>
+                        <constraint firstItem="I7I-qT-hK2" firstAttribute="bottom" secondItem="B3c-71-GCt" secondAttribute="top" id="6Ge-uZ-TH3"/>
+                        <constraint firstAttribute="trailing" secondItem="vDI-NW-ruj" secondAttribute="trailing" constant="12" id="6MJ-SQ-MxU"/>
+                        <constraint firstItem="I7I-qT-hK2" firstAttribute="top" secondItem="cJf-ke-zS5" secondAttribute="bottom" constant="12" id="DV5-Eq-fIA"/>
+                        <constraint firstItem="vDI-NW-ruj" firstAttribute="leading" secondItem="BBW-Ar-jKg" secondAttribute="trailing" id="EgH-Pa-9ni"/>
+                        <constraint firstItem="BBW-Ar-jKg" firstAttribute="leading" secondItem="cJf-ke-zS5" secondAttribute="trailing" constant="12" id="H2C-7K-jtJ"/>
+                        <constraint firstItem="cJf-ke-zS5" firstAttribute="leading" secondItem="k2o-YG-XDV" secondAttribute="leading" constant="12" id="UWK-Bp-hfs"/>
+                        <constraint firstItem="I7I-qT-hK2" firstAttribute="leading" secondItem="k2o-YG-XDV" secondAttribute="leading" constant="12" id="Una-Y2-hVG"/>
+                        <constraint firstItem="vDI-NW-ruj" firstAttribute="top" secondItem="k2o-YG-XDV" secondAttribute="top" id="eal-Xp-Xda"/>
+                        <constraint firstAttribute="trailing" secondItem="B3c-71-GCt" secondAttribute="trailing" id="jHz-4k-6gI"/>
+                        <constraint firstAttribute="bottom" secondItem="B3c-71-GCt" secondAttribute="bottom" id="qAB-t8-cHd"/>
+                        <constraint firstAttribute="trailing" secondItem="I7I-qT-hK2" secondAttribute="trailing" constant="12" id="sbr-UU-Aag"/>
+                        <constraint firstItem="cJf-ke-zS5" firstAttribute="top" secondItem="k2o-YG-XDV" secondAttribute="top" constant="12" id="vbk-IO-oDa"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="k2o-YG-XDV" secondAttribute="trailing" id="TzX-IE-UyT"/>
+                <constraint firstItem="k2o-YG-XDV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="f7Q-FP-Fzg"/>
+                <constraint firstAttribute="bottom" secondItem="k2o-YG-XDV" secondAttribute="bottom" id="lEZ-RK-Pe6"/>
+                <constraint firstItem="k2o-YG-XDV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qHp-Vb-x3n"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-647.32824427480909" y="208.09859154929578"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

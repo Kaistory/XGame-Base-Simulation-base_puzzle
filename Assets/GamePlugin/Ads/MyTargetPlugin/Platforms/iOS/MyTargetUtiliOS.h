@@ -1,0 +1,26 @@
+// Copyright 2016 Google Inc. All Rights Reserved.
+
+#import <Foundation/Foundation.h>
+
+@interface MyTargetUtiliOS : NSObject
+
+/// Whether the Unity app should be paused when a full screen ad is displayed.
+@property(class) BOOL pauseOnBackground;
+
+/// Returns YES if the operating system is at least the supplied major version.
++(BOOL)UIsOperatingSystemAtLeastVersion:(NSInteger) majorVersion;
+
+/// Returns the Unity view controller.
++ (UIViewController *)unityGLViewController;
+
+/// Position view in the parent view, corresponding to the adPosition.
++ (void)positionView:(UIView *)view
+        inParentView:(UIView *)parentView
+          adPosition:(int)adPosition;
+
+/// Position view in the parent view, corresponding to the CGPoint.
++ (void)positionView:(UIView *)view
+        inParentView:(UIView *)parentView
+      customPosition:(CGPoint)adPosition;
+
+@end

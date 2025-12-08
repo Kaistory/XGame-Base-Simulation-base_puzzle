@@ -1,0 +1,118 @@
+{
+    "default": {
+        "non_consum": [
+            {
+                "id": "remove_ads_pack",
+                "pkg": "com.jigdom.sort.relax.remove_ads_pack",
+                "price": "5.99$",
+                "receiver": {
+                    "removeads": 1
+                }
+            }
+        ],
+        "consum": [
+            {
+                "id": "welcome_bundle_pack",
+                "pkg": "com.jigdom.sort.relax.welcome_bundle_pack",
+                "price": "1.99$",
+                "receiver": {
+                    "money": "gold:2000",
+                    "items": "time:3,hint:3,eye:3"
+                }
+            },
+            {
+                "id": "puzzle_hero_bundle_pack",
+                "pkg": "com.jigdom.sort.relax.puzzle_hero_bundle_pack",
+                "price": "7.99$",
+                "receiver": {
+                    "money": "gold:5000",
+                    "items": "time:3,hint:3,eye:3"
+                }
+            },
+            {
+                "id": "ultimate_puzzle_bundle_pack",
+                "pkg": "com.jigdom.sort.relax.ultimate_puzzle_bundle_pack",
+                "price": "14.99$",
+                "receiver": {
+                    "money": "gold:10000",
+                    "items": "time:6,hint:6,eye:6"
+                }
+            },
+            {
+                "id": "super_puzzle_bundle_pack",
+                "pkg": "com.jigdom.sort.relax.super_puzzle_bundle_pack",
+                "price": "24.99$",
+                "receiver": {
+                    "money": "gold:25000",
+                    "items": "time:12,hint:12,eye:12"
+                }
+            },
+            {
+                "id": "premium_puzzle_bundle_pack",
+                "pkg": "com.jigdom.sort.relax.premium_puzzle_bundle_pack",
+                "price": "49.99$",
+                "receiver": {
+                    "money": "gold:50000",
+                    "items": "time:30,hint:30,eye:30"
+                }
+            },
+            {
+                "id": "legendary_puzzle_bundle_pack",
+                "pkg": "com.jigdom.sort.relax.legendary_puzzle_bundle_pack",
+                "price": "99.99$",
+                "receiver": {
+                    "money": "gold:65000",
+                    "items": "time:39,hint:39,eye:39"
+                }
+            },
+            {
+                "id": "coin_starter_pack",
+                "pkg": "com.jigdom.sort.relax.coin_starter_pack",
+                "price": "0.99$",
+                "receiver": {
+                    "money": "gold:1000"
+                }
+            },
+            {
+                "id": "booster_pack",
+                "pkg": "com.jigdom.sort.relax.booster_pack",
+                "price": "3.99$",
+                "receiver": {
+                    "money": "gold:5000"
+                }
+            },
+            {
+                "id": "puzzle_master_pack",
+                "pkg": "com.jigdom.sort.relax.puzzle_master_pack",
+                "price": "9.99$",
+                "receiver": {
+                    "money": "gold:10000"
+                }
+            },
+            {
+                "id": "pro_creator_pack",
+                "pkg": "com.jigdom.sort.relax.pro_creator_pack",
+                "price": "19.99$",
+                "receiver": {
+                    "money": "gold:25000"
+                }
+            },
+            {
+                "id": "legend_pack",
+                "pkg": "com.jigdom.sort.relax.legend_pack",
+                "price": "29.99$",
+                "receiver": {
+                    "money": "gold:50000"
+                }
+            },
+            {
+                "id": "mythic_pack",
+                "pkg": "com.jigdom.sort.relax.mythic_pack",
+                "price": "99.99$",
+                "receiver": {
+                    "money": "gold:100000"
+                }
+            }
+        ]
+    }
+}

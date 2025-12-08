@@ -1,0 +1,12 @@
+﻿{
+  "digging_power": "",
+  "max_energy": "",
+  "slot": "",
+  "climbing_and_moving_speed": "",
+  "percent_energy": "",
+  "shoes": "",
+  "end_of_lunch_{0}": "",
+  "lights_out_{0}": "",
+  "wake_up_{0}": "",
+  "lunch_break_{0}": ""
+}

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ada09e2a374c2590cc420c123c4edb, type: 3}
+  m_Name: LevelConfigTrunk
+  m_EditorClassIdentifier: 
+  levelInfos:
+  - name: Level 1 - EASY
+    level: 1
+    levelID: 1
+    mapID: 0
+    levelType: 0
+    levelRewardValue: 0
+    trunks:
+    - position: {x: -4.169, y: -5, z: -7.58}
+      colorLayers: 040000000300000004000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -9
+    - position: {x: -3.732, y: -3.5, z: -6.817}
+      colorLayers: 04000000010000000a000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -9
+    - position: {x: -2.59, y: -2, z: -7.58}
+      colorLayers: 040000000100000003000000
+      hasLock: 1
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -7
+    - position: {x: 5.879, y: -5, z: -2.0800002}
+      colorLayers: 040000000600000007000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: -7
+    - position: {x: 5.32, y: -3.5, z: -2.08}
+      colorLayers: 09000000060000000b000000
+      hasLock: 0
+      isChained: 1
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 3
+      amountUpTrunk: -8
+    - position: {x: 5.964, y: -2, z: -2.08}
+      colorLayers: 080000000b0000000b000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      visibleLayerCount: 2
+      amountUpTrunk: -8
+    cutterMachine:
+    - position: {x: -3.97, y: 0, z: -0.03}
+      rot: 136.19998
+    allColorsSpawnCutter: 05000000
+  backgroundInfo: []
