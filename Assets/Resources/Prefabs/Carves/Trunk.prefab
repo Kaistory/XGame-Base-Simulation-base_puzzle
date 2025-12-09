@@ -342,15 +342,19 @@ MonoBehaviour:
   m_SplineAnimate: {fileID: 0}
   speed: 5
   m_NumberConveyor: 0
-  m_truck: 2
-  m_trunkColor: 010000000100000001000000
-  m_isBlock: 0
-  m_hasKey: 0
-  m_hasChain: 0
-  m_hasIce: 0
-  m_idx: 0
+  trunkData:
+    position: {x: 0, y: 0, z: 0}
+    colorLayers: 000000000000000000000000
+    hasLock: 0
+    isChained: 0
+    isFrozen: 0
+    isBlock: 0
+    visibleLayerCount: 1
+    amountUpTrunk: 0
   m_numIce: 0
-  m_amountUpTrunk: 0
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!65 &2840142830100462937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -565,7 +569,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 55595badf747d5c4899d363e1d138e35, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -600,9 +604,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   truck_meshRenderer: {fileID: 8628745382045280211}
-  m_Allcolor: 1
+  m_Allcolor: 0
   basicMaterial:
-  - {fileID: 2100000, guid: 55595badf747d5c4899d363e1d138e35, type: 2}
+  - {fileID: 0}
 --- !u!1 &4934902839986624559
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +753,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 55595badf747d5c4899d363e1d138e35, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -784,9 +788,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   truck_meshRenderer: {fileID: 4080959791912522489}
-  m_Allcolor: 1
+  m_Allcolor: 0
   basicMaterial:
-  - {fileID: 2100000, guid: 55595badf747d5c4899d363e1d138e35, type: 2}
+  - {fileID: 0}
 --- !u!1 &5423036247260083032
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3013550628191832397
 Transform:
   m_ObjectHideFlags: 0
@@ -849,7 +853,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 55595badf747d5c4899d363e1d138e35, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -884,9 +888,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   truck_meshRenderer: {fileID: 1897070196163608748}
-  m_Allcolor: 1
+  m_Allcolor: 0
   basicMaterial:
-  - {fileID: 2100000, guid: 55595badf747d5c4899d363e1d138e35, type: 2}
+  - {fileID: 0}
 --- !u!1 &7273625714743866879
 GameObject:
   m_ObjectHideFlags: 0

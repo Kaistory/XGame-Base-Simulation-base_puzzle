@@ -162,17 +162,9 @@ public class LevelManager : MonoBehaviour
     
     public void OnUseBooster(RES_type type)
     {
-        switch (type)
+        if (DataManager.GetResources(type) > 0)
         {
-            case RES_type.BOOSTER_1:
-                BoostManger.Instance.SetActiveBoost(BoostType.Remove);
-                break;
-            case RES_type.BOOSTER_2:
-                BoostManger.Instance.SetActiveBoost(BoostType.AddCapacity);
-                break;
-            case RES_type.BOOSTER_3:
-                BoostManger.Instance.SetActiveBoost(BoostType.RemoveOuterTrunk);
-                break;
+            BoostManger.Instance.SetActiveBoost(type);
         }
         DataManager.Instance.OnSinkResources(type, -1, LogEvent.ReasonItem.use, "use_in_game",
             DataManager.Level);

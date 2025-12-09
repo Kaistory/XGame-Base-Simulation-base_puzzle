@@ -65,9 +65,23 @@ public class LevelConfig : ScriptableObject
         [JsonProperty("ice")] public bool isFrozen;       // Băng (Ice)
         [JsonProperty("block")] public bool isBlock;       // Băng (Block)
         
-        // Block số lớp hiển thị (Ví dụ: chỉ hiện 1 lớp, 2 lớp hay cả 3)
+        [Range(1, 3)]
         [JsonProperty("vlc")] public int visibleLayerCount; 
-        [JsonProperty("ant")] public int amountUpTrunk; 
+        [JsonProperty("ant")] public int amountUpTrunk;
+
+        public TrunkData Clone()
+        {
+            TrunkData trunkClone = new TrunkData();
+            trunkClone.position = this.position;
+            trunkClone.hasLock = this.hasLock;
+            trunkClone.isChained = this.isChained;
+            trunkClone.isFrozen = this.isFrozen;
+            trunkClone.isBlock = this.isBlock;
+            trunkClone.visibleLayerCount = this.visibleLayerCount;
+            trunkClone.amountUpTrunk = this.amountUpTrunk;
+            trunkClone.colorLayers = this.colorLayers;
+            return trunkClone;
+        }
     }
 
     [System.Serializable]

@@ -1275,6 +1275,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1263030415163721842, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263030415163721842, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: orthographic size
       value: 14
       objectReference: {fileID: 0}

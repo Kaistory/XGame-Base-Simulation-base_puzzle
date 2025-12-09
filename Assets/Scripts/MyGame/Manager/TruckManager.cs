@@ -41,7 +41,7 @@ namespace MyGame.Manager
             foreach (Transform child in transform)
             {
                 var bigTruck = child.GetComponent<BigTrunk>();
-                if (bigTruck.MHasIce && !bigTruck.MIsBlock)
+                if (bigTruck.TrunkData.isFrozen && !bigTruck.TrunkData.isBlock)
                 {
                     bigTruck.BreakIce();
                 }
@@ -52,12 +52,12 @@ namespace MyGame.Manager
             foreach (Transform child in transform)
             {
                 var bigTruck = child.GetComponent<BigTrunk>();
-                if (bigTruck.MHasKey && !bigTruck.MIsBlock)
+                if (bigTruck.TrunkData.hasLock && !bigTruck.TrunkData.isBlock)
                 {
                     foreach (Transform childUnlock in transform)
                     {
                         var bigTruck2 = childUnlock.GetComponent<BigTrunk>();
-                        if (bigTruck2.MHasChain && !bigTruck2.MIsBlock)
+                        if (bigTruck2.TrunkData.isChained && !bigTruck2.TrunkData.isBlock)
                         {
                             bigTruck.UnlockKey(childUnlock);
                             bigTruck2.BreakChain();

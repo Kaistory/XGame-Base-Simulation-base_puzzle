@@ -30,34 +30,30 @@ public class Conveyor : Singleton<Conveyor>
 
     void AddTunnel()
     {
-        Spline spline = m_SplineContainer.Spline;
-        
+        var spline = m_SplineContainer.Spline;
         if (spline.Count == 0) return;
-        
-        BezierKnot startKnot = spline[0];
-        BezierKnot endKnot = spline[spline.Count - 1];
 
-        
-        Vector3 startPosWorld = m_SplineContainer.transform.TransformPoint(startKnot.Position);
-        Vector3 endPosWorld = m_SplineContainer.transform.TransformPoint(endKnot.Position);
-        
+        bool isOpen = !spline.Closed;
 
-        if(!spline.Closed)
+        m_Tunners[0].SetActive(isOpen);
+        m_Tunners[1].SetActive(isOpen);
+
+        if (isOpen)
         {
-            m_Tunners[0].SetActive(true);
-            m_Tunners[1].SetActive(true);
-            m_Tunners[0].transform.position = startPosWorld;
-            m_Tunners[0].transform.rotation = startKnot.Rotation;
-            m_Tunners[1].transform.position = endPosWorld;
-            m_Tunners[1].transform.rotation = endKnot.Rotation;
-            m_Tunners[1].transform.Rotate(0, 180, 0);
-            
-        }
-        else
-        {
-            m_Tunners[0].SetActive(false);
-            m_Tunners[1].SetActive(false);
+            Transform containerTf = m_SplineContainer.transform;
+        
+            var startKnot = spline[0];
+            var endKnot = spline[^1];
+
+            m_Tunners[0].transform.SetPositionAndRotation(
+                containerTf.TransformPoint(startKnot.Position), 
+                startKnot.Rotation
+            );
+
+            m_Tunners[1].transform.SetPositionAndRotation(
+                containerTf.TransformPoint(endKnot.Position), 
+                endKnot.Rotation * Quaternion.Euler(0, 180, 0)
+            );
         }
     }
-
 }

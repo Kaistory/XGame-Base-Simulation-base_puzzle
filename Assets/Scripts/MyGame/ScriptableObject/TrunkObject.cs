@@ -29,12 +29,12 @@ public class TrunkObject : MonoBehaviour
 
     void Update()
     {
-        isChained =  m_Bigtrunk.MHasChain;
-        isFrozen =  m_Bigtrunk.MHasIce;
-        isBlock =  m_Bigtrunk.MIsBlock;
-        hasLock =  m_Bigtrunk.MHasKey;
-        visibleLayerCount = m_Bigtrunk.MTruck;
-        colorLayers = m_Bigtrunk.MTrunkColor; 
+        isChained =  m_Bigtrunk.TrunkData.isChained;
+        isFrozen =  m_Bigtrunk.TrunkData.isFrozen;
+        isBlock =  m_Bigtrunk.TrunkData.isBlock;
+        hasLock =  m_Bigtrunk.TrunkData.hasLock;
+        visibleLayerCount = m_Bigtrunk.TrunkData.visibleLayerCount;
+        colorLayers = m_Bigtrunk.TrunkData.colorLayers; 
     }
 
     // Vẽ Gizmos để dễ nhìn trong Scene

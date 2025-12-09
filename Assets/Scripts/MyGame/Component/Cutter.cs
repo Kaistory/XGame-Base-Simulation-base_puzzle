@@ -12,6 +12,7 @@ public class Cutter : MonoBehaviour
     //Color
     [SerializeField] private MeshRenderer cutter_meshRenderer;
     [SerializeField] private BoxCollider m_boxCollider;
+    [SerializeField] private bool cutted;
     
     public BoxCollider MBoxCollider
     {
@@ -43,6 +44,7 @@ public class Cutter : MonoBehaviour
     void Start()
     {
         int lengthColor = CutterMachineManager.Instance.spawnsColor.Count;
+        cutted = false;
         transform.name = "Cutter_" + lengthColor.ToString();
         if (lengthColor != 0)
         {
@@ -67,15 +69,16 @@ public class Cutter : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
         {
-             if (other.CompareTag("Trunk"))
+             if (other.CompareTag("Trunk") && !cutted)
              {
                  BigTrunk bigTrunk= other.GetComponent<BigTrunk>();
                  if(bigTrunk.GetColorOuter() != m_Allcolor)
                         return;
-                  bigTrunk.OnHitCutter();
-                  PlayParticle();
-                  AudioManager.Instance.PlaySFX(AudioName.SFX_WoodCutting);
-                  transform.DOMove(transform.position + cutterMachine.transform.forward, 0.5f).SetEase(Ease.OutBounce).OnComplete(() =>
+                 cutted = true;
+                 bigTrunk.OnHitCutter();
+                 PlayParticle();
+                 AudioManager.Instance.PlaySFX(AudioName.SFX_WoodCutting);
+                 transform.DOMove(transform.position + cutterMachine.transform.forward, 0.5f).SetEase(Ease.OutBounce).OnComplete(() =>
                   {
                       
                       transform.DOScale(0, 0.2f).SetEase(Ease.InBack).OnComplete(() =>

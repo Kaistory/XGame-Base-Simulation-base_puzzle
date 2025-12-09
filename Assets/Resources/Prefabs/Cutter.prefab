@@ -128,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cutter_meshRenderer: {fileID: 23583287041421758}
   m_boxCollider: {fileID: 65625836779053703}
+  cutted: 0
   basicMaterial:
   - {fileID: 2100000, guid: 57fe6f8a0ad27e5409c657c121b59979, type: 2}
   - {fileID: 2100000, guid: 88e4e9a547f3e9d44a14414f408add3c, type: 2}
