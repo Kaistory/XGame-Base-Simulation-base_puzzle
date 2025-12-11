@@ -68,8 +68,8 @@ namespace _JigblockPuzzle
         }
         void UpdateCapacity()
         {
-            int capacity = TruckManager.Instance.m_capacity;
-            int maxCapacity = TruckManager.Instance.m_maxCapacity;
+            int capacity = TrunkManager.Instance.m_capacity;
+            int maxCapacity = TrunkManager.Instance.m_maxCapacity;
             txtAmountCapacity.text  = (maxCapacity - capacity).ToString() + "/" + maxCapacity.ToString();
             if (capacity <= 1)
             {

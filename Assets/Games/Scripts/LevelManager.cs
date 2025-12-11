@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using MyGame.Data;
 using MyGame.Manager;
+using MyGame.Tutorial;
 using TigerForge;
 using time;
 using UnityEngine;

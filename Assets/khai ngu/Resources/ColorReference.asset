@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ddf8a2c6a3668dd8711e88c095a18ca, type: 3}
+  m_Name: ColorReference
+  m_EditorClassIdentifier:
+  ColorConfigs:
+  - colorType: 0
+    color: {r: 0.7647059, g: 0.5803922, b: 0.2, a: 1}
+    detectColor: {r: 0.7647059, g: 0.5803922, b: 0.2, a: 0}
+  - colorType: 1
+    color: {r: 0.9137255, g: 0.14117648, b: 0.14117648, a: 1}
+    detectColor: {r: 0.9137255, g: 0.14117648, b: 0.14117648, a: 0}
+  - colorType: 2
+    color: {r: 0.23529412, g: 0.49803922, b: 0.93333334, a: 1}
+    detectColor: {r: 0.23529412, g: 0.49803922, b: 0.93333334, a: 0}
+  - colorType: 3
+    color: {r: 0.3882353, g: 0.81960785, b: 0.25490198, a: 1}
+    detectColor: {r: 0.3882353, g: 0.81960785, b: 0.25490198, a: 0}
+  - colorType: 4
+    color: {r: 0.50980395, g: 0.36862746, b: 0.7058824, a: 1}
+    detectColor: {r: 0.50980395, g: 0.36862746, b: 0.7058824, a: 0}
+  - colorType: 5
+    color: {r: 0.94509804, g: 0.4862745, b: 0.2, a: 1}
+    detectColor: {r: 0.94509804, g: 0.4862745, b: 0.2, a: 0}
+  - colorType: 6
+    color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    detectColor: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+  - colorType: 7
+    color: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 1}
+    detectColor: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 0}
+  - colorType: 8
+    color: {r: 0.8784314, g: 0.23529412, b: 0.5411765, a: 1}
+    detectColor: {r: 0.8784314, g: 0.23529412, b: 0.5411765, a: 0}
+  - colorType: 9
+    color: {r: 0.6313726, g: 0.39215687, b: 0.36078432, a: 1}
+    detectColor: {r: 0.6313726, g: 0.39215687, b: 0.36078432, a: 0}
+  - colorType: 10
+    color: {r: 0.11372549, g: 0.35686275, b: 0.29803923, a: 1}
+    detectColor: {r: 0.11372549, g: 0.35686275, b: 0.29803923, a: 0}
+  - colorType: 11
+    color: {r: 0.20784314, g: 0.7019608, b: 0.7176471, a: 1}
+    detectColor: {r: 0.20784314, g: 0.7019608, b: 0.7176471, a: 0}
+  - colorType: 12
+    color: {r: 0.90588236, g: 0.5294118, b: 0.6745098, a: 1}
+    detectColor: {r: 0.90588236, g: 0.5294118, b: 0.6745098, a: 0}
+  - colorType: 13
+    color: {r: 0.5647059, g: 0.58431375, b: 0.34509805, a: 1}
+    detectColor: {r: 0.5647059, g: 0.58431375, b: 0.34509805, a: 0}
+  - colorType: 14
+    color: {r: 0.27450982, g: 0.2, b: 0.5764706, a: 1}
+    detectColor: {r: 0.27450982, g: 0.2, b: 0.5764706, a: 0}
+  - colorType: 15
+    color: {r: 0.5294118, g: 0.57254905, b: 0.81568635, a: 1}
+    detectColor: {r: 0.5294118, g: 0.57254905, b: 0.81568635, a: 0}
+  - colorType: 16
+    color: {r: 0.38039216, g: 0.24313726, b: 0.13725491, a: 1}
+    detectColor: {r: 0.38039216, g: 0.24313726, b: 0.13725491, a: 0}
+  - colorType: 17
+    color: {r: 0.2784314, g: 0.27450982, b: 0.32156864, a: 1}
+    detectColor: {r: 0.2784314, g: 0.27450982, b: 0.32156864, a: 0}
+  - colorType: 18
+    color: {r: 0.015686275, g: 0.3764706, b: 0, a: 1}
+    detectColor: {r: 0.015686275, g: 0.3764706, b: 0, a: 0}
+  - colorType: 19
+    color: {r: 0.22352941, g: 0.1254902, b: 0.3647059, a: 1}
+    detectColor: {r: 0.22352941, g: 0.1254902, b: 0.3647059, a: 0}
+  - colorType: 20
+    color: {r: 0.53333336, g: 0.5294118, b: 0.58431375, a: 1}
+    detectColor: {r: 0.53333336, g: 0.5294118, b: 0.58431375, a: 0}
+  - colorType: 21
+    color: {r: 0.76862746, g: 0.6666667, b: 0.4392157, a: 1}
+    detectColor: {r: 0.76862746, g: 0.6666667, b: 0.4392157, a: 0}
+  - colorType: 22
+    color: {r: 0.8235294, g: 0.5686275, b: 0.30980393, a: 1}
+    detectColor: {r: 0.8235294, g: 0.5686275, b: 0.30980393, a: 0}
+  - colorType: 23
+    color: {r: 0.7647059, g: 0.34901962, b: 0.5529412, a: 1}
+    detectColor: {r: 0.7647059, g: 0.34901962, b: 0.5529412, a: 0}
+  - colorType: 24
+    color: {r: 0.4, g: 0.22745098, b: 0.6431373, a: 1}
+    detectColor: {r: 0.4, g: 0.22745098, b: 0.6431373, a: 0}
+  - colorType: 25
+    color: {r: 0.7647059, g: 0.48235294, b: 0.4862745, a: 1}
+    detectColor: {r: 0.7647059, g: 0.48235294, b: 0.4862745, a: 0}
+  - colorType: 26
+    color: {r: 0.5529412, g: 0.2509804, b: 0.3019608, a: 1}
+    detectColor: {r: 0.5529412, g: 0.2509804, b: 0.3019608, a: 0}
+  - colorType: -1
+    color: {r: 0, g: 0, b: 0, a: 0}
+    detectColor: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,668 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd687caf595bfa4a431c0a3cf1d2c805, type: 3}
+  m_Name: ListLevelDifficultServer
+  m_EditorClassIdentifier:
+  listLevelDict:
+    _serializedList:
+    - Key: 24
+      Value: 1
+    - Key: 30
+      Value: 1
+    - Key: 36
+      Value: 1
+    - Key: 39
+      Value: 2
+    - Key: 44
+      Value: 1
+    - Key: 45
+      Value: 1
+    - Key: 49
+      Value: 2
+    - Key: 56
+      Value: 1
+    - Key: 62
+      Value: 1
+    - Key: 64
+      Value: 2
+    - Key: 68
+      Value: 1
+    - Key: 69
+      Value: 1
+    - Key: 73
+      Value: 1
+    - Key: 79
+      Value: 2
+    - Key: 82
+      Value: 1
+    - Key: 88
+      Value: 2
+    - Key: 93
+      Value: 1
+    - Key: 96
+      Value: 1
+    - Key: 100
+      Value: 2
+    - Key: 103
+      Value: 2
+    - Key: 106
+      Value: 1
+    - Key: 110
+      Value: 1
+    - Key: 113
+      Value: 1
+    - Key: 114
+      Value: 1
+    - Key: 117
+      Value: 1
+    - Key: 120
+      Value: 1
+    - Key: 123
+      Value: 1
+    - Key: 124
+      Value: 2
+    - Key: 128
+      Value: 1
+    - Key: 130
+      Value: 2
+    - Key: 133
+      Value: 1
+    - Key: 134
+      Value: 1
+    - Key: 136
+      Value: 1
+    - Key: 139
+      Value: 1
+    - Key: 143
+      Value: 1
+    - Key: 145
+      Value: 2
+    - Key: 148
+      Value: 1
+    - Key: 150
+      Value: 1
+    - Key: 153
+      Value: 1
+    - Key: 156
+      Value: 1
+    - Key: 158
+      Value: 1
+    - Key: 160
+      Value: 2
+    - Key: 163
+      Value: 2
+    - Key: 164
+      Value: 1
+    - Key: 166
+      Value: 1
+    - Key: 168
+      Value: 1
+    - Key: 170
+      Value: 1
+    - Key: 175
+      Value: 2
+    - Key: 177
+      Value: 1
+    - Key: 179
+      Value: 1
+    - Key: 180
+      Value: 2
+    - Key: 183
+      Value: 2
+    - Key: 184
+      Value: 1
+    - Key: 188
+      Value: 1
+    - Key: 190
+      Value: 2
+    - Key: 193
+      Value: 2
+    - Key: 198
+      Value: 1
+    - Key: 200
+      Value: 2
+    - Key: 206
+      Value: 2
+    - Key: 208
+      Value: 1
+    - Key: 210
+      Value: 1
+    - Key: 214
+      Value: 1
+    - Key: 218
+      Value: 1
+    - Key: 223
+      Value: 2
+    - Key: 226
+      Value: 2
+    - Key: 230
+      Value: 1
+    - Key: 233
+      Value: 1
+    - Key: 237
+      Value: 2
+    - Key: 240
+      Value: 1
+    - Key: 244
+      Value: 1
+    - Key: 245
+      Value: 2
+    - Key: 249
+      Value: 2
+    - Key: 254
+      Value: 1
+    - Key: 256
+      Value: 1
+    - Key: 260
+      Value: 1
+    - Key: 263
+      Value: 1
+    - Key: 266
+      Value: 1
+    - Key: 269
+      Value: 2
+    - Key: 272
+      Value: 1
+    - Key: 276
+      Value: 1
+    - Key: 279
+      Value: 1
+    - Key: 283
+      Value: 1
+    - Key: 286
+      Value: 2
+    - Key: 291
+      Value: 1
+    - Key: 296
+      Value: 2
+    - Key: 298
+      Value: 1
+    - Key: 300
+      Value: 2
+    - Key: 303
+      Value: 2
+    - Key: 306
+      Value: 1
+    - Key: 310
+      Value: 1
+    - Key: 314
+      Value: 1
+    - Key: 318
+      Value: 1
+    - Key: 324
+      Value: 2
+    - Key: 329
+      Value: 1
+    - Key: 333
+      Value: 2
+    - Key: 336
+      Value: 1
+    - Key: 339
+      Value: 2
+    - Key: 345
+      Value: 1
+    - Key: 353
+      Value: 2
+    - Key: 360
+      Value: 2
+    - Key: 363
+      Value: 2
+    - Key: 366
+      Value: 1
+    - Key: 370
+      Value: 1
+    - Key: 374
+      Value: 1
+    - Key: 377
+      Value: 2
+    - Key: 380
+      Value: 2
+    - Key: 383
+      Value: 2
+    - Key: 386
+      Value: 1
+    - Key: 388
+      Value: 1
+    - Key: 390
+      Value: 2
+    - Key: 393
+      Value: 2
+    - Key: 396
+      Value: 1
+    - Key: 400
+      Value: 1
+    - Key: 404
+      Value: 1
+    - Key: 405
+      Value: 2
+    - Key: 408
+      Value: 1
+    - Key: 410
+      Value: 2
+    - Key: 413
+      Value: 1
+    - Key: 416
+      Value: 1
+    - Key: 418
+      Value: 1
+    - Key: 420
+      Value: 2
+    - Key: 423
+      Value: 2
+    - Key: 426
+      Value: 2
+    - Key: 428
+      Value: 1
+    - Key: 430
+      Value: 1
+    - Key: 435
+      Value: 1
+    - Key: 436
+      Value: 2
+    - Key: 439
+      Value: 1
+    - Key: 440
+      Value: 2
+    - Key: 444
+      Value: 1
+    - Key: 445
+      Value: 2
+    - Key: 449
+      Value: 2
+    - Key: 454
+      Value: 1
+    - Key: 458
+      Value: 1
+    - Key: 460
+      Value: 2
+    - Key: 463
+      Value: 1
+    - Key: 464
+      Value: 1
+    - Key: 468
+      Value: 1
+    - Key: 469
+      Value: 2
+    - Key: 473
+      Value: 1
+    - Key: 476
+      Value: 2
+    - Key: 479
+      Value: 1
+    - Key: 484
+      Value: 2
+    - Key: 486
+      Value: 2
+    - Key: 489
+      Value: 1
+    - Key: 493
+      Value: 2
+    - Key: 496
+      Value: 1
+    - Key: 500
+      Value: 2
+    - Key: 503
+      Value: 1
+    - Key: 506
+      Value: 2
+    - Key: 509
+      Value: 1
+    - Key: 512
+      Value: 2
+    - Key: 516
+      Value: 2
+    - Key: 518
+      Value: 1
+    - Key: 524
+      Value: 2
+    - Key: 530
+      Value: 2
+    - Key: 533
+      Value: 1
+    - Key: 536
+      Value: 1
+    - Key: 539
+      Value: 2
+    - Key: 542
+      Value: 1
+    - Key: 545
+      Value: 1
+    - Key: 550
+      Value: 2
+    - Key: 554
+      Value: 2
+    - Key: 557
+      Value: 1
+    - Key: 560
+      Value: 2
+    - Key: 563
+      Value: 2
+    - Key: 566
+      Value: 1
+    - Key: 570
+      Value: 2
+    - Key: 574
+      Value: 2
+    - Key: 577
+      Value: 1
+    - Key: 579
+      Value: 1
+    - Key: 580
+      Value: 2
+    - Key: 584
+      Value: 2
+    - Key: 587
+      Value: 1
+    - Key: 590
+      Value: 2
+    - Key: 594
+      Value: 1
+    - Key: 597
+      Value: 2
+    - Key: 600
+      Value: 2
+    - Key: 604
+      Value: 1
+    - Key: 606
+      Value: 1
+    - Key: 608
+      Value: 2
+    - Key: 610
+      Value: 1
+    - Key: 613
+      Value: 2
+    - Key: 616
+      Value: 1
+    - Key: 618
+      Value: 1
+    - Key: 620
+      Value: 2
+    - Key: 623
+      Value: 2
+    - Key: 624
+      Value: 1
+    - Key: 627
+      Value: 2
+    - Key: 630
+      Value: 1
+    - Key: 633
+      Value: 1
+    - Key: 636
+      Value: 2
+    - Key: 639
+      Value: 1
+    - Key: 645
+      Value: 1
+    - Key: 650
+      Value: 2
+    - Key: 654
+      Value: 1
+    - Key: 656
+      Value: 2
+    - Key: 658
+      Value: 1
+    - Key: 660
+      Value: 2
+    - Key: 663
+      Value: 1
+    - Key: 668
+      Value: 1
+    - Key: 672
+      Value: 1
+    - Key: 673
+      Value: 1
+    - Key: 676
+      Value: 2
+    - Key: 679
+      Value: 1
+    - Key: 681
+      Value: 1
+    - Key: 683
+      Value: 1
+    - Key: 686
+      Value: 2
+    - Key: 689
+      Value: 1
+    - Key: 693
+      Value: 2
+    - Key: 696
+      Value: 1
+    - Key: 700
+      Value: 2
+    - Key: 703
+      Value: 1
+    - Key: 706
+      Value: 2
+    - Key: 712
+      Value: 2
+    - Key: 716
+      Value: 2
+    - Key: 718
+      Value: 1
+    - Key: 721
+      Value: 1
+    - Key: 724
+      Value: 2
+    - Key: 728
+      Value: 1
+    - Key: 731
+      Value: 2
+    - Key: 733
+      Value: 1
+    - Key: 736
+      Value: 2
+    - Key: 739
+      Value: 2
+    - Key: 745
+      Value: 1
+    - Key: 748
+      Value: 1
+    - Key: 750
+      Value: 2
+    - Key: 754
+      Value: 2
+    - Key: 757
+      Value: 1
+    - Key: 760
+      Value: 2
+    - Key: 763
+      Value: 2
+    - Key: 766
+      Value: 1
+    - Key: 767
+      Value: 1
+    - Key: 770
+      Value: 2
+    - Key: 775
+      Value: 2
+    - Key: 777
+      Value: 2
+    - Key: 780
+      Value: 1
+    - Key: 782
+      Value: 1
+    - Key: 784
+      Value: 2
+    - Key: 787
+      Value: 1
+    - Key: 790
+      Value: 2
+    - Key: 793
+      Value: 1
+    - Key: 794
+      Value: 1
+    - Key: 797
+      Value: 2
+    - Key: 800
+      Value: 2
+    - Key: 803
+      Value: 1
+    - Key: 805
+      Value: 1
+    - Key: 808
+      Value: 2
+    - Key: 813
+      Value: 2
+    - Key: 816
+      Value: 1
+    - Key: 818
+      Value: 1
+    - Key: 820
+      Value: 2
+    - Key: 823
+      Value: 2
+    - Key: 824
+      Value: 1
+    - Key: 827
+      Value: 2
+    - Key: 830
+      Value: 1
+    - Key: 833
+      Value: 1
+    - Key: 836
+      Value: 2
+    - Key: 840
+      Value: 1
+    - Key: 842
+      Value: 2
+    - Key: 845
+      Value: 1
+    - Key: 849
+      Value: 2
+    - Key: 852
+      Value: 1
+    - Key: 854
+      Value: 2
+    - Key: 858
+      Value: 1
+    - Key: 860
+      Value: 2
+    - Key: 864
+      Value: 1
+    - Key: 868
+      Value: 1
+    - Key: 869
+      Value: 2
+    - Key: 873
+      Value: 1
+    - Key: 876
+      Value: 2
+    - Key: 879
+      Value: 1
+    - Key: 881
+      Value: 1
+    - Key: 884
+      Value: 2
+    - Key: 887
+      Value: 2
+    - Key: 889
+      Value: 1
+    - Key: 893
+      Value: 2
+    - Key: 896
+      Value: 2
+    - Key: 900
+      Value: 2
+    - Key: 903
+      Value: 1
+    - Key: 906
+      Value: 2
+    - Key: 909
+      Value: 1
+    - Key: 912
+      Value: 2
+    - Key: 916
+      Value: 2
+    - Key: 918
+      Value: 1
+    - Key: 921
+      Value: 1
+    - Key: 924
+      Value: 2
+    - Key: 928
+      Value: 1
+    - Key: 930
+      Value: 2
+    - Key: 933
+      Value: 1
+    - Key: 936
+      Value: 2
+    - Key: 939
+      Value: 2
+    - Key: 942
+      Value: 1
+    - Key: 945
+      Value: 1
+    - Key: 949
+      Value: 1
+    - Key: 950
+      Value: 2
+    - Key: 954
+      Value: 2
+    - Key: 957
+      Value: 1
+    - Key: 960
+      Value: 2
+    - Key: 963
+      Value: 2
+    - Key: 967
+      Value: 1
+    - Key: 970
+      Value: 2
+    - Key: 975
+      Value: 2
+    - Key: 979
+      Value: 1
+    - Key: 982
+      Value: 1
+    - Key: 984
+      Value: 2
+    - Key: 987
+      Value: 1
+    - Key: 990
+      Value: 2
+    - Key: 994
+      Value: 1
+    - Key: 997
+      Value: 2
+    - Key: 1000
+      Value: 2
+    - Key: 1003
+      Value: 2
+    - Key: 1006
+      Value: 1
+    - Key: 1010
+      Value: 1
+    - Key: 1013
+      Value: 2
+    - Key: 1016
+      Value: 1
+    - Key: 1020
+      Value: 2
+    - Key: 1023
+      Value: 2
+    - Key: 1027
+      Value: 2
+    - Key: 1030
+      Value: 1
+    - Key: 1033
+      Value: 1
+    - Key: 1036
+      Value: 2
+    - Key: 1040
+      Value: 1
+    - Key: 1042
+      Value: 2
+    - Key: 1045
+      Value: 1
+    - Key: 1052
+      Value: 1

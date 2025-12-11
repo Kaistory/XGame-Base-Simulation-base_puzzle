@@ -26,11 +26,13 @@ namespace MyGame
         [SerializeField] public SplineAnimate m_SplineAnimate;
         [SerializeField] private float speed;
         [SerializeField] private int m_NumberConveyor;
+        [SerializeField] private int m_spawnNum;
+        [SerializeField] private bool m_isRun;
 
         [Header("Truck Configuration")]
         
         [SerializeField] private LevelConfig.TrunkData trunkData;
-
+        
         public LevelConfig.TrunkData TrunkData
         {
             get => trunkData;
@@ -55,11 +57,22 @@ namespace MyGame
         {
             m_SplineAnimate = GetComponent<SplineAnimate>();
             isClicked = false;
+            m_isRun = false;
+        }
+
+        void Update()
+        {
+                if (m_isRun)
+                {
+                    var spawnPoint = Conveyor.Instance.m_spawnPoint[m_spawnNum];
+                    transform.position = spawnPoint.transform.position;
+                }
         }
 
         private void OnDisable()
         {
             EventManager.EmitEvent(EventName.UpdateCapacity);
+            Conveyor.Instance.checkSpawnPoint[m_spawnNum] = false;
         }
 
         #endregion
@@ -73,12 +86,12 @@ namespace MyGame
                 return;
             
             
-            if (boostMgr.m_boostTypes.Count == 0 && !m_SplineAnimate.IsPlaying && TruckManager.Instance.m_capacity > 0)
+            if (boostMgr.m_boostTypes.Count == 0 && !m_SplineAnimate.IsPlaying && TrunkManager.Instance.m_capacity > 0)
             {
                 isClicked = true;
                 SpawnOnConveyor();
-                TruckManager.Instance.CheckIcebreak();
-                TruckManager.Instance.CheckUnlockKey();
+                TrunkManager.Instance.CheckIcebreak();
+                TrunkManager.Instance.CheckUnlockKey();
             }
             else
             {
@@ -109,12 +122,12 @@ namespace MyGame
                 Destroy(gameObject);
                 DOVirtual.DelayedCall(0.1f, () =>
                 {
-                    if (TruckManager.Instance.CheckWin())
+                    if (TrunkManager.Instance.CheckWin())
                     {
                         LevelManager.Instance.CurrentLevel.CompleteLevel();
                     }
                 });
-                TruckManager.Instance.m_capacity += 1;
+                TrunkManager.Instance.m_capacity += 1;
             }
             isClicked = false;
             BoostManger.Instance.m_boostTypes.Remove(RES_type.BOOSTER_3);
@@ -137,24 +150,33 @@ namespace MyGame
                 isClicked = false;
                 BoostManger.Instance.m_boostTypes.Remove(RES_type.BOOSTER_1);
             });
-            TruckManager.Instance.m_capacity++;
+            TrunkManager.Instance.m_capacity++;
         }
         private void SpawnOnConveyor()
         {
-            var truckMgr = TruckManager.Instance;
+            var truckMgr = TrunkManager.Instance;
             truckMgr.m_capacity--;
             if (m_SplineAnimate != null)
             {
-                Spline spline = m_SplineAnimate.Container.Spline;
-                float3 localPos = spline.EvaluatePosition(m_SplineAnimate.StartOffset);
-                Vector3 spawnPosWorld = m_SplineAnimate.Container.transform.TransformPoint(localPos);
+                foreach (var key in Conveyor.Instance.checkSpawnPoint)
+                {
+                    if (key.Value == false)
+                    {
+                        m_spawnNum = key.Key;
+                        Conveyor.Instance.checkSpawnPoint[m_spawnNum] = true;
+                        break;
+                    }
+                }
                 
                 transform.DOMove(new Vector3(transform.position.x, 3, transform.position.z), 0.1f).OnComplete(() =>
                 {
-                    transform.DOMove(spawnPosWorld, 0.5f).SetEase(Ease.InQuart).OnComplete(() =>
+                    var spawnPoint = Conveyor.Instance.m_spawnPoint[m_spawnNum];
+                    transform.DOMove(spawnPoint.transform.position, 0.2f).SetEase(Ease.InQuart).OnComplete(() =>
                     {
                         isClicked = false;
-                        m_SplineAnimate.Restart(true);
+                        m_isRun = true;
+                        // m_SplineAnimate.StartOffset = spawnPoint.GetComponent<SplineAnimate>().StartOffset;
+                        // m_SplineAnimate.Restart(true);
                     });
                 });
             }
@@ -252,12 +274,17 @@ namespace MyGame
 
         public void UnlockKey(Transform tfDestination)
         {
-            m_keyObject.transform.DOMove(tfDestination.position, 0.5f).OnComplete(() =>
+            DOTween.Sequence().Append(m_keyObject.transform.DOScale(1.6f , 0.4f).SetEase(Ease.OutBack))
+                .Join(m_keyObject.transform.DOMove( m_keyObject.transform.position + Vector3.up , 0.4f).SetEase(Ease.OutBack))
+                .Append(m_keyObject.transform.DOMove(tfDestination.position - Vector3.forward *0.5f, 0.5f) )
+                .Join(m_keyObject.transform.DOLocalRotate( new Vector3(90f, 0f,-90) , 0.5f))
+                .Join(m_keyObject.transform.DOScale(1 , 0.5f))
+                .AppendCallback(() => Destroy(m_keyObject.gameObject) ) .OnComplete(() =>
             {
                 AudioManager.Instance.PlaySFX(AudioName.SFX_Unlock);
                 trunkData.hasLock = false;
                 m_keyObject.SetActive(false);
-            });
+            });;
         }
 
         public void OnHitCutter()
@@ -268,7 +295,7 @@ namespace MyGame
             if ( trunkData.visibleLayerCount == 0)
             {
                 gameObject.GetComponent<BoxCollider>().enabled = false;
-                TruckManager.Instance.m_capacity += 1;
+                TrunkManager.Instance.m_capacity += 1;
                 Destroy(gameObject);
             }
         }

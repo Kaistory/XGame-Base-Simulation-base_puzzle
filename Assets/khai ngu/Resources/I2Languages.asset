@@ -1,0 +1,783 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3def4f9b9791e4ac309c3241680dc3ee, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier:
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: LANGUAGE
+      TermType: 0
+      Languages:
+      - Language
+      - Ngôn Ngữ
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: fonts
+      TermType: 1
+      Languages:
+      - MADE Tommy Soft ExtraBold PERSONAL USE
+      - MADE Tommy Soft ExtraBold PERSONAL USE
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Refill/txt_get
+      TermType: 0
+      Languages:
+      - Get
+      - Lấy
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Refill/txt_next_life_in
+      TermType: 0
+      Languages:
+      - 'Next life in:'
+      - 'Cuộc sống tiếp theo trong:'
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Refill/txt_refill_des
+      TermType: 0
+      Languages:
+      - Get more lives to continue playing
+      - Nhận thêm mạng để tiếp tục chơi
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Refill/txt_refill_now
+      TermType: 0
+      Languages:
+      - Refill Now!
+      - Nạp Tiền Ngay!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Refill/txt_title
+      TermType: 0
+      Languages:
+      - Refill Your Life !
+      - Hãy Lấp Đầy Trái Tim Bạn!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_add_tray_des
+      TermType: 0
+      Languages:
+      - Add one slot to your tray!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_add_tray_title
+      TermType: 0
+      Languages:
+      - Extra Slot
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_hand_des
+      TermType: 0
+      Languages:
+      - Choose any Shooter to place on the conveyor
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_hand_title
+      TermType: 0
+      Languages:
+      - Hand
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_shuffle_des
+      TermType: 0
+      Languages:
+      - Shuffle the shooters in queues!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_shuffle_title
+      TermType: 0
+      Languages:
+      - Shuffle
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_magnet_des
+      TermType: 0
+      Languages:
+      - Choose a color to fire the Rainbow Gun
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_magnet_title
+      TermType: 0
+      Languages:
+      - Rainbow Gun
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_hand_title_2
+      TermType: 0
+      Languages:
+      - Helicopter
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_hand_des_2
+      TermType: 0
+      Languages:
+      - Choose any Shooter to place on the conveyor
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_magnet_des_2
+      TermType: 0
+      Languages:
+      - Pick a color for magnet pull
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Booster/txt_magnet_title_2
+      TermType: 0
+      Languages:
+      - Magnet
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_new_feature
+      TermType: 0
+      Languages:
+      - New Feature
+      - Tính Năng Mới
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_surprise_shooter_title
+      TermType: 0
+      Languages:
+      - Secret Shooter
+      - Thêm khay vào băng tải!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_surprise_shooter_des
+      TermType: 0
+      Languages:
+      - Shooter with a hidden color
+      - Thêm khay
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_connected_shooter_title
+      TermType: 0
+      Languages:
+      - Double Shooter
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_connect_shooter_des
+      TermType: 0
+      Languages:
+      - Shooters move together
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_shooter_valut_title
+      TermType: 0
+      Languages:
+      - Shooter Vault
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_shooter_valut_des
+      TermType: 0
+      Languages:
+      - Holds hidden shooters inside!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_key_lock_title
+      TermType: 0
+      Languages:
+      - Key & Lock
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_key_lock_des
+      TermType: 0
+      Languages:
+      - Find the key to unlock it.
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_hard_pixel_title
+      TermType: 0
+      Languages:
+      - Hard Pixels
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_hard_pixel_des
+      TermType: 0
+      Languages:
+      - Takes more hits to destroy!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_pixel_snake_title
+      TermType: 0
+      Languages:
+      - Pixel Snake
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_pixel_snake_des
+      TermType: 0
+      Languages:
+      - Takes more hits to destroy!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_tunnel_area_title
+      TermType: 0
+      Languages:
+      - Pixels Vault
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_tunnel_area_des
+      TermType: 0
+      Languages:
+      - Spits out pixels around it!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_hidden_block_title
+      TermType: 0
+      Languages:
+      - Pixel hidden
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_hidden_block_des
+      TermType: 0
+      Languages:
+      - Show color when surrounding is not blocked
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_wall_title
+      TermType: 0
+      Languages:
+      - Wall
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_wall_des
+      TermType: 0
+      Languages:
+      - Hinders the shooter’s vision
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_tunnel_gun_title
+      TermType: 0
+      Languages:
+      - Shooter Vault
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Feature/txt_tunnel_gun_des
+      TermType: 0
+      Languages:
+      - Holds hidden shooters inside!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: OutOfSpace/txt_out_of_space_des
+      TermType: 0
+      Languages:
+      - Clear the conveyor and gain +1 extra slot!
+      - Dọn sạch băng chuyền và mở các ô để tiếp tục chơi!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: OutOfSpace/txt_title
+      TermType: 0
+      Languages:
+      - OUT OF SPACE
+      - Hết Chỗ
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: OutOfSpace/txt_title_key
+      TermType: 0
+      Languages:
+      - OUT OF MOVE
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: OutOfSpace/txt_out_of_key_des
+      TermType: 0
+      Languages:
+      - Remove all top locks to keep playing!
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/btn_cancel
+      TermType: 0
+      Languages:
+      - Cancel
+      - Hủy
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/btn_continue
+      TermType: 0
+      Languages:
+      - Continue
+      - Tiếp Tục
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/btn_free
+      TermType: 0
+      Languages:
+      - Free
+      - Miễn Phí
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/btn_next_level
+      TermType: 0
+      Languages:
+      - Next
+      - Tiếp Tục
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/btn_shop
+      TermType: 0
+      Languages:
+      - Shop
+      - Cửa Hàng
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_claim
+      TermType: 0
+      Languages:
+      - Claim
+      - Nhận
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_close
+      TermType: 0
+      Languages:
+      - Close
+      - Đóng
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_coming_soon
+      TermType: 0
+      Languages:
+      - Coming soon!
+      - Sắp mở!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_extreme
+      TermType: 0
+      Languages:
+      - Hard
+      - Khó
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_extreme_level
+      TermType: 0
+      Languages:
+      - Super Hard
+      - Siêu Khó
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_hard
+      TermType: 0
+      Languages:
+      - Hard
+      - Khó
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_hard_level
+      TermType: 0
+      Languages:
+      - Hard Level
+      - Cấp Độ Khó
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_hold_continue
+      TermType: 0
+      Languages:
+      - Hold to see the board
+      - Giữ để xem màn chơi
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_level
+      TermType: 0
+      Languages:
+      - Level {[NUMBER]}
+      - Cấp độ {[NUMBER]}
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_level_failed_value
+      TermType: 0
+      Languages:
+      - LEVEL FAILED
+      - Màn Chơi Thất Bại
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_not_enough_coin
+      TermType: 0
+      Languages:
+      - Not enough gold!
+      - Không đủ vàng!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_play
+      TermType: 0
+      Languages:
+      - PLAY
+      - Chơi
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_play_on
+      TermType: 0
+      Languages:
+      - Play On
+      - Chơi Trên
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_purchase_successful
+      TermType: 0
+      Languages:
+      - Purchase successful!
+      - Mua thành công!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_reward
+      TermType: 0
+      Languages:
+      - Reward
+      - Phần Thưởng
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_tap_to_continue
+      TermType: 0
+      Languages:
+      - Tap to continue
+      - Chạm để tiếp tục
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_try_again
+      TermType: 0
+      Languages:
+      - Try Again
+      - Thử Lại
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_unlock
+      TermType: 0
+      Languages:
+      - Unlock
+      - Mở Khóa
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_unlock_at_level
+      TermType: 0
+      Languages:
+      - Unlock at <color=red>level {0}</color>
+      - Mở khóa ở <color=red>cấp độ {0}</color>
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_unlocked
+      TermType: 0
+      Languages:
+      - Unlocked
+      - Đã mở khóa
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Game/txt_video_not_available
+      TermType: 0
+      Languages:
+      - Video not available!
+      - Quảng cáo không có sẵn!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Setting/titles_setting
+      TermType: 0
+      Languages:
+      - SETTING
+      - CÀI ĐẶT
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Setting/txt_bonus
+      TermType: 0
+      Languages:
+      - Bonus
+      - Thưởng
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Setting/txt_quit
+      TermType: 0
+      Languages:
+      - Quit Level
+      - Thoát
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Setting/txt_reset_in
+      TermType: 0
+      Languages:
+      - Reset in
+      - Làm mới trong
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Setting/txt_restore_failed
+      TermType: 0
+      Languages:
+      - Restore purchase failed!
+      - Khôi phục mua hàng thất bại!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Setting/txt_restore_purchase
+      TermType: 0
+      Languages:
+      - Restore Purchase
+      - Khôi Phục Mua Hàng
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Setting/txt_restore_success
+      TermType: 0
+      Languages:
+      - Restore purchase success!
+      - Khôi phục mua hàng thành công!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Shop/titles_no_ads
+      TermType: 0
+      Languages:
+      - Remove ADS
+      - BỎ QUẢNG CÁO
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Shop/titles_shop
+      TermType: 0
+      Languages:
+      - SHOP
+      - CỬA HÀNG
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Shop/txt_best_offer
+      TermType: 0
+      Languages:
+      - Best Offer
+      - Ưu Đãi Tốt Nhất
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Shop/txt_best_seller
+      TermType: 0
+      Languages:
+      - Best Seller
+      - Bán Chạy Nhất
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Shop/txt_bonus
+      TermType: 0
+      Languages:
+      - Bonus
+      - Thưởng
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Shop/titles_no_ads_popup
+      TermType: 0
+      Languages:
+      - Turn off the ADS and play without interruption
+      - Tắt quảng cáo và chơi không bị gián đoạn
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/titles_winstreak
+      TermType: 0
+      Languages:
+      - Cubic Magic
+      - 
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/titles_winstreak_des1
+      TermType: 0
+      Languages:
+      - "The Cubic Magic event has begun!\nWin on your first try to activate Cubic Magic.\nThe longer your win streak, the more rewards you unlock."
+      - "Sự kiện Cubic Magic đã bắt đầu!\nThắng ngay ở lượt đầu tiên để kích hoạt Cubic Magic.\nChuỗi thắng càng dài, bạn sẽ mở khóa càng nhiều phần thưởng."
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/titles_winstreak_des2
+      TermType: 0
+      Languages:
+      - The Cubic will automatically choose a color block and blast it at the start of the level.
+      - Cubic sẽ tự động chọn một khối màu và kích nổ nó khi bắt đầu màn chơi.
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/info_winstreak1
+      TermType: 0
+      Languages:
+      - Win levels on your first try
+      - Thắng màn ngay ở lần chơi đầu tiên
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/info_winstreak2
+      TermType: 0
+      Languages:
+      - Earn Cubic Magic as you win more
+      - Nhận thêm Magic Cubic khi bạn thắng nhiều hơn
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/info_winstreak3
+      TermType: 0
+      Languages:
+      - Start new levels with powerful advantages
+      - Bắt đầu màn mới với những lợi thế mạnh mẽ
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/info_winstreak4
+      TermType: 0
+      Languages:
+      - Losing a level will reset your Cubic Magic streak!
+      - Thua một màn sẽ đặt lại chuỗi Cubic Magic của bạn!
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/fail
+      TermType: 0
+      Languages:
+      - You will lose your Cube Magic and a life
+      - Bạn sẽ mất Cubic Magic và mất 1 mạng
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Winstreak/
+      TermType: 0
+      Languages:
+      - The more you win, the more Cubic Magic you get
+      - Bạn thắng càng nhiều, bạn nhận được càng nhiều Cubic Magic
+      - 
+      Flags: 000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName:
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Vietnamese
+      Code: vi
+      Flags: 0
+    - Name: Description
+      Code:
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbx4O8etWGEHhszrq3vGczBe3jnIejkIS95vo_cYv4v0KcgICWB1QMmxd7zAzg-Kn89P/exec
+    Google_SpreadsheetKey: 1tez-f603ElTwS8Yfqi72E0Wq-69JaMVmL_cORyXOWac
+    Google_SpreadsheetName: I2Loc Blaze Shooter IOS Localization
+    Google_LastUpdatedVersion: 1764228497637
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets:
+    - {fileID: 11400000, guid: 10db18d28b1e7cd43a4656f7044a8108, type: 2}
+    - {fileID: 12800000, guid: d5bcad9fea7461b4f9ca2d568d9fcedd, type: 3}
+    - {fileID: 12800000, guid: b2b989f430f76d940a8088806c9bba89, type: 3}
+    - {fileID: 12800000, guid: 585bbd2918c71ed488493d09c09c6580, type: 3}

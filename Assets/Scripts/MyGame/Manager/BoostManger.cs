@@ -17,8 +17,8 @@ namespace MyGame.Manager
             m_boostTypes.Insert(0,type);
             if (type == RES_type.BOOSTER_2)
             {
-                TruckManager.Instance.m_capacity += 3;
-                TruckManager.Instance.m_maxCapacity += 3;
+                TrunkManager.Instance.m_capacity += 3;
+                TrunkManager.Instance.m_maxCapacity += 3;
                 m_boostTypes.RemoveAt(0);
                 TigerForge.EventManager.EmitEvent(EventName.UpdateCapacity);
             }

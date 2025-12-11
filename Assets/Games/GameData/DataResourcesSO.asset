@@ -18,16 +18,16 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: a7919d7dc481d9d488b260cb6fceea1c, type: 2}
     price: 0
     name: Remove from conveyor
-    lvUnlock: 1
+    lvUnlock: 5
   - res_type: 4
     des: 
     icon: {fileID: 21300000, guid: 50b00e58e6b224840a21b675b8777f6e, type: 2}
     price: 0
     name: Add Capacity
-    lvUnlock: 1
+    lvUnlock: 10
   - res_type: 5
     des: 
     icon: {fileID: 21300000, guid: 144e6db437cef9c4aba865fe0fad62e3, type: 2}
     price: 0
     name: Remove outlayer
-    lvUnlock: 1
+    lvUnlock: 15

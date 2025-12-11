@@ -45,7 +45,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
-      visibleLayerCount: 0
+      visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 3.72, y: 0, z: -9.17}
       colorLayers: 0a0000000b0000000b000000
@@ -53,7 +53,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
-      visibleLayerCount: 0
+      visibleLayerCount: 2
       amountUpTrunk: 0
     cutterMachine:
     - position: {x: 1.2, y: 0, z: -2.8}
@@ -73,25 +73,25 @@ MonoBehaviour:
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
-      visibleLayerCount: 2
-      amountUpTrunk: 0
+      isBlock: 1
+      visibleLayerCount: 3
+      amountUpTrunk: 1
     - position: {x: 1.55, y: -2, z: -6.475}
       colorLayers: 040000000400000007000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
       visibleLayerCount: 3
-      amountUpTrunk: -2
+      amountUpTrunk: 1
     - position: {x: 0.21, y: -0.5, z: -6.43}
       colorLayers: 040000000100000001000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 0
-      visibleLayerCount: 2
-      amountUpTrunk: -4
+      visibleLayerCount: 3
+      amountUpTrunk: 0
     cutterMachine:
     - position: {x: -2.019013, y: 0, z: -9.684159}
       rot: -90
@@ -188,7 +188,7 @@ MonoBehaviour:
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
       visibleLayerCount: 3
       amountUpTrunk: -9
     - position: {x: -3.732, y: -3.5, z: -6.817}
@@ -196,7 +196,7 @@ MonoBehaviour:
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
       visibleLayerCount: 3
       amountUpTrunk: -9
     - position: {x: -2.59, y: -2, z: -7.58}
@@ -212,7 +212,7 @@ MonoBehaviour:
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
       visibleLayerCount: 2
       amountUpTrunk: -7
     - position: {x: 5.32, y: -3.5, z: -2.08}
@@ -220,7 +220,7 @@ MonoBehaviour:
       hasLock: 0
       isChained: 1
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
       visibleLayerCount: 3
       amountUpTrunk: -8
     - position: {x: 5.964, y: -2, z: -2.08}

@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using MyGame.Manager;
+using MyGame.Tutorial;
 using UnityEngine;
 
 public class Level : MonoBehaviour
@@ -25,7 +26,7 @@ public class Level : MonoBehaviour
     public void Initialize()
     {
         Conveyor.Instance.Initialize();
-        TruckManager.Instance.Initialize();
+        TrunkManager.Instance.Initialize();
         CutterMachineManager.Instance.Initialize();
         AudioManager.Instance.PlayMusic(AudioName.Music_BackGround[levelInfo.level % 3 + 1]);
         BgMapManager.Instance.Initialize();
@@ -36,6 +37,15 @@ public class Level : MonoBehaviour
         LevelManager.IsGameReady?.Invoke(true);
         //AudioManager.Instance.StopMusic();
         //AudioManager.Instance.PlayMusic("music_bg");
+        if (levelInfo.level == 1)
+        {
+            UIManager.Instance.ShowPopup<UiTutorialLv1>();
+        } else if (levelInfo.level == DataManager.Instance.GetInfoResources(RES_type.BOOSTER_1).lvUnlock ||
+                   levelInfo.level == DataManager.Instance.GetInfoResources(RES_type.BOOSTER_2).lvUnlock ||
+                   levelInfo.level == DataManager.Instance.GetInfoResources(RES_type.BOOSTER_3).lvUnlock)
+        {
+            UIManager.Instance.ShowPopup<UiTutorialBoost>();
+        }
     }
 
     public void SetLevelInfo(LevelConfig.LevelInfo info)

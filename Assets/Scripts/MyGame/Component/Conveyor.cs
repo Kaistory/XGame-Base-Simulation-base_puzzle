@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using MyBox;
 using MyGame.Data;
@@ -12,8 +13,12 @@ public class Conveyor : Singleton<Conveyor>
     [SerializeField] private int m_NumberConveyor;
     [SerializeField] private SplineContainer m_SplineContainer;
     [SerializeField] private GameObject[] m_Tunners = new GameObject[2];
-    [SerializeField] private GameObject m_Prefab;
-    
+    [SerializeField] private GameObject m_PrefabTunnel;
+    [SerializeField] private GameObject m_PrefabArrow;
+    [SerializeField] private GameObject m_PrefabSpawn;
+    [SerializeField] public List<GameObject> m_spawnPoint;
+    [SerializeField] public List<GameObject> m_arrowPoint;
+    public Dictionary<int, bool> checkSpawnPoint = new Dictionary<int, bool>();
     
 
     public void Initialize()
@@ -24,10 +29,42 @@ public class Conveyor : Singleton<Conveyor>
         
         GameObject pathObj = Resources.Load<GameObject>(PathNameResource.PathSpline + m_NumberConveyor.ToString());
         m_SplineContainer = pathObj.GetComponent<SplineContainer>();
-        
+        AddArrow();
         AddTunnel();
     }
 
+    void AddArrow()
+    {
+       
+        foreach (GameObject spawn in m_spawnPoint)
+        {
+            Destroy(spawn.gameObject);
+        }
+        foreach (GameObject arrow in m_arrowPoint)
+        {
+            Destroy(arrow.gameObject);
+        }
+        m_spawnPoint.Clear();
+        m_arrowPoint.Clear();
+        checkSpawnPoint.Clear();
+        int numArrow = Mathf.CeilToInt(m_SplineContainer.CalculateLength() / 5);
+        for (int i = 0; i < numArrow; i++)
+        {
+            var spawnObject = Instantiate(m_PrefabSpawn,transform);
+            var arrowObject = Instantiate(m_PrefabArrow,transform);
+            checkSpawnPoint.Add(i, false);
+            SplineAnimate splineAnimate = spawnObject.GetComponent<SplineAnimate>();
+            SplineAnimate arrowAnimate = arrowObject.GetComponent<SplineAnimate>();
+            splineAnimate.Container = m_SplineContainer;
+            splineAnimate.StartOffset = 1 - (1.0f / numArrow) * i;
+            splineAnimate.Restart(true);
+            arrowAnimate.Container = m_SplineContainer;
+            arrowAnimate.StartOffset = 1 - (1.0f / numArrow) * i - 0.1f;
+            arrowAnimate.Restart(true);
+            m_spawnPoint.Add(spawnObject);
+            m_arrowPoint.Add(arrowObject);
+        }
+    }
     void AddTunnel()
     {
         var spline = m_SplineContainer.Spline;

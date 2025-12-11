@@ -88,7 +88,7 @@ public class Cutter : MonoBehaviour
                               {
                                   CutterMachineManager.Instance.removeColor.Insert(0, m_Allcolor);
                                   Destroy(gameObject);
-                                  if (TruckManager.Instance.CheckWin())
+                                  if (TrunkManager.Instance.CheckWin())
                                   {
                                       LevelManager.Instance.CurrentLevel.CompleteLevel();
                                   }

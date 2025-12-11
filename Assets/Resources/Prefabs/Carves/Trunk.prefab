@@ -342,6 +342,8 @@ MonoBehaviour:
   m_SplineAnimate: {fileID: 0}
   speed: 5
   m_NumberConveyor: 0
+  m_spawnNum: 0
+  m_isRun: 0
   trunkData:
     position: {x: 0, y: 0, z: 0}
     colorLayers: 000000000000000000000000
@@ -352,9 +354,6 @@ MonoBehaviour:
     visibleLayerCount: 1
     amountUpTrunk: 0
   m_numIce: 0
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!65 &2840142830100462937
 BoxCollider:
   m_ObjectHideFlags: 0
