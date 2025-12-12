@@ -15,7 +15,6 @@ namespace MyGame
         [SerializeField] private Transform[] positionCutters = new Transform[3];
         [SerializeField] private Cutter cutterPefab;
         [SerializeField] private GameObject cuttersManager;
-        [SerializeField] private Cutter[] cuttersGameObject = new Cutter[3];
         
         // Conveyor Ani
         [SerializeField] private ConveyorBelt3D m_conveyBelt;

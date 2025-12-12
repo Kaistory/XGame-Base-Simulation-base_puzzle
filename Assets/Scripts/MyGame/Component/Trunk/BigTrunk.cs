@@ -15,7 +15,9 @@ namespace MyGame
     public class BigTrunk : MonoBehaviour, IPointerDownHandler
     {
         #region Header
-        [Header("Object Reference")]
+
+        [Header("Object Reference")] 
+        [SerializeField] private ParticleSystem m_icebreakPaSy;
         [SerializeField] private GameObject m_chainObject;
         [SerializeField] private GameObject m_keyObject;
         [SerializeField] private GameObject m_blockObject;
@@ -82,16 +84,22 @@ namespace MyGame
         public void OnPointerDown(PointerEventData eventData)
         {
             var boostMgr = BoostManger.Instance;
+            
             if (trunkData.isBlock || trunkData.isFrozen || trunkData.isChained || isClicked)
                 return;
-            
+            else
+            {
+                if (trunkData.hasLock &&  !TrunkManager.Instance.CheckUnlockKey())
+                {
+                    return;
+                }
+            }
             
             if (boostMgr.m_boostTypes.Count == 0 && !m_SplineAnimate.IsPlaying && TrunkManager.Instance.m_capacity > 0)
             {
                 isClicked = true;
                 SpawnOnConveyor();
                 TrunkManager.Instance.CheckIcebreak();
-                TrunkManager.Instance.CheckUnlockKey();
             }
             else
             {
@@ -136,7 +144,7 @@ namespace MyGame
         
         private void RemoveFromConveyor()
         {
-            if (!m_SplineAnimate.IsPlaying)
+            if (!m_isRun)
             {
                 isClicked = false;
                 BoostManger.Instance.m_boostTypes.Remove(RES_type.BOOSTER_1);
@@ -144,7 +152,7 @@ namespace MyGame
             }
 
             Vector3 removePos = trunkData.position;
-            m_SplineAnimate.Pause();
+            m_isRun = false;
             transform.DOMove(removePos, 0.5f).SetEase(Ease.InQuart).OnComplete(() =>
             {
                 isClicked = false;
@@ -310,6 +318,7 @@ namespace MyGame
                 {
                     trunkData.isBlock = false;
                     trunk.m_blockObject.SetActive(false);
+                    m_keyObject.GetComponent<Animator>().enabled = true;
                 }
             }
         }

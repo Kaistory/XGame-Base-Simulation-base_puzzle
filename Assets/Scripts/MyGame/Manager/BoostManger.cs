@@ -17,10 +17,13 @@ namespace MyGame.Manager
             m_boostTypes.Insert(0,type);
             if (type == RES_type.BOOSTER_2)
             {
-                TrunkManager.Instance.m_capacity += 3;
-                TrunkManager.Instance.m_maxCapacity += 3;
+                var trunkMg = TrunkManager.Instance;
+                trunkMg.m_capacity += 3;
+                trunkMg.m_maxCapacity += 3;
+                Conveyor.Instance.AddArrow(trunkMg.m_maxCapacity);
                 m_boostTypes.RemoveAt(0);
                 TigerForge.EventManager.EmitEvent(EventName.UpdateCapacity);
+                TigerForge.EventManager.EmitEvent(EventName.UseBoostCapacity);
             }
         }
     }

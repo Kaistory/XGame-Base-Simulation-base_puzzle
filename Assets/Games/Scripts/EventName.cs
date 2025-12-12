@@ -14,4 +14,5 @@ public partial class EventName
     public static string ActiveLuckySound = $"ActiveLuckySound";
     
     public static string UpdateCapacity = $"UpdateCapacity";
+    public static string UseBoostCapacity = $"UseBoostCapacity";
 }

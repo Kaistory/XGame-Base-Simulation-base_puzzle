@@ -22,6 +22,8 @@ namespace _JigblockPuzzle
         [SerializeField] private BoosterInGame btnBooster2;
         [SerializeField] private BoosterInGame btnBooster3;
 
+        [Header("Particle System")] [SerializeField]
+        private ParticleSystem particleSystemBoost;
         private LevelConfig.LevelInfo levelInfo;
         private int currentLevel = 0;
 
@@ -34,12 +36,14 @@ namespace _JigblockPuzzle
             InitBooster();
             InitUI();
             TigerForge.EventManager.StartListening(EventName.UpdateCapacity,UpdateCapacity);
+            TigerForge.EventManager.StartListening(EventName.UseBoostCapacity,UseParticale);
         }
 
         protected void OnDisable()
         {
             LevelManager.IsGameReady -= SetBlockClick;
             TigerForge.EventManager.StopListening(EventName.UpdateCapacity,UpdateCapacity);
+            TigerForge.EventManager.StopListening(EventName.UseBoostCapacity,UseParticale);
         }
 
         private void InitUI()
@@ -83,6 +87,11 @@ namespace _JigblockPuzzle
                 txtAmountCapacity.color =Color.white;
             }
             
+        }
+
+        void UseParticale()
+        {
+            particleSystemBoost.Play();
         }
 
 

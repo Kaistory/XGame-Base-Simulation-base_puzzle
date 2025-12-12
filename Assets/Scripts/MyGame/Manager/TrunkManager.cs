@@ -47,7 +47,7 @@ namespace MyGame.Manager
                 }
             }
         }
-        public void CheckUnlockKey()
+        public bool CheckUnlockKey()
         {
             foreach (Transform child in transform)
             {
@@ -61,10 +61,13 @@ namespace MyGame.Manager
                         {
                             bigTruck.UnlockKey(childUnlock);
                             bigTruck2.BreakChain();
+                            return true;
                         }
                     }
                 }
             }
+
+            return false;
         }
 
         public bool CheckWin()
