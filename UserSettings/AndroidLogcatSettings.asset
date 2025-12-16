@@ -1,13 +1,32 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "R58N72KX7XE",
     "m_SelectedProcess": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R58N72KX7XE",
+        "name": "com.viet.game.app.dev",
+        "processId": 13779,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownProcessesForSerialization": [],
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "R58N72KX7XE",
+            "name": "com.sec.android.app.launcher",
+            "processId": 2199,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N72KX7XE",
+            "name": "com.vnid",
+            "processId": 13541,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N72KX7XE",
+            "name": "com.viet.game.app.dev",
+            "processId": 13779,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -45,8 +64,19 @@
         "Height": 0.0
     },
     "m_MemoryViewerState": {
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "AutoCapture": true
     },
