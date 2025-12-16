@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using mygame.sdk;
 using UnityEngine;
@@ -17,7 +18,20 @@ namespace MyGame.Tutorial
             "Add conveyor capacity: +3 trunks ",
             "Remove the outer trunk: the outer trunk will be removed."
         };
-        
+
+        private void OnEnable()
+        {
+            AudioManager.Instance.PauseMusic();
+            AudioManager.Instance.PlaySFX(AudioName.SFX_New_Feature);
+        }
+
+        private void OnDisable()
+        {
+            AudioManager.Instance.StopSFX();
+            AudioManager.Instance.ResumeMusic();
+            DOTween.Kill(this);
+        }
+
         public virtual void Initialize(UIManager manager)
         {
             this.uiManager = manager;

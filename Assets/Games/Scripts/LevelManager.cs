@@ -84,7 +84,6 @@ public class LevelManager : MonoBehaviour
         UnloadGame();
         bool isAnim = false;
         var uiInGame = UIManager.Instance.GetScreenActive<UIInGame>();
-
         if ( /*uiInGame == null &&*/ !isForce)
         {
             long startTime = 0;

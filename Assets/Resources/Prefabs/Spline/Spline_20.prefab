@@ -61,23 +61,41 @@ MonoBehaviour:
   - m_EditModeType: 1
     m_Knots:
     - Position:
+        x: 0.42228812
+        y: 0.03
+        z: 0.5227504
+      TangentIn:
         x: 0
         y: 0
-        z: 0
-      TangentIn:
-        x: -0
-        y: -0
         z: -0.4545687
       TangentOut:
         x: 0
         y: 0
-        z: 0.4545687
+        z: 0.22728437
       Rotation:
         value:
           x: 0
-          y: -0.37771106
+          y: -0.6360783
           z: -0
-          w: 0.9259236
+          w: 0.77162457
+    - Position:
+        x: -1.783066
+        y: 0
+        z: 0.5037204
+      TangentIn:
+        x: 0.000000059604645
+        y: 0
+        z: -0.7566368
+      TangentOut:
+        x: -0.00000011920929
+        y: 0
+        z: 0.75663674
+      Rotation:
+        value:
+          x: 0
+          y: -0.52795756
+          z: -0
+          w: 0.8492708
     - Position:
         x: -3.1795402
         y: 0
@@ -85,7 +103,7 @@ MonoBehaviour:
       TangentIn:
         x: 0
         y: 0
-        z: -3.3688974
+        z: -1.6844488
       TangentOut:
         x: 0
         y: 0
@@ -311,14 +329,14 @@ MonoBehaviour:
           x: 0
           y: 0.999662
           z: 0
-          w: 0.025995897
+          w: 0.02599594
     - Position:
-        x: 2.6422882
+        x: 3.352288
         y: 0
-        z: -10.057249
+        z: -9.50725
       TangentIn:
-        x: -0
-        y: -0
+        x: 0
+        y: 0
         z: -0.5151543
       TangentOut:
         x: 0
@@ -327,11 +345,13 @@ MonoBehaviour:
       Rotation:
         value:
           x: 0
-          y: 0.9163537
+          y: 0.8660254
           z: 0
-          w: -0.40036985
+          w: -0.50000006
     m_MetaData:
-    - Mode: 0
+    - Mode: 3
+      Tension: 0.5
+    - Mode: 4
       Tension: 0.5
     - Mode: 3
       Tension: 0.5
@@ -359,7 +379,7 @@ MonoBehaviour:
       Tension: 0.5
     - Mode: 3
       Tension: 0.5
-    - Mode: 0
+    - Mode: 3
       Tension: 0.5
     m_Closed: 0
     m_IntData:

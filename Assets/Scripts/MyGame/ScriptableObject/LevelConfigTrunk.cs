@@ -63,7 +63,8 @@ public class LevelConfigTrunk : ScriptableObject
         [JsonProperty("hslck")] public bool hasLock;       // Khóa
         [JsonProperty("chn")] public bool isChained;      // Xích (Chain)
         [JsonProperty("ice")] public bool isFrozen;       // Băng (Ice)
-        [JsonProperty("block")] public bool isBlock;       // Băng (Block)
+        [JsonProperty("block")] public bool isBlock;   
+        [JsonProperty("boom")] public bool hasBoom; // Băng (Block)
         
         // Block số lớp hiển thị (Ví dụ: chỉ hiện 1 lớp, 2 lớp hay cả 3)
         [JsonProperty("vlc")] public int visibleLayerCount;

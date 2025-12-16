@@ -26,6 +26,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -45,6 +46,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 3.72, y: 0, z: -9.17}
@@ -53,6 +55,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     cutterMachine:
@@ -74,6 +77,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 1.55, y: -2, z: -6.475}
@@ -82,6 +86,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 0.21, y: -0.5, z: -6.43}
@@ -90,6 +95,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -109,6 +115,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 4.19, y: -0.5, z: -8.28}
@@ -117,6 +124,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -138,6 +146,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -0.66, y: -2, z: -5.62}
@@ -146,6 +155,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 1.55, y: -2, z: -6.475}
@@ -154,6 +164,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 0.21, y: -0.5, z: -6.43}
@@ -162,6 +173,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -3.51, y: -0.5, z: -0.1}
@@ -170,6 +182,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     cutterMachine:
@@ -189,6 +202,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: -9
     - position: {x: -3.732, y: -3.5, z: -6.817}
@@ -197,6 +211,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: -9
     - position: {x: -2.59, y: -2, z: -7.58}
@@ -205,6 +220,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: -7
     - position: {x: 5.879, y: -5, z: -2.0800002}
@@ -213,6 +229,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: -7
     - position: {x: 5.32, y: -3.5, z: -2.08}
@@ -221,6 +238,7 @@ MonoBehaviour:
       isChained: 1
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: -8
     - position: {x: 5.964, y: -2, z: -2.08}
@@ -229,11 +247,12 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: -8
     cutterMachine:
-    - position: {x: 6, y: 0, z: -8.5}
-      rot: -90
+    - position: {x: 5.66, y: 0, z: -8.5}
+      rot: 270
     allColorsSpawnCutter: 0400000003000000040000000100000004000000090000000600000006000000040000000a00000001000000080000000b000000030000000b000000
   - name: Level 7 - EASY
     level: 7
@@ -248,6 +267,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -0.29, y: -2, z: 0.37}
@@ -256,6 +276,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 0.09, y: -2, z: -13.13}
@@ -264,6 +285,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -0.66, y: -2, z: -10.889999}
@@ -272,6 +294,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 1.55, y: -2, z: -11.745}
@@ -280,14 +303,16 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
-      amountUpTrunk: 1
+      amountUpTrunk: 2
     - position: {x: 0.21, y: -0.5, z: -11.7}
       colorLayers: 040000000200000008000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 1.48, y: -0.5, z: -10.68}
@@ -296,6 +321,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     - position: {x: 0.47, y: -0.5, z: -0.1}
@@ -304,6 +330,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -323,6 +350,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -0.66, y: -2, z: -5.62}
@@ -331,6 +359,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 1.55, y: -2, z: -5.629}
@@ -339,6 +368,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 0.21, y: -0.5, z: -5.582}
@@ -347,6 +377,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -3.51, y: -0.5, z: -0.1}
@@ -355,6 +386,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -376,6 +408,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2, y: -0.5, z: -10}
@@ -384,6 +417,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 3.08, y: -0.5, z: -11.85}
@@ -392,6 +426,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -4.45, y: -0.5, z: -2.09}
@@ -400,6 +435,7 @@ MonoBehaviour:
       isChained: 1
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -4.45, y: -0.5, z: -0.1}
@@ -408,6 +444,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -2.65, y: -0.5, z: -0.95}
@@ -416,6 +453,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2.96, y: 1.19, z: -10.57}
@@ -424,6 +462,7 @@ MonoBehaviour:
       isChained: 1
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -3.5, y: 1.19, z: -0.99}
@@ -432,6 +471,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -453,6 +493,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 4.51, y: -2, z: -3.25}
@@ -461,6 +502,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -5.07, y: -2, z: -9.95}
@@ -469,6 +511,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -3.67, y: -2, z: -8.24}
@@ -477,6 +520,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -3.1, y: -2, z: -10.03}
@@ -485,6 +529,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 2
     - position: {x: -4.31, y: -0.5, z: -9.14}
@@ -493,6 +538,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 1
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -2.63, y: -0.5, z: -10.68}
@@ -501,6 +547,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     - position: {x: 3.77, y: -0.5, z: -2.72}
@@ -509,6 +556,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -524,68 +572,76 @@ MonoBehaviour:
     levelType: 0
     levelRewardValue: 30
     trunks:
-    - position: {x: -2.42, y: -6.5, z: -13.59}
+    - position: {x: -2.42, y: -6.5, z: -10.36}
       colorLayers: 0b0000000100000005000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
-    - position: {x: 1.64, y: -6.5, z: -13.59}
+    - position: {x: 1.64, y: -6.5, z: -10.36}
       colorLayers: 030000000600000003000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
-    - position: {x: -1.46, y: -5, z: -13.59}
+    - position: {x: -1.46, y: -5, z: -10.36}
       colorLayers: 0b0000000200000009000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
-    - position: {x: 2.6, y: -5, z: -13.59}
+    - position: {x: 2.6, y: -5, z: -10.36}
       colorLayers: 040000000100000009000000
       hasLock: 0
       isChained: 0
       isFrozen: 1
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
-    - position: {x: -1.46, y: -3.5, z: -13.59}
+    - position: {x: -1.46, y: -3.5, z: -10.36}
       colorLayers: 010000000200000009000000
       hasLock: 0
       isChained: 0
       isFrozen: 1
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
-    - position: {x: 2.6, y: -3.5, z: -13.59}
+    - position: {x: 2.6, y: -3.5, z: -10.36}
       colorLayers: 010000000200000009000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
-    - position: {x: -1.46, y: -2, z: -13.59}
+    - position: {x: -1.46, y: -2, z: -10.36}
       colorLayers: 040000000300000005000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
-    - position: {x: 2.6, y: -2, z: -13.59}
+    - position: {x: 2.6, y: -2, z: -10.36}
       colorLayers: 070000000600000003000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -607,6 +663,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: 2.96, y: -5, z: -5}
@@ -615,6 +672,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: 2.96, y: -3.5, z: -5}
@@ -623,6 +681,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 1
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: 2.7, y: -2, z: -5}
@@ -631,6 +690,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 1
       amountUpTrunk: 0
     cutterMachine:
@@ -644,76 +704,84 @@ MonoBehaviour:
     levelType: 0
     levelRewardValue: 30
     trunks:
-    - position: {x: 5.405, y: -6.5, z: -7.014}
+    - position: {x: -0.08, y: -6.5, z: -0.79}
       colorLayers: 04000000030000000a000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
-      amountUpTrunk: 2
-    - position: {x: 5.3363967, y: -5, z: -5.3549614}
+      amountUpTrunk: 0
+    - position: {x: 1.5802062, y: -5, z: -0.8188681}
       colorLayers: 030000000200000001000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
-      amountUpTrunk: 1
-    - position: {x: 5.129721, y: -5, z: -7.89356}
+      amountUpTrunk: 0
+    - position: {x: -0.94189125, y: -5, z: -0.46358413}
       colorLayers: 0b000000090000000a000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
-      amountUpTrunk: 1
-    - position: {x: 5.959221, y: -3.5, z: -6.6517754}
+      amountUpTrunk: 0
+    - position: {x: 0.24907845, y: -3.5, z: -1.3645217}
       colorLayers: 050000000200000004000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
-      amountUpTrunk: 2
-    - position: {x: 5.3363967, y: -2, z: -5.3549614}
+      amountUpTrunk: 0
+    - position: {x: 1.5802062, y: -2, z: -0.8188681}
       colorLayers: 0b0000000200000008000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
-      amountUpTrunk: 1
-    - position: {x: 5.174107, y: -2, z: -7.3483677}
+      amountUpTrunk: 0
+    - position: {x: -0.40024394, y: -2, z: -0.5398845}
       colorLayers: 040000000800000007000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
-      amountUpTrunk: 1
-    - position: {x: 5.0104876, y: -0.5, z: -6.4250426}
+      amountUpTrunk: 0
+    - position: {x: 0.5310931, y: -0.5, z: -0.4307285}
       colorLayers: 040000000600000003000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
-    - position: {x: 2.97, y: -2, z: 1.89}
+    - position: {x: 3.95, y: -2, z: -7.58}
       colorLayers: 04000000030000000a000000
       hasLock: 0
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
-    - position: {x: -0.87, y: 0, z: -1.34}
-      rot: 314.65
     - position: {x: -5.2, y: 0, z: -6.82}
       rot: 136.57349
-    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000
+    - position: {x: -3.8, y: 0, z: 3.91}
+      rot: 152.85977
+    allColorsSpawnCutter: 030000000200000004000000010000000300000004000000030000000b0000000a000000090000000a0000000a00000005000000020000000b0000000200000008000000040000000800000007000000040000000600000003000000
   - name: Level 14 - EASY
     level: 14
     levelID: 1
@@ -723,10 +791,11 @@ MonoBehaviour:
     trunks:
     - position: {x: 4.45, y: -6.5, z: -7.04}
       colorLayers: 0a0000000200000006000000
-      hasLock: 1
+      hasLock: 0
       isChained: 0
       isFrozen: 0
-      isBlock: 0
+      isBlock: 1
+      hasBoom: 1
       visibleLayerCount: 3
       amountUpTrunk: 2
     - position: {x: 4.2469997, y: -5, z: -5.392}
@@ -735,6 +804,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 4.2469997, y: -5, z: -7.939}
@@ -743,6 +813,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 4.9729996, y: -3.5, z: -6.6340003}
@@ -751,6 +822,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 4
     - position: {x: 4.2469997, y: -2, z: -5.392}
@@ -759,6 +831,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 1
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 4.2469997, y: -2, z: -7.392}
@@ -767,6 +840,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 1
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 6.127, y: -2, z: -7.392}
@@ -775,6 +849,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 1
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 6.127, y: -2, z: -5.7720003}
@@ -783,6 +858,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 1
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 5.167, y: -0.5, z: -6.485}
@@ -791,17 +867,18 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     cutterMachine:
     - position: {x: -4.2, y: 0, z: -3.1}
       rot: 90
-    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
-  - name: Level 15 - EASY
+    allColorsSpawnCutter: 050000000a000000040000000200000003000000060000000700000002000000020000000200000006000000060000000100000004000000040000000400000006000000030000000a000000020000000600000002000000090000000b0000000a00000005000000
+  - name: Level 15 - HARD
     level: 15
     levelID: 1
     mapID: 18
-    levelType: 0
+    levelType: 1
     levelRewardValue: 30
     trunks:
     - position: {x: 2, y: -6.5, z: -7.2}
@@ -810,6 +887,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: 2, y: -6.5, z: -10.28}
@@ -818,6 +896,7 @@ MonoBehaviour:
       isChained: 1
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -2.1, y: -6.5, z: -9.22}
@@ -826,6 +905,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 1
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: 2.96, y: -5, z: -7.2}
@@ -834,6 +914,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 2.96, y: -5, z: -10.28}
@@ -842,6 +923,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: -1.1399996, y: -5, z: -9.22}
@@ -850,6 +932,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 2.96, y: -3.5, z: -7.2}
@@ -858,6 +941,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 1
       isBlock: 1
+      hasBoom: 1
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: 2.96, y: -3.5, z: -10.28}
@@ -866,6 +950,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: -1.1399996, y: -3.5, z: -9.22}
@@ -874,6 +959,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 2.96, y: -2, z: -7.2}
@@ -882,6 +968,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 1
     - position: {x: 2.96, y: -2, z: -10.28}
@@ -890,6 +977,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 1
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: -1.1399996, y: -2, z: -9.22}
@@ -898,6 +986,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 1
       visibleLayerCount: 2
       amountUpTrunk: 1
     - position: {x: 2.96, y: -0.5, z: -7.2}
@@ -906,6 +995,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     - position: {x: 2.96, y: -0.5, z: -10.28}
@@ -914,6 +1004,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -1.1399996, y: -0.5, z: -9.22}
@@ -922,12 +1013,13 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     cutterMachine:
     - position: {x: -2.384196, y: 0, z: -1.2406596}
       rot: 181.2431
-    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000
+    allColorsSpawnCutter: 040000000600000005000000040000000600000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000
   - name: Level 16 - EASY
     level: 16
     levelID: 1
@@ -941,6 +1033,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2.96, y: -5, z: -5}
@@ -949,6 +1042,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2.96, y: -3.5, z: -5}
@@ -957,6 +1051,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: -1
     - position: {x: 2.96, y: -2, z: -5}
@@ -965,6 +1060,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: -2
     - position: {x: 2.96, y: -0.5, z: -5}
@@ -973,6 +1069,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: -1
     cutterMachine:
@@ -996,6 +1093,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -0.29, y: -2, z: 0.37}
@@ -1004,6 +1102,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 0.09, y: -2, z: -13.13}
@@ -1012,6 +1111,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: -0.66, y: -2, z: -10.889999}
@@ -1020,6 +1120,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 1.55, y: -2, z: -11.745}
@@ -1028,6 +1129,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 0.21, y: -0.5, z: -11.7}
@@ -1036,6 +1138,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 1
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 1.48, y: -0.5, z: -10.68}
@@ -1044,6 +1147,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 2
       amountUpTrunk: 0
     - position: {x: 0.47, y: -0.5, z: -0.1}
@@ -1052,6 +1156,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -1071,6 +1176,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2, y: -0.5, z: -10}
@@ -1079,6 +1185,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -1098,6 +1205,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2, y: -0.5, z: -10}
@@ -1106,6 +1214,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -1127,6 +1236,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2.96, y: -5, z: -5}
@@ -1135,6 +1245,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2.96, y: -3.5, z: -5}
@@ -1143,6 +1254,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2.96, y: -2, z: -5}
@@ -1151,6 +1263,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     - position: {x: 2.96, y: -0.5, z: -5}
@@ -1159,6 +1272,7 @@ MonoBehaviour:
       isChained: 0
       isFrozen: 0
       isBlock: 0
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:

@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773786607}
     m_Modifications:
+    - target: {fileID: 2113278486423884190, guid: df1b792213968b1488062c233a5ce5fb, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 89b2a903dccaf43468eb6a3d0cea26c7, type: 3}
     - target: {fileID: 6182180379274294798, guid: df1b792213968b1488062c233a5ce5fb, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -198,11 +202,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1010513147, guid: e6f77c2bd21d87f4292cee9ffa8e456c, type: 3}
       propertyPath: AdCanvasFolder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1010513147, guid: e6f77c2bd21d87f4292cee9ffa8e456c, type: 3}
       propertyPath: GamepluginPreb
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1040290771148650, guid: e6f77c2bd21d87f4292cee9ffa8e456c, type: 3}
       propertyPath: m_IsActive
@@ -1198,6 +1202,10 @@ PrefabInstance:
       value: 0.5504
       objectReference: {fileID: 0}
     - target: {fileID: 3562418480822735603, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
+      propertyPath: m_Name
+      value: Tunnel_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562418480822735603, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1248,6 +1256,10 @@ PrefabInstance:
     - target: {fileID: 6649367909207718509, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
       propertyPath: numTrunk
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659873386816074099, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
+      propertyPath: m_Name
+      value: Tunnel_1
       objectReference: {fileID: 0}
     - target: {fileID: 6659873386816074099, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
       propertyPath: m_IsActive
@@ -1519,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1263030415163721842, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 31
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2363555604640983717, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalPosition.x

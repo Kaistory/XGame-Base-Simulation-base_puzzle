@@ -63,7 +63,8 @@ public class LevelConfig : ScriptableObject
         [JsonProperty("hslck")] public bool hasLock;       // Khóa
         [JsonProperty("chn")] public bool isChained;      // Xích (Chain)
         [JsonProperty("ice")] public bool isFrozen;       // Băng (Ice)
-        [JsonProperty("block")] public bool isBlock;       // Băng (Block)
+        [JsonProperty("block")] public bool isBlock;       //  (Block)
+        [JsonProperty("boom")] public bool hasBoom;       // (Boom)
         
         [Range(1, 3)]
         [JsonProperty("vlc")] public int visibleLayerCount; 
@@ -80,6 +81,7 @@ public class LevelConfig : ScriptableObject
             trunkClone.visibleLayerCount = this.visibleLayerCount;
             trunkClone.amountUpTrunk = this.amountUpTrunk;
             trunkClone.colorLayers = this.colorLayers;
+            trunkClone.hasBoom = this.hasBoom;
             return trunkClone;
         }
     }
