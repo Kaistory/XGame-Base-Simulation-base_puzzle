@@ -19,53 +19,9 @@ MonoBehaviour:
     mapID: 0
     levelType: 0
     levelRewardValue: 0
-    trunks:
-    - position: {x: 2, y: -6.5, z: -5}
-      colorLayers: 040000000600000005000000
-      hasLock: 0
-      isChained: 0
-      isFrozen: 0
-      isBlock: 1
-      visibleLayerCount: 3
-      amountUpTrunk: 0
-    - position: {x: 2.96, y: -5, z: -5}
-      colorLayers: 040000000600000005000000
-      hasLock: 0
-      isChained: 0
-      isFrozen: 0
-      isBlock: 1
-      visibleLayerCount: 3
-      amountUpTrunk: 0
-    - position: {x: 2.96, y: -3.5, z: -5}
-      colorLayers: 040000000600000005000000
-      hasLock: 0
-      isChained: 0
-      isFrozen: 0
-      isBlock: 1
-      visibleLayerCount: 3
-      amountUpTrunk: 0
-    - position: {x: 2.96, y: -2, z: -5}
-      colorLayers: 040000000600000005000000
-      hasLock: 0
-      isChained: 0
-      isFrozen: 0
-      isBlock: 1
-      visibleLayerCount: 3
-      amountUpTrunk: 0
-    - position: {x: 2.96, y: -0.5, z: -5}
-      colorLayers: 040000000600000005000000
-      hasLock: 0
-      isChained: 0
-      isFrozen: 0
-      isBlock: 0
-      visibleLayerCount: 3
-      amountUpTrunk: 0
+    trunks: []
     cutterMachine:
-    - position: {x: -0.22, y: 0, z: -12.32}
-      rot: 0
-    - position: {x: 4.18, y: 0, z: 2.07}
-      rot: 193.89148
-    - position: {x: -4.31, y: 0, z: 2.21}
-      rot: 169.89986
-    allColorsSpawnCutter: 
+    - position: {x: -2.384196, y: 0, z: -1.2406596}
+      rot: 181.2431
+    allColorsSpawnCutter: 09000000030000000400000004000000040000000800000006000000020000000a000000080000000400000002000000020000000a00000009000000070000000900000009000000070000000100000003000000030000000200000002000000040000000b0000000a0000000a0000000200000007000000060000000400000005000000060000000a000000090000000900000007000000060000000400000005000000060000000a0000000900000009000000
   backgroundInfo: []
