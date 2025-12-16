@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1010513147, guid: e6f77c2bd21d87f4292cee9ffa8e456c, type: 3}
       propertyPath: AdCanvasFolder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1010513147, guid: e6f77c2bd21d87f4292cee9ffa8e456c, type: 3}
       propertyPath: GamepluginPreb
