@@ -206,7 +206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1010513147, guid: e6f77c2bd21d87f4292cee9ffa8e456c, type: 3}
       propertyPath: GamepluginPreb
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1040290771148650, guid: e6f77c2bd21d87f4292cee9ffa8e456c, type: 3}
       propertyPath: m_IsActive

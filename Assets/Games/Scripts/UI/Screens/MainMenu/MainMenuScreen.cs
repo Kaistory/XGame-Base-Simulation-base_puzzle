@@ -34,7 +34,7 @@ public class MainMenuScreen : ScreenUI
     public override void Active()
     {
         base.Active();
-
+        AudioManager.Instance.PlayMusic(AudioName.Music_Menu);
         uiManager.ResetResolution();
         for (int i = 0; i < groups.Length; i++)
         {

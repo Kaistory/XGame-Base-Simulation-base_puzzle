@@ -20,6 +20,18 @@ public class Conveyor : Singleton<Conveyor>
     public Dictionary<int, bool> checkSpawnPoint = new Dictionary<int, bool>();
     private int numBase = 4;
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            IncreaseSpeed();
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            ReduceSpeed();
+        }
+    }
+
     public void Initialize()
     {
         m_NumberConveyor = LevelRemoteManager.Instance.levelInfo.mapID;
@@ -89,5 +101,39 @@ public class Conveyor : Singleton<Conveyor>
         );
         Vector3 offSet = new Vector3(0,0,1f);
         m_Tunners[indexTunel].transform.position -= offSet;
+    }
+
+    public void StopConveyor()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().Pause();
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().Pause();
+        }
+    }
+    public void ContinuteConveyor()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().Play();
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().Play();
+        }
+    }
+
+    public void IncreaseSpeed()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().MaxSpeed *= 2;
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().MaxSpeed *= 2;
+        }
+    }
+    public void ReduceSpeed()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().MaxSpeed /= 2;
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().MaxSpeed /= 2;
+        }
     }
 }

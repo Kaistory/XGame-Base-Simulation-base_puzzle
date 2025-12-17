@@ -44,7 +44,6 @@ namespace _JigblockPuzzle
         {
             AudioManager.Instance.StopSFX();
             AudioManager.Instance.ResumeMusic();
-            AudioManager.Instance.PlayMusic(AudioName.Music_Menu);
             DOTween.Kill(this);
         }
 

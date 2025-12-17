@@ -125,6 +125,24 @@ MonoBehaviour:
       isFrozen: 0
       isBlock: 0
       hasBoom: 0
+      visibleLayerCount: 2
+      amountUpTrunk: 0
+    - position: {x: -4.55, y: -2, z: -2.57}
+      colorLayers: 050000000600000006000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      hasBoom: 0
+      visibleLayerCount: 3
+      amountUpTrunk: 0
+    - position: {x: 4.16, y: -2, z: -8.86}
+      colorLayers: 040000000200000009000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 1
+      hasBoom: 0
       visibleLayerCount: 3
       amountUpTrunk: 0
     cutterMachine:
@@ -132,7 +150,7 @@ MonoBehaviour:
       rot: -180
     - position: {x: -1, y: 0, z: -9.5}
       rot: -35
-    allColorsSpawnCutter: 070000000400000006000000020000000200000003000000
+    allColorsSpawnCutter: 0400000002000000070000000400000006000000020000000900000005000000060000000600000003000000
   - name: Level 5 - EASY
     level: 5
     levelID: 1
@@ -253,7 +271,7 @@ MonoBehaviour:
     cutterMachine:
     - position: {x: 5.66, y: 0, z: -8.5}
       rot: 270
-    allColorsSpawnCutter: 0400000003000000040000000100000004000000090000000600000006000000040000000a00000001000000080000000b000000030000000b000000
+    allColorsSpawnCutter: 040000000400000003000000040000000100000004000000090000000600000006000000040000000a00000001000000080000000b000000030000000b000000
   - name: Level 7 - EASY
     level: 7
     levelID: 1

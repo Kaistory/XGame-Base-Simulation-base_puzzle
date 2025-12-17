@@ -86,7 +86,7 @@ namespace MyGame
         {
             var boostMgr = BoostManger.Instance;
 
-            if (trunkData.isBlock || trunkData.isFrozen || trunkData.isChained || isClicked || m_isRun)
+            if (trunkData.isBlock || trunkData.isFrozen || trunkData.isChained || isClicked)
             {
                 return;
             }
@@ -98,7 +98,7 @@ namespace MyGame
                 }
             }
             
-            if (boostMgr.m_boostTypes.Count == 0 && !m_SplineAnimate.IsPlaying && TrunkManager.Instance.m_capacity > 0)
+            if (boostMgr.m_boostTypes.Count == 0 && !m_isRun && TrunkManager.Instance.m_capacity > 0)
             {
                 isClicked = true;
                 SpawnOnConveyor();
