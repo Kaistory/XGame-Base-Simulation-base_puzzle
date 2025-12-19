@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 500, y: 50}
   m_MaxSize: {x: 40480, y: 8096}
   vertical: 1
-  controlID: 153
+  controlID: 149
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 487
     height: 947
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 12}
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_MinSize: {x: 500, y: 50}
   m_MaxSize: {x: 40480, y: 8096}
   vertical: 0
-  controlID: 154
+  controlID: 150
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -193,7 +193,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 487
     y: 0
-    width: 525
+    width: 416
     height: 947
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -219,12 +219,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1012
+    x: 903
     y: 0
     width: 100
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -245,9 +245,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1112
+    x: 1003
     y: 0
-    width: 480
+    width: 547
     height: 947
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -271,9 +271,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1592
+    x: 1550
     y: 0
-    width: 328
+    width: 370
     height: 947
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -374,9 +374,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 674
+    x: 487
     y: 73
-    width: 435
+    width: 523
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -798,7 +798,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 487
     y: 73
-    width: 523
+    width: 414
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -900,7 +900,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1012
+    x: 903
     y: 73
     width: 98
     height: 926
@@ -917,9 +917,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e6c1f3ff38c2f3ffc8d5f3ffc208f4ff2609f4ffc41cf4ff1ed1f9ff7412faff8812faff9412faff9c12faffc21cfaffd61cfaffe21cfaffea1cfaff26f7ffff2ef7ffff3af7ffff46f7ffff86f7ffff10f8ffffe0f8ffff28fbffff2afbfffff4ffffff067a0000
+      m_SelectedIDs: 4cf0ffff
+      m_LastClickedID: -4020
+      m_ExpandedIDs: 12fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -963,9 +963,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1112
+    x: 1003
     y: 73
-    width: 478
+    width: 545
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -988,24 +988,24 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GoogleMobileAds
+    - Assets/Plugins/Android
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 88
+  m_StartGridSize: 16
   m_LastFolders:
-  - Assets/GoogleMobileAds
-  m_LastFoldersGridSize: 88
+  - Assets/Plugins/Android
+  m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Kaito\Documents\GitHub\XGame-Base-Simulation-base_puzzle
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 794}
-    m_SelectedIDs: 18a70000
-    m_LastClickedID: 42776
-    m_ExpandedIDs: 00000000dea60000e0a60000e2a60000e4a60000e6a60000e8a60000eaa60000eca60000eea60000f0a6000004a7000014a7000016a7000018a700001aa700002ca7000030a7000072ba0000a2ba000014c9000034b00100ca510200703104007431040000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: f4a70000
+    m_LastClickedID: 42996
+    m_ExpandedIDs: 00000000eaa60000eca60000eea60000caa7000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1033,7 +1033,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dea60000e0a60000e2a60000e4a60000e6a60000e8a60000eaa60000eca60000eea60000f0a60000
+    m_ExpandedIDs: 00000000eaa60000eca60000eea60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1060,22 +1060,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 687d0000522f0100f2f0000072760000b0ad01000a8b000000000000aa900600ac780000aeae000006b1000064640300c0920000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: mainTemplate
+      m_OriginalName: mainTemplate
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 43224
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -1086,9 +1086,9 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 88
+    m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 288
+  m_DirectoriesAreaWidth: 403
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1109,9 +1109,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1592
+    x: 1550
     y: 73
-    width: 327
+    width: 369
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
