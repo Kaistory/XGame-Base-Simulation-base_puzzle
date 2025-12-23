@@ -158,10 +158,12 @@ public class GameManager : master.Singleton<GameManager>
         if (!DataManager.IsFirstPlayGame)
         {
             LogEvent.FirstOpen();
-            DataResource[] dataResources = new DataResource[3]
+            DataResource[] dataResources = new DataResource[4]
             {
                 new DataResource(RES_type.BOOSTER_1, 1),
-                new DataResource(RES_type.BOOSTER_2, 1), new DataResource(RES_type.BOOSTER_3, 1)
+                new DataResource(RES_type.BOOSTER_2, 1), 
+                new DataResource(RES_type.BOOSTER_3, 1),
+                new DataResource(RES_type.GOLD, 1000),
             };
             DataManager.Instance.OnEarnResources(dataResources, LogEvent.ReasonItem.reward, "reward_first_game",
                 DataManager.Level);

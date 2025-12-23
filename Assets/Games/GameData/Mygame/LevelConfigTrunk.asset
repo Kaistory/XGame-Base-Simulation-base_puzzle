@@ -19,11 +19,18 @@ MonoBehaviour:
     mapID: 0
     levelType: 0
     levelRewardValue: 0
-    trunks: []
+    trunks:
+    - position: {x: -1.2223479, y: 0, z: -6.67103}
+      colorLayers: 020000000400000005000000
+      hasLock: 0
+      isChained: 0
+      isFrozen: 0
+      isBlock: 0
+      hasBoom: 0
+      visibleLayerCount: 1
+      amountUpTrunk: 0
     cutterMachine:
-    - position: {x: -1, y: 0, z: -9.5}
-      rot: 325
-    - position: {x: 1.2, y: 0, z: -2.8}
-      rot: 180
-    allColorsSpawnCutter: 0400000002000000070000000400000006000000020000000900000005000000060000000600000003000000
+    - position: {x: -4.2, y: 0, z: -3.1}
+      rot: 90
+    allColorsSpawnCutter: 040000000a000000040000000200000002000000060000000600000006000000070000000500000002000000060000000100000005000000040000000400000009000000030000000a000000020000000600000002000000030000000b0000000a000000
   backgroundInfo: []
