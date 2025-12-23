@@ -10,6 +10,7 @@
     "m_KnownProcessesForSerialization": [
         {
             "deviceId": "R58N72KX7XE",
+<<<<<<< HEAD
             "name": "com.sec.android.app.launcher",
             "processId": 2199,
             "exited": false
@@ -24,6 +25,10 @@
             "deviceId": "R58N72KX7XE",
             "name": "com.viet.game.app.dev",
             "processId": 13779,
+=======
+            "name": "com.samsung.android.app.galaxyfinder",
+            "processId": 372,
+>>>>>>> to-Build
             "exited": false
         }
     ],
@@ -60,8 +65,8 @@
         ]
     },
     "m_ExtraWindowState": {
-        "Type": 0,
-        "Height": 0.0
+        "Type": 1,
+        "Height": 255.0
     },
     "m_MemoryViewerState": {
         "MemoryWindowWidth": 170.0,

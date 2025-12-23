@@ -28,7 +28,13 @@ public class Level : MonoBehaviour
         Conveyor.Instance.Initialize();
         TrunkManager.Instance.Initialize();
         CutterMachineManager.Instance.Initialize();
-        AudioManager.Instance.PlayMusic(AudioName.Music_BackGround[levelInfo.level % 3 + 1]);
+        TigerForge.EventManager.EmitEvent(EventName.UpdateCapacity);
+        if(levelInfo.level % 5 == 0)
+            AudioManager.Instance.PlayMusic(AudioName.Music_BackGround[4]);
+        else
+        {
+            AudioManager.Instance.PlayMusic(AudioName.Music_BackGround[levelInfo.level % 3 + 1]);
+        }
         BgMapManager.Instance.Initialize();
     }
 

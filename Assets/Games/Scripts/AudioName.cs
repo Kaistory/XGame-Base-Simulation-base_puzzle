@@ -6,7 +6,9 @@
         "BG2",
         "BG3",
         "BG4",
+        "BG5",
 };
+    public static string Music_Menu = "MenuMusic";
 
     public static string SFX_Fade_In = "SFX_Fade_In";
     public static string SFX_Movement_Swoosh_Slow = $"SFX_Movement_Swoosh_Slow";
@@ -24,6 +26,9 @@
     public static string SFX_Ice = "SFX_Ice";
     public static string SFX_Unlock = "Unlock";
     public static string SFX_Glass_Breaking = "Glass_Breaking";
+    public static string SFX_New_Feature = "NewFeature";
+    public static string SFX_Boom = "Boom";
+    public static string SFX_Tick = "Tick";
 }
 
 

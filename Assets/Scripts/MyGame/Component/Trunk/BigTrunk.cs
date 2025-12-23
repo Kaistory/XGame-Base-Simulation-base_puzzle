@@ -21,6 +21,7 @@ namespace MyGame
         [SerializeField] private GameObject m_chainObject;
         [SerializeField] private GameObject m_keyObject;
         [SerializeField] private GameObject m_blockObject;
+        [SerializeField] private GameObject m_boomObject;
         [SerializeField] private GameObject[] m_iceObject = new GameObject[2];
         [SerializeField] private GameObject[] m_truckObjects = new GameObject[3];
 
@@ -84,10 +85,12 @@ namespace MyGame
         public void OnPointerDown(PointerEventData eventData)
         {
             var boostMgr = BoostManger.Instance;
-            
+
             if (trunkData.isBlock || trunkData.isFrozen || trunkData.isChained || isClicked)
+            {
                 return;
-            else
+            }
+             else
             {
                 if (trunkData.hasLock &&  !TrunkManager.Instance.CheckUnlockKey())
                 {
@@ -95,11 +98,21 @@ namespace MyGame
                 }
             }
             
-            if (boostMgr.m_boostTypes.Count == 0 && !m_SplineAnimate.IsPlaying && TrunkManager.Instance.m_capacity > 0)
+            if (boostMgr.m_boostTypes.Count == 0 && !m_isRun && TrunkManager.Instance.m_capacity > 0)
             {
                 isClicked = true;
                 SpawnOnConveyor();
                 TrunkManager.Instance.CheckIcebreak();
+                if (trunkData.hasBoom)
+                {
+                    m_boomObject.transform
+                        .DOScale(Vector3.zero, 0.1f) 
+                        .SetEase(Ease.InBack).OnComplete(() =>
+                        {
+                            m_boomObject.GetComponent<Boom>().StopBoom();
+                            m_boomObject.SetActive(false);
+                        });
+                }
             }
             else
             {
@@ -117,6 +130,7 @@ namespace MyGame
                     }
                 }
             }
+            
             TigerForge.EventManager.EmitEvent(EventName.UpdateCapacity);
         }
 
@@ -152,6 +166,7 @@ namespace MyGame
             }
 
             Vector3 removePos = trunkData.position;
+            Conveyor.Instance.checkSpawnPoint[m_spawnNum] = false;
             m_isRun = false;
             transform.DOMove(removePos, 0.5f).SetEase(Ease.InQuart).OnComplete(() =>
             {
@@ -211,6 +226,7 @@ namespace MyGame
             m_blockObject.SetActive(trunkData.isBlock);
             m_chainObject.SetActive(trunkData.isChained);
             m_keyObject.SetActive(trunkData.hasLock);
+            m_boomObject.SetActive(trunkData.hasBoom);
             m_numIce = trunkData.isFrozen ? 2 : 0;
             ChangeIce(m_numIce);
         }
@@ -262,11 +278,12 @@ namespace MyGame
             if (m_numIce < 0)
                 return;
             trunkData.isFrozen = (m_numIce != 0);
-            m_iceObject[m_numIce].transform.DOShakePosition(0.5f, strength: 0.5f, vibrato: 20, randomness: 90).OnComplete(() =>
+            m_iceObject[m_numIce].transform.DOShakePosition(0.3f, strength: 0.3f, vibrato: 20, randomness: 90).OnComplete(() =>
             {
                 m_iceObject[m_numIce].SetActive(false);
                 AudioManager.Instance.PlaySFX(AudioName.SFX_Ice);
             });
+           
         }
 
         public void BreakChain()
@@ -292,7 +309,7 @@ namespace MyGame
                 AudioManager.Instance.PlaySFX(AudioName.SFX_Unlock);
                 trunkData.hasLock = false;
                 m_keyObject.SetActive(false);
-            });;
+            });
         }
 
         public void OnHitCutter()
@@ -318,6 +335,11 @@ namespace MyGame
                 {
                     trunkData.isBlock = false;
                     trunk.m_blockObject.SetActive(false);
+                    if (trunkData.hasBoom)
+                    {
+                        var boomCom = m_boomObject.GetComponent<Boom>();
+                        boomCom.StartBoom();
+                    }
                     m_keyObject.GetComponent<Animator>().enabled = true;
                 }
             }

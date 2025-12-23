@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773786607}
     m_Modifications:
+    - target: {fileID: 2113278486423884190, guid: df1b792213968b1488062c233a5ce5fb, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 89b2a903dccaf43468eb6a3d0cea26c7, type: 3}
     - target: {fileID: 6182180379274294798, guid: df1b792213968b1488062c233a5ce5fb, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -1198,6 +1202,10 @@ PrefabInstance:
       value: 0.5504
       objectReference: {fileID: 0}
     - target: {fileID: 3562418480822735603, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
+      propertyPath: m_Name
+      value: Tunnel_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562418480822735603, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1248,6 +1256,10 @@ PrefabInstance:
     - target: {fileID: 6649367909207718509, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
       propertyPath: numTrunk
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659873386816074099, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
+      propertyPath: m_Name
+      value: Tunnel_1
       objectReference: {fileID: 0}
     - target: {fileID: 6659873386816074099, guid: d3eed1d7f07ec12439d8672655331b43, type: 3}
       propertyPath: m_IsActive
@@ -1479,23 +1491,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 877735849019565917, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8191521
+      value: 0.80672497
       objectReference: {fileID: 0}
     - target: {fileID: 877735849019565917, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5735764
+      value: 0.5909272
       objectReference: {fileID: 0}
     - target: {fileID: 877735849019565917, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 877735849019565917, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 877735849019565917, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 70
+      value: 72.446
       objectReference: {fileID: 0}
     - target: {fileID: 877735849019565917, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1519,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1263030415163721842, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 31
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2363555604640983717, guid: a2119c9bbd812ce4b844cf6f0f287380, type: 3}
       propertyPath: m_LocalPosition.x

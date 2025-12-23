@@ -20,6 +20,18 @@ public class Conveyor : Singleton<Conveyor>
     public Dictionary<int, bool> checkSpawnPoint = new Dictionary<int, bool>();
     private int numBase = 4;
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            IncreaseSpeed();
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            ReduceSpeed();
+        }
+    }
+
     public void Initialize()
     {
         m_NumberConveyor = LevelRemoteManager.Instance.levelInfo.mapID;
@@ -72,22 +84,56 @@ public class Conveyor : Singleton<Conveyor>
 
         if (isOpen)
         {
-            Transform containerTf = m_SplineContainer.transform;
-        
-            var startKnot = spline[0];
-            var endKnot = spline[^1];
+            setPositionAndRotation(0, spline);
+            setPositionAndRotation(1, spline);
+        }
+    }
 
-            m_Tunners[0].transform.SetPositionAndRotation(
-                containerTf.TransformPoint(startKnot.Position), 
-                startKnot.Rotation
-            );
-            Vector3 offSet = new Vector3(0,1,0);
-            m_Tunners[0].transform.position -= offSet;
-            m_Tunners[1].transform.SetPositionAndRotation(
-                containerTf.TransformPoint(endKnot.Position) , 
-                endKnot.Rotation * Quaternion.Euler(0, 180, 0)
-            );
-            m_Tunners[1].transform.position -= offSet;
+    void setPositionAndRotation(int indexTunel, Spline spline)
+    {
+        var Knot = (indexTunel == 1) ? spline[^1] : spline[0];
+        Quaternion offsetRotation = (indexTunel == 1) ? Quaternion.Euler(0, 180, 0)
+             : Quaternion.Euler(0, 0, 0);
+        Transform containerTf = m_SplineContainer.transform;
+        m_Tunners[indexTunel].transform.SetPositionAndRotation(
+            containerTf.TransformPoint(Knot.Position), 
+            (Knot.Rotation * offsetRotation)
+        );
+        Vector3 offSet = new Vector3(0,0,1f);
+        m_Tunners[indexTunel].transform.position -= offSet;
+    }
+
+    public void StopConveyor()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().Pause();
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().Pause();
+        }
+    }
+    public void ContinuteConveyor()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().Play();
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().Play();
+        }
+    }
+
+    public void IncreaseSpeed()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().MaxSpeed *= 2;
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().MaxSpeed *= 2;
+        }
+    }
+    public void ReduceSpeed()
+    {
+        foreach (GameObject point in m_spawnPoint)
+        {
+            point.GetComponent<SplineAnimate>().MaxSpeed /= 2;
+            point.transform.GetChild(point.transform.childCount - 1).GetComponent<SplineAnimate>().MaxSpeed /= 2;
         }
     }
 }

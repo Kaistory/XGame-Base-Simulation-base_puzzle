@@ -12,15 +12,16 @@ namespace _JigblockPuzzle
     public class UIInGame : ScreenUI
     {
         [Header("UIInGame")] [SerializeField] private Button btnSetting;
-
         [SerializeField] private HardLevelWarning hardLevelWarnning;
         [SerializeField] private GameObject blockClick;
         [SerializeField] private Text txtLevelName;
         [SerializeField] private Text txtAmountCapacity;
+        [SerializeField] private GameObject freezeBG;
 
         [Header("Boosters")] [SerializeField] private BoosterInGame btnBooster1;
         [SerializeField] private BoosterInGame btnBooster2;
         [SerializeField] private BoosterInGame btnBooster3;
+        [SerializeField] private Button btnFreeze;
 
         [Header("Particle System")] [SerializeField]
         private ParticleSystem particleSystemBoost;
@@ -32,7 +33,15 @@ namespace _JigblockPuzzle
             LevelManager.IsGameReady += SetBlockClick;
             levelInfo = LevelManager.Instance.levelInfo;
             currentLevel = levelInfo.level;
-
+            if (currentLevel % 5 == 0)
+            {
+                btnFreeze.gameObject.SetActive(true);
+                btnFreeze.transform.DORotate(new Vector3(0, 0, 360), 5f, RotateMode.FastBeyond360)
+                    .SetLoops(-1, LoopType.Restart)
+                    .SetEase(Ease.Linear);
+                hardLevelWarnning.gameObject.SetActive(true); 
+                hardLevelWarnning.ShowWarnning();
+            }
             InitBooster();
             InitUI();
             TigerForge.EventManager.StartListening(EventName.UpdateCapacity,UpdateCapacity);
@@ -49,7 +58,6 @@ namespace _JigblockPuzzle
         private void InitUI()
         {
             SetBlockClick(false);
-            Debug.Log("lvl in uningame: " + currentLevel.ToString());
             if (txtLevelName)
             {
                 // txtLevelName.SetText("level_x", StateCapText.FirstCap, FormatText.F_Int, currentLevel);
@@ -60,6 +68,7 @@ namespace _JigblockPuzzle
             {
                 txtAmountCapacity.text = "0/4";
             }
+            
         }
 
 
@@ -116,6 +125,11 @@ namespace _JigblockPuzzle
             {
                 btnBooster3.Initialize(RES_type.BOOSTER_3);
             }
+
+            if (btnFreeze)
+            {
+                btnFreeze.onClick.AddListener(FreezeConveyor);
+            }
         }
 
         private void Init()
@@ -142,6 +156,18 @@ namespace _JigblockPuzzle
             }
 
             GameManager.Instance.ChangeGameState(GameState.PauseGame);
+        }
+
+        private void FreezeConveyor()
+        {
+            freezeBG.SetActive(true);
+            btnFreeze.gameObject.SetActive(false);
+            Conveyor.Instance.StopConveyor();
+            DOVirtual.DelayedCall(3f, () =>
+            {
+                freezeBG.SetActive(false);
+                Conveyor.Instance.ContinuteConveyor();
+            });
         }
     }
 }
